@@ -712,6 +712,20 @@
     margin-bottom: 7px;
     font-size: 20px;
   }
+  .bottom-container-social{
+    gap: 30px;
+  }
+  .seventh-container{
+    padding: 0px 0px 0px 20px;
+  }
+  .privay-policy-header ul{
+    font-size: 12px;
+    
+  }
+  .privay-policy-header li{
+    padding: 0;
+    margin: 0;
+  }
 }
 
 @media (max-width: 400px) {
@@ -743,5 +757,14 @@
   }
   .bottom-container-contact h2 {
     font-size: 17px;
+  }
+  .header-logo-image{
+    min-width: 120px;
+    z-index: 1;
+  }
+  .header-best-sellers{
+    justify-content: flex-end !important;
+    align-items: end;
+    text-align: end;
   }
 }
