@@ -1,0 +1,320 @@
+.dressess-container {
+  padding: 100px 50px 0px 80px;
+}
+
+.dressess {
+  font-size: 40px;
+  margin-top: 50px;
+}
+
+.discover-the-world {
+  margin-top: 30px;
+  font-size: 20px;
+  padding-right: 700px;
+}
+
+.filter-section {
+  padding: 50px 0px 0px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.filter-section p {
+  font-size: 25px;
+}
+.filter-container ul {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  font-size: 25px;
+}
+
+.short-button {
+  width: 150px;
+  height: 50px;
+  font-size: 16px;
+  background-color: transparent;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.arrow-icons {
+  width: 40.139px;
+  height: 50.382px;
+  transform: rotate(-180deg);
+}
+
+.product-30 {
+  padding-top: 10px;
+}
+
+.dress-images-continaer {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  margin-top: 50px;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.inner-box2-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: fit-content;
+  max-width: 30%;
+  flex: 1 0 300px;
+}
+.inner-box2-section img {
+  height: 380px;
+  width: 100%;
+}
+.inner-box2-section h3 {
+  margin: 0;
+}
+
+.inner-box2-section h4 {
+  margin: 0;
+}
+
+.inner-box2-section button {
+  margin-top: 10px;
+  background-color: #755c78;
+  font-size: 12px;
+  color: white;
+  height: 40px;
+}
+
+@media (max-width: 1200px) {
+  .dressess {
+    font-size: 30px;
+    margin-top: 50px;
+  }
+
+  .discover-the-world {
+    margin-top: 30px;
+    font-size: 16px;
+    padding-right: 520px;
+  }
+  .filter-section {
+    padding: 50px 0px 0px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .filter-section p {
+    font-size: 25px;
+  }
+  .filter-container ul {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    font-size: 25px;
+  }
+
+  .short-button {
+    width: 130px;
+    height: 45px;
+    font-size: 14px;
+    background-color: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+  }
+
+
+  .product-30 {
+    font-size: 20px;
+    padding-top: 10px;
+  }
+}
+@media (max-width: 930px) {
+    .filter-container ul {
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        font-size: 25px;
+      }
+    
+      .short-button {
+        width: 120px;
+        height: 40px;
+        font-size: 14px;
+        background-color: transparent;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+      }
+    
+    
+      .product-30 {
+        font-size: 18px;
+        padding-top: 10px;
+      }
+  .dress-images-continaer {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin-top: 50px;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .inner-box2-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: fit-content;
+    max-width: 45%;
+    flex: 1 0 300px;
+  }
+  .inner-box2-section img {
+    height: 300px;
+    width: 100%;
+  }
+  .inner-box2-section h3 {
+    margin: 0;
+  }
+
+  .inner-box2-section h4 {
+    margin: 0;
+  }
+
+  .inner-box2-section button {
+    margin-top: 10px;
+    background-color: #755c78;
+    font-size: 12px;
+    color: white;
+    height: 40px;
+  }
+  .dressess {
+    font-size: 25px;
+    margin-top: 50px;
+  }
+
+  .discover-the-world {
+    margin-top: 30px;
+    font-size: 14px;
+    padding-right: 400px;
+  }
+}
+
+@media (max-width: 768px) {
+    .dressess{
+        margin-top: 30px;
+    }
+    .filter-section p{
+        font-size: 16px;
+        padding-top: 10px;
+    }
+    .filter-container ul {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+      }
+    
+      .short-button {
+        width: 120px;
+        height: 35px;
+        font-size: 13px;
+        background-color: transparent;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+      }
+    
+    
+      .product-30 {
+        font-size: 16px;
+        padding-top: 10px;
+      }
+      
+      .discover-the-world {
+        margin-top: 30px;
+        font-size: 14px;
+        padding-right: 200px;
+      }
+  .dressess-container {
+    padding: 100px 30px 0px 45px;
+  }
+  .dress-images-continaer {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-top: 50px;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .inner-box2-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: fit-content;
+    max-width: 60%;
+    flex: 1 0 180px;
+  }
+  .inner-box2-section img {
+    height: 250px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 468px) {
+    .dressess-container h1{
+        font-size: 16px;
+    }
+    .discover-the-world{
+        margin-top: 30px;
+        font-size: 14px;
+        padding-right: 60px;
+
+    }
+  .dressess-container {
+    padding: 100px 30px 0px 45px;
+  }
+  .dress-images-continaer {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-top: 30px;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .inner-box2-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: fit-content;
+    max-width: 90%;
+    flex: 1 0 180px;
+  }
+  .inner-box2-section img {
+    height: 280px;
+    width: 100%;
+  }
+  .filter-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .filter-container{
+    padding-top: 20px;
+    text-align: center;
+    gap: 0px;
+  }
+  .filter-container ul {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-left: 0px;
+    padding-left: 0px;
+  }
+
+  .short-button {
+    width: 90px;
+    height: 30px;
+    font-size: 11px;
+    background-color: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+  }
+
+
+  .product-30 {
+    font-size: 14px;
+    padding-top: 10px;
+  }
+}
