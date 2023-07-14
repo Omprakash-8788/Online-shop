@@ -60,7 +60,7 @@
 
 .bottom-container-logo {
   flex-basis: 30%;
-  margin: 0px 40px 0px 70px;
+  margin: 30px 40px 0px 70px;
 }
 
 .bottom-container-logo span {
@@ -619,7 +619,7 @@
   .login-header-container {
     display: flex;
     flex-direction: row;
-    margin: 20px 10px 0px 10px;
+    margin: 0px 10px 0px 10px;
     gap: 20px;
   }
   .login-form-container {
