@@ -744,7 +744,7 @@
 
 
 
-  .payment-icons {
+  /* .payment-icons {
     display: flex;
     flex-direction: row;
     gap: 15px;
@@ -755,17 +755,19 @@
     margin: 0 auto;
     margin-top: 10px;
     height: 20px;
-  }
+  } */
 
   .bottom-cont-pages {
     display: flex;
     flex-direction: row;
-    gap: 5px;
     padding-left: 0px;
-    margin-left: 0px;
+   
     font-size: 12px;
-    padding-top: 15px;
-    margin-left: 0;
+    padding-top: 8px;
+    align-items: start;
+   margin: 0 auto;
+   gap: 7px;
+    
   }
   .bottom-container-third {
     margin: 50px 0px 7px 0px;
