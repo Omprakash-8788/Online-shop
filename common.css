@@ -760,10 +760,10 @@
   .bottom-cont-pages {
     display: flex;
     flex-direction: row;
-    gap: 15px;
+    gap: 10px;
     padding-left: 0px;
     margin-left: 0px;
-    font-size: 15px;
+    font-size: 12px;
     padding-top: 15px;
   }
   .bottom-container-third {
@@ -793,11 +793,11 @@
     margin-top: 15px;
   }
   .subscribe{
-    left: 60% !important;
+    left: 72% !important;
     font-size: 12px !important;
   }
   .bottom-container-contact input {
-    width: 80%;
+    width: 95%;
   }
   
   
