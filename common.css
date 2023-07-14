@@ -109,25 +109,23 @@
 }
 
 .bottom-container-third {
-  margin-top: 50px;
-  margin-bottom: 05px;
+  margin: 50px 0px 7px 0px;
+  padding: 0px 70px 0px 70px;
   border-top: 1px solid #755c78;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-direction: row;
 }
 
 .purple2023 {
   font-size: 13px;
-  margin: 10px auto;
-  padding-top: 05px;
+  padding-top: 15px;
 }
 
 .payment-icons {
   display: flex;
   flex-direction: row;
   gap: 20px;
-  margin: 0 auto;
 }
 
 .payment-icons img {
@@ -141,10 +139,9 @@
   display: flex;
   flex-direction: row;
   gap: 25px;
-  margin-top: 10px;
   text-align: center;
-  margin-right: 50px;
-  font-size: 14px;
+  font-size: 15px;
+  padding-top: 15px;
 }
 
 .email-subscribe {
@@ -319,24 +316,46 @@
     font-size: 24px;
     padding-right: 20px;
   }
-  .bottom-container-third {
-    gap: 20px;
-  }
-  .bottom-cont-pages {
-    font-size: 12px;
-    gap: 15px;
-  }
-  .purple2023 p {
-    font-size: 12px;
-    text-align: center !important;
-  }
-  .payment-icons img {
-    width: 20% !important;
-  }
   .subscribe {
     font-size: 14px;
     top: 50%;
     left: 0%;
+  }
+
+  .bottom-container-third {
+    margin: 50px 0px 7px 0px;
+    padding: 0px 40px 0px 30px;
+    border-top: 1px solid #755c78;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+
+  .purple2023 {
+    font-size: 11px;
+    padding-top: 15px;
+  }
+
+  .payment-icons {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+  }
+
+  .payment-icons img {
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 10px;
+    height: 27px;
+  }
+
+  .bottom-cont-pages {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    text-align: center;
+    font-size: 13px;
+    padding-top: 15px;
   }
 }
 
@@ -344,13 +363,15 @@
   .bottom-container-second {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    text-align: center;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 20px 30px 0px 30px;
+    
   }
 
   .bottom-container-logo {
     flex-basis: 30%;
-    margin: 0px 0px 0px 25px;
+    margin: 0px 0px 0px 0px;
   }
 
   .bottom-container-logo span {
@@ -362,38 +383,81 @@
     display: flex;
     flex-direction: column;
   }
-  .bottom-container-social {
-    padding: 50px 40px 0px 60px;
-    gap: 60px;
-    text-align: center;
-    margin: 0 auto;
-  }
-  .bottom-container-social ul {
-    display: flex;
-    flex-direction: column;
-    padding: 0;
-    margin-top: 0;
-    line-height: 25px;
-  }
+  
   .bottom-container-contact {
     flex-basis: 30%;
-    padding: 40px 20px 0px 20px;
+    padding: 40px 20px 0px 0px;
     position: relative;
+    width: 90%;
+  }
+  .subscribe{
+    left: 45% !important;
+    font-size: 15px !important;
   }
   .bottom-container-contact h2 {
     font-size: 24px;
     padding-right: 20px;
+    padding-bottom: 10px;
   }
   .purple-potato {
-    margin: 0px 100px 0px 100px;
+    margin: 0px 200px 0px 00px;
+    padding: 0;
   }
   .bottom-container-contact input {
-    width: 50%;
+    width: 60%;
   }
-  .subscribe {
-    top: 77%;
-    left: 60%;
+  .purple2023 {
+    font-size: 11px;
+    padding-top: 15px;
   }
+
+  .payment-icons {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+  }
+
+  .payment-icons img {
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 10px;
+    height: 20px;
+  }
+
+  .bottom-cont-pages {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    text-align: center;
+    font-size: 13px;
+    padding-top: 15px;
+  }
+  .bottom-container-third {
+    margin: 50px 0px 7px 0px;
+    padding: 0px 30px 0px 30px;
+    border-top: 1px solid #755c78;
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+  }
+  .bottom-container-social{
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-start; */
+    margin: 0;
+    padding: 30px 0px 0px 0px;
+    font-size: 20px;
+    width: 100%;
+  }
+  .bottom-container-social ul{
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+    justify-content: space-between;
+    margin-right: 120px;
+    margin-top: 15px;
+  }
+  
 }
 
 @media (max-width: 1346px) {
@@ -581,42 +645,163 @@
     padding: 10px 0px 0px 0px;
   }
 
-  .subscribe {
+  /* .subscribe {
     top: 37%;
     left: 60%;
-  }
-  .bottom-container-contact input {
+  } */
+  /* .bottom-container-contact input {
     width: 65%;
     height: 40px;
-  }
+  } */
   .bottom-container-contact h2 {
     font-size: 20px;
   }
   .purple-potato {
-    margin: 0px 50px 0px 50px;
+    margin: 0px 0px 0px 00px;
   }
   .email-password {
     gap: 30px;
   }
 }
 @media (max-width: 468px) {
-  .bottom-container-third {
-    display: flex;
-    flex-direction: column;
-    gap: 10px !important;
-  }
-  .bottom-cont-pages {
-    gap: 20px;
-    font-size: 14px;
-    margin: 05px auto;
-  }
+
   .seventh-container {
     padding: 0px 0px 0px 20px;
   }
-  .seventh-container h2{
+  .seventh-container h2 {
     font-size: 22px;
     margin-bottom: 10px;
   }
+  .bottom-container-first {
+    background-color: #755c78;
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: flex-start;
+    align-items: start;
+    padding: 0px 20px 20px 0px;
+    /* margin-right: 20px; */
+    gap: 10px;
+  }
+  .bottom-container-first-content {
+    padding: 0;
+    margin: 0px 0px 0px 30px;
+  }
+  .exclusive-text {
+    font-size: 15px;
+  }
+  .small-icon-text {
+    font-size: 13px;
+  }
+  .small-icons {
+    height: 25px;
+  }
+  .purple2023 p{
+    font-size: 15px;
+    padding-top: 15px;
+    margin-bottom: 5px;
+  }
+
+  .payment-icons {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+  }
+
+  .payment-icons img {
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 0px;
+    height: 25px;
+  }
+
+  /* .bottom-cont-pages {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    text-align: center;
+    font-size: 15px;
+    padding-top:0px;
+    margin-left: 0px;
+    width: 100%;
+    text-align: start;
+
+  }
+  .bottom-container-third {
+    margin: 50px 0px 7px 0px;
+    padding: 0px 30px 0px 30px;
+    border-top: 1px solid #755c78;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+  }
+   */
+
+
+
+
+
+  .payment-icons {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+  }
+
+  .payment-icons img {
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 10px;
+    height: 20px;
+  }
+
+  .bottom-cont-pages {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    padding-left: 0px;
+    margin-left: 0px;
+    font-size: 15px;
+    padding-top: 15px;
+  }
+  .bottom-container-third {
+    margin: 50px 0px 7px 0px;
+    padding: 0px 30px 0px 30px;
+    border-top: 1px solid #755c78;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: start;
+  }
+  .bottom-container-social{
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-start; */
+    margin: 0;
+    padding: 30px 0px 0px 0px;
+    font-size: 20px;
+    width: 100%;
+  }
+  .bottom-container-social ul{
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+    justify-content: space-between;
+    margin-right: 30px;
+    margin-top: 15px;
+  }
+  .subscribe{
+    left: 60% !important;
+    font-size: 12px !important;
+  }
+  .bottom-container-contact input {
+    width: 80%;
+  }
+  
+  
+
 }
 @media (max-width: 400px) {
   .bottom-group-images {
@@ -639,10 +824,10 @@
     display: flex;
     flex-direction: column;
   }
-  .bottom-container-social {
+  /* .bottom-container-social {
     padding: 50px 0px 0px 5px;
     gap: 40px;
-  }
+  } */
   .bottom-group-images {
     display: flex;
     flex: 2;
@@ -655,11 +840,11 @@
   .bottom-group-images img {
     width: 45%;
   }
-  .bottom-container-social {
+  /* .bottom-container-social {
     padding: 50px 20px 0px 40px;
-  }
+  } */
   .purple-potato {
-    margin: 0px 30px 0px 30px;
+    margin: 0px 0px 10px 00px;
   }
   .bottom-container-contact h2 {
     font-size: 17px;
