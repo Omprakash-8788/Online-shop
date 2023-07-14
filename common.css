@@ -760,11 +760,12 @@
   .bottom-cont-pages {
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap: 5px;
     padding-left: 0px;
     margin-left: 0px;
     font-size: 12px;
     padding-top: 15px;
+    margin-left: 0;
   }
   .bottom-container-third {
     margin: 50px 0px 7px 0px;
@@ -790,7 +791,7 @@
     font-size: 15px;
     justify-content: space-between;
     margin-right: 30px;
-    margin-top: 15px;
+    margin-top: 0px;
   }
   .subscribe{
     left: 72% !important;
@@ -844,7 +845,10 @@
     padding: 50px 20px 0px 40px;
   } */
   .purple-potato {
-    margin: 0px 0px 10px 00px;
+    margin: 0px 0px 15px 00px;
+    width: 100%;
+    margin-right: 0;
+    padding-right: 0;
   }
   .bottom-container-contact h2 {
     font-size: 17px;
