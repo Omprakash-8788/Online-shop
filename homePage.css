@@ -23,10 +23,6 @@
 }
 
 .toppage-section {
-  /* background-image: url("../assets/Rectangle 2.png");
-  z-index: 1;
-  height: 670px;
-  width: 1500px; */
   position: absolute;
   top: 5%;
   left: 0;
@@ -769,6 +765,16 @@
 }
 
 @media (max-width: 900px) {
+  
+.toppage-section {
+  position: absolute;
+  top: 5%;
+  left: 0;
+  min-width: 100% !important;
+  height: 90%;
+  background-image: url("./asset/Rectangle\ 2.png"); /* Replace with your image URL */
+  background-size: cover;
+}
   .collection-container {
     margin-top: 100px;
     padding: 0px 10px 0px 10px;
@@ -1110,6 +1116,9 @@
 .inner-box2-section img {
   height: 200px;
   width: 100%;
+}
+.toppage-container{
+  height: 99vh;
 }
 }
 @media (max-width: 600px) {
