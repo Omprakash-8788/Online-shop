@@ -17,7 +17,6 @@
         white-space: nowrap;
         position: relative;
         width: 100%;
-       
       }
 
       .marquee-content {
@@ -147,13 +146,25 @@
 
         <div>
           <div class="third-container">
+            <img src="./asset/PlayButton.png"  id="openPopup" class="PlayButton" />
+
+            <div id="popup" class="popup">
+              <div class="popup-content">
+                <span id="closePopup" class="close">&times;</span>
+               <h1>Purple Potato</h1>
+              </div>
+            </div>
+
             <h1>H1 Heading</h1>
             <p>
               Our vintage-inspired, unique, and limited-run occasion styles are
               made to love forever.
             </p>
-            <img src="./asset/ThirdContImage.png" alt="" />
-            <!-- <img src="" height="{10}" class="PlayButton" /> -->
+            <img
+              src="./asset/ThirdContImage.png"
+              alt=""
+              class="vintage-image"
+            />
           </div>
         </div>
 
@@ -479,5 +490,25 @@
         </div>
       </div>
     </div>
+    <script>
+      document
+        .getElementById("openPopup")
+        .addEventListener("click", function () {
+          document.getElementById("popup").style.display = "block";
+        });
+
+      document
+        .getElementById("closePopup")
+        .addEventListener("click", function () {
+          document.getElementById("popup").style.display = "none";
+        });
+
+      window.addEventListener("click", function (event) {
+        var popup = document.getElementById("popup");
+        if (event.target == popup) {
+          popup.style.display = "none";
+        }
+      });
+    </script>
   </body>
 </html>
