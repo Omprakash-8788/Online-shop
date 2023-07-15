@@ -1,0 +1,151 @@
+<!-- <!DOCTYPE html>
+<html>
+<head>
+  <style>
+    /* CSS for the popup */
+    .popup {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    .popup-content {
+      background-color: #fff;
+      width: 300px;
+      margin: 100px auto;
+      padding: 20px;
+      border-radius: 5px;
+      text-align: center;
+    }
+
+    .popup-close {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      font-size: 20px;
+      color: #aaa;
+      cursor: pointer;
+    }
+
+    /* CSS to show the popup when activated */
+    .popup.active {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <button onclick="openPopup()">Open Popup</button>
+
+  <div class="popup" id="myPopup" onclick="closePopup()">
+    <div class="popup-content" onclick="closePopup()">
+      <span class="popup-close" onclick="event.stopPropagation(); closePopup()">&times;</span>
+      <h2>Popup Content</h2>
+      <p>This is the content of the popup.</p>
+    </div>
+  </div>
+
+  <script>
+    // JavaScript functions to open and close the popup
+    function openPopup() {
+      var popup = document.getElementById("myPopup");
+      popup.classList.add("active");
+    }
+
+    function closePopup() {
+      var popup = document.getElementById("myPopup");
+      popup.classList.remove("active");
+    }
+  </script>
+</body>
+</html> -->
+
+
+<!-- 
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    /* CSS for the marquee section */
+    .marquee {
+      overflow: hidden;
+      white-space: nowrap;
+      position: relative;
+      width: 100%;
+    }
+
+    .marquee-content {
+      display: inline-block;
+      padding-left: 100%;
+      animation: marquee 150s linear infinite;
+    }
+
+    /* CSS animation for the marquee */
+    @keyframes marquee {
+      0% {
+        transform: translateX(0);
+      }
+      100% {
+        transform: translateX(-100%);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="marquee">
+    <div class="marquee-content">
+      <span>This is a marquee section. </span>
+      <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </span>
+      <span>Suspendisse placerat tortor eget nunc posuere, ac tempus erat tincidunt.</span>
+      <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </span>
+      <span>Suspendisse placerat tortor eget nunc posuere, ac tempus erat tincidunt.</span><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </span>
+      <span>Suspendisse placerat tortor eget nunc posuere, ac tempus erat tincidunt.</span><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </span>
+      <span>Suspendisse placerat tortor eget nunc posuere, ac tempus erat tincidunt.</span>
+    </div>
+  </div>
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .slider-container {
+      width: 400px; /* Adjust as needed */
+      overflow: hidden;
+    }
+
+    .slider-content {
+      display: flex;
+      transition: transform 0.5s ease-in-out;
+    }
+
+    .slider-content img {
+      width: 100%;
+      height: auto;
+    }
+
+    .slider-content:hover {
+      transform: translateX(-100%);
+    }
+  </style>
+</head>
+<body>
+  <div class="slider-container">
+    <div class="slider-content">
+      <img src="./asset/aboutus.png" alt="Image 1">
+      <img src="./asset/aboutus.png" alt="Image 1">
+      <img src="./asset/aboutus.png" alt="Image 1">
+      <img src="./asset/aboutus.png" alt="Image 1">
+      <img src="./asset/aboutus.png" alt="Image 1">
+      <img src="./asset/aboutus.png" alt="Image 1">
+
+      <!-- Add more images with the desired source and alt attributes -->
+    </div>
+  </div>
+</body>
+</html>

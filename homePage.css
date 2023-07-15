@@ -56,28 +56,27 @@
   text-align: center;
 }
 .dummy-text {
-  display: flex;
-  flex-direction: row;
-  gap: 15px;
   padding-left: 0px;
   position: absolute;
-  top: 93%;
+  top: 96%;
   color: black;
-  max-width: 90%;
+  max-width: 100%;
   text-align: center;
-  padding-top: 10px;
 }
 
 .dummy-text span {
   color: rgb(255, 255, 255);
-  padding-top: 10px;
+  padding-top: 0px;
   padding-bottom: 10px;
   font-size: 23px;
+}
+.marquee-content span{
+  padding: 0px 15px 0px 15px;
 }
 
 .vector-image {
   height: 20px;
-  padding-top: 15px;
+  padding-top: 10px;
   padding-bottom: 10px;
   max-width: 20px;
 }

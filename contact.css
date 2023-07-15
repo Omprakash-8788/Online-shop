@@ -1,0 +1,428 @@
+.contactus-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.contactus-text {
+  flex: 1;
+  background-color: #755c78;
+  justify-content: space-between;
+  color: white;
+  padding: 200px 100px 200px 100px  ;
+
+}
+.contactus-text h1{
+  color: white;
+  margin-bottom: 25px;
+  font-size: 37px;
+}
+.contactus-text p{
+  font-size: 22px;
+}
+.contactus-image {
+  flex-basis: 50%;
+}
+.contactus-image img {
+  width: 100%;
+  min-height: 613px;
+}
+
+.question-container {
+  display: flex;
+  flex-direction: row;
+  padding: 100px 80px 50px 80px;
+  justify-content: space-between;
+}
+
+.live-chat {
+  background-color: #fafafa;
+
+  width: 400px;
+  border-radius: 15px;
+  gap: 50px;
+  flex-basis: calc(33.33% - 20px);
+}
+.live-chat h2 {
+  font-size: 26px;
+  padding: 20px 0px 0px 20px;
+}
+
+.chat-button {
+  width: 90%;
+  background-color: #755c78;
+  color: white;
+  border-radius: 8px;
+  /* margin-top: 50px; */
+
+  margin: 20px auto !important;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  height: 60px;
+  font-size: 14px;
+}
+
+.live-chat p {
+  padding: 30px 20px 35px 20px;
+  font-size: 16px;
+}
+.padding {
+  margin-bottom: 80px;
+}
+
+.map-container {
+  background-color: #f9f6f1;
+  display: flex;
+  flex-direction: row;
+  padding: 50px 0px 50px 0px;
+}
+.map {
+  border-radius: 30px;
+  width: 100%;
+}
+.map-text {
+  padding: 30px 0px 0px 80px;
+  flex: 1;
+}
+
+.contact-section {
+  margin: 20px 0px 0px 0px;
+}
+.map-image {
+  flex: 1;
+  padding: 0px 50px 00px 0px;
+}
+.need-help {
+  font-size: 19px;
+  margin: 10px 50px 0px 0px;
+}
+.contact-heading {
+  font-size: 22px;
+  font-weight: 400;
+}
+.contact-number {
+  padding: 10px 0px 0px 0px;
+}
+
+@media (max-width: 1200px) {
+  .contactus-container{
+    max-height: 600px;
+  }
+  
+.contactus-text {
+  flex: 1;
+  background-color: #755c78;
+  justify-content: space-between;
+  color: white;
+  padding: 100px 80px 00px 80px  ;
+  max-height: 400px;
+
+}
+.contactus-text h1{
+  color: white;
+  margin-bottom: 25px;
+  font-size: 33px;
+}
+.contactus-text p{
+  font-size: 19px;
+}
+.contactus-image {
+  flex-basis: 50%;
+}
+.contactus-image img {
+  width: 100%;
+  min-height: 500px;
+}
+  .live-chat {
+    background-color: #fafafa;
+    width: 400px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    flex-basis: calc(33.33% - 20px);
+  }
+  .live-chat h2 {
+    font-size: 22px;
+    padding: 20px 0px 0px 20px;
+    height: 65px;
+  }
+
+  .chat-button {
+    width: 90%;
+    background-color: #755c78;
+    color: white;
+    border-radius: 8px;
+
+    margin: 20px auto !important;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    height: 50px;
+    font-size: 14px;
+  }
+
+  .live-chat p {
+    padding: 0px 20px 0px 20px;
+    font-size: 14px;
+    height: 60px;
+  }
+
+  .map {
+    border-radius: 30px;
+    width: 100%;
+    height: auto;
+  }
+  .map-text {
+    padding: 10px 0px 0px 50px;
+    flex: 1;
+  }
+  .map-text h1 {
+    font-size: 22px;
+  }
+
+  .contact-section {
+    margin: 15px 0px 0px 0px;
+  }
+  .map-image {
+    flex: 1;
+    padding: 0px 20px 00px 0px;
+  }
+  .need-help {
+    font-size: 16px;
+    margin: 10px 20px 0px 0px;
+  }
+  .contact-heading {
+    font-size: 19px;
+    font-weight: 400;
+  }
+  .contact-number {
+    padding: 0px 0px 0px 0px;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 900px) {
+  .contactus-container{
+    max-height: 600px;
+  }
+  
+.contactus-text {
+  flex: 1;
+  background-color: #755c78;
+  justify-content: space-between;
+  color: white;
+  padding: 60px 30px 00px 30px  ;
+  max-height: 340px;
+
+}
+.contactus-text h1{
+  color: white;
+  margin-bottom: 25px;
+  font-size: 27px;
+}
+.contactus-text p{
+  font-size: 16px;
+}
+.contactus-image {
+  flex-basis: 50%;
+}
+.contactus-image img {
+  width: 100%;
+  min-height: 400px;
+}
+  .live-chat {
+    background-color: #fafafa;
+    width: 490px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    flex-basis: calc(33.33% - 10px);
+  }
+  .live-chat h2 {
+    font-size: 19px;
+    padding: 20px 0px 0px 15px;
+    height: 45px;
+  }
+
+  .chat-button {
+    width: 90%;
+    background-color: #755c78;
+    color: white;
+    border-radius: 8px;
+
+    margin: 20px auto !important;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    height: 40px;
+    font-size: 12px;
+  }
+
+  .live-chat p {
+    padding: 0px 15px 0px 15px;
+    font-size: 14px;
+    height: 75px;
+  }
+  .question-container {
+    padding: 100px 30px 0px 30px;
+  }
+  .map {
+    border-radius: 30px;
+    width: 100%;
+    height: auto;
+    min-height: 250px;
+  }
+
+  .map-container {
+    background-color: #f9f6f1;
+    display: flex;
+    flex-direction: row;
+    padding: 40px 0px 40px 0px;
+    margin-top: 50px;
+  }
+  .map-text {
+    padding: 10px 0px 0px 50px;
+    flex: 1;
+  }
+  .map-text h1 {
+    font-size: 22px;
+  }
+
+  .contact-section {
+    margin: 15px 0px 0px 0px;
+  }
+  .map-image {
+    flex: 1;
+    padding: 0px 20px 00px 0px;
+  }
+  .need-help {
+    font-size: 14px;
+    margin: 10px 20px 0px 0px;
+  }
+  .contact-heading {
+    font-size: 19px;
+    font-weight: 300;
+  }
+  .contact-number {
+    padding: 0px 0px 0px 0px;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 600px) {
+  .live-chat {
+    background-color: #fafafa;
+    width: 80%;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    flex-basis: calc(33.33% - 10px);
+    margin: 0 auto;
+  }
+  .live-chat h2 {
+    font-size: 20px;
+    padding: 20px 0px 0px 15px;
+    height: 45px;
+  }
+
+  .chat-button {
+    width: 90%;
+    background-color: #755c78;
+    color: white;
+    border-radius: 8px;
+
+    margin: 20px auto !important;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    height: 40px;
+    font-size: 12px;
+  }
+
+  .live-chat p {
+    padding: 0px 15px 0px 15px;
+    font-size: 16px;
+    height: 73px;
+  }
+  .question-container {
+    padding: 100px 30px 0px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  .map-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .map {
+    width: 90%;
+    display: flex;
+    margin: 0 auto;
+    min-height: 250px;
+  }
+  .map-image {
+    flex: 1;
+    padding: 0px 20px 00px 20px;
+
+  }
+  .need-help{
+    font-size: 16px;
+  }
+  .map-text{
+    padding-left: 40px;
+  }
+}
+
+
+@media (max-width:468px) {
+  .contactus-container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .contactus-text {
+    flex: 1;
+    background-color: #755c78;
+    justify-content: space-between;
+    color: white;
+    padding: 50px 30px 50px 30px  ;
+    min-height: 150px;
+  
+  }
+  .contactus-text h1{
+    color: white;
+    margin-bottom: 25px;
+    font-size: 23px;
+
+  }
+  .map{
+    width: 100%;
+  }
+  .map-text{
+    padding-left: 25px;
+  }
+  .contactus-text p{
+    font-size: 15px;
+  }
+  .contactus-image {
+    flex-basis: 50%;
+    height: fit-content;
+  }
+  .contactus-image img {
+    width: 100%;
+    min-height: 200px;
+  }
+  .live-chat{
+    width: 100%;
+  }
+  
+}
