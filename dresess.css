@@ -30,6 +30,54 @@
   font-size: 25px;
 }
 
+.filter {
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.filter-icon{
+  height: 17px;
+  margin-right: 5px;
+}
+
+.popup {
+  display: none;
+  position: fixed;
+  top: 0%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+}
+.popup-text {
+  margin-top: 50px;
+  font-size: 18px;
+}
+
+
+.popup-content {
+  background-color: #fff;
+  width: 30%;
+  height: 200px;
+  max-width: 90%;
+  margin: 200px auto;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  position: relative;
+}
+.popup-content h1 {
+  font-size: 24px;
+}
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
 .short-button {
   width: 150px;
   height: 50px;
@@ -120,33 +168,31 @@
     border: 1px solid rgba(0, 0, 0, 0.2);
   }
 
-
   .product-30 {
     font-size: 20px;
     padding-top: 10px;
   }
 }
 @media (max-width: 930px) {
-    .filter-container ul {
-        display: flex;
-        flex-direction: row;
-        gap: 30px;
-        font-size: 25px;
-      }
-    
-      .short-button {
-        width: 120px;
-        height: 40px;
-        font-size: 14px;
-        background-color: transparent;
-        border: 1px solid rgba(0, 0, 0, 0.2);
-      }
-    
-    
-      .product-30 {
-        font-size: 18px;
-        padding-top: 10px;
-      }
+  .filter-container ul {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    font-size: 25px;
+  }
+
+  .short-button {
+    width: 120px;
+    height: 40px;
+    font-size: 14px;
+    background-color: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+  }
+
+  .product-30 {
+    font-size: 18px;
+    padding-top: 10px;
+  }
   .dress-images-continaer {
     display: flex;
     flex-direction: row;
@@ -195,38 +241,49 @@
 }
 
 @media (max-width: 768px) {
-    .dressess{
-        margin-top: 30px;
-    }
-    .filter-section p{
-        font-size: 16px;
-        padding-top: 10px;
-    }
-    .filter-container ul {
-        display: flex;
-        flex-direction: row;
-        gap: 20px;
-      }
-    
-      .short-button {
-        width: 120px;
-        height: 35px;
-        font-size: 13px;
-        background-color: transparent;
-        border: 1px solid rgba(0, 0, 0, 0.2);
-      }
-    
-    
-      .product-30 {
-        font-size: 16px;
-        padding-top: 10px;
-      }
-      
-      .discover-the-world {
-        margin-top: 30px;
-        font-size: 14px;
-        padding-right: 200px;
-      }
+  .dressess {
+    margin-top: 30px;
+  }
+  .filter-section p {
+    font-size: 16px;
+    padding-top: 10px;
+  }
+  .filter-container ul {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  .short-button {
+    width: 120px;
+    height: 35px;
+    font-size: 13px;
+    background-color: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+  }
+
+  .product-30 {
+    font-size: 16px;
+    padding-top: 10px;
+  }
+  
+.popup-content {
+  background-color: #fff;
+  width: 55%;
+  height: 150px;
+  
+  margin: 200px auto;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  position: relative;
+}
+
+  .discover-the-world {
+    margin-top: 30px;
+    font-size: 14px;
+    padding-right: 200px;
+  }
   .dressess-container {
     padding: 100px 30px 0px 45px;
   }
@@ -253,17 +310,16 @@
 }
 
 @media (max-width: 468px) {
-    .dressess-container h1{
-        font-size: 16px;
-    }
-    .discover-the-world{
-        margin-top: 30px;
-        font-size: 14px;
-        padding-right: 60px;
-
-    }
+  .dressess-container h1 {
+    font-size: 16px;
+  }
+  .discover-the-world {
+    margin-top: 30px;
+    font-size: 14px;
+    padding-right: 60px;
+  }
   .dressess-container {
-    padding: 100px 30px 0px 45px;
+    padding: 100px 25px 0px 25px;
   }
   .dress-images-continaer {
     display: flex;
@@ -279,19 +335,34 @@
     flex-direction: column;
     justify-content: flex-start;
     height: fit-content;
-    max-width: 90%;
+    max-width: 100%;
     flex: 1 0 180px;
   }
   .inner-box2-section img {
     height: 280px;
     width: 100%;
   }
-  .filter-section{
+  
+.popup-content {
+  background-color: #fff;
+  width: 60%;
+  height: 150px;
+  
+  margin: 200px auto;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  position: relative;
+}
+.popup-content h1{
+  font-size: 22px;
+}
+  .filter-section {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
   }
-  .filter-container{
+  .filter-container {
     padding-top: 20px;
     text-align: center;
     gap: 0px;
@@ -311,7 +382,6 @@
     background-color: transparent;
     border: 1px solid rgba(0, 0, 0, 0.2);
   }
-
 
   .product-30 {
     font-size: 14px;

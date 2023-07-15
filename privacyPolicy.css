@@ -71,6 +71,11 @@
 }
 .privacy-policies h1{
   margin-bottom: 7px;
+  font-size: 30px;
+}
+.privacy-policies h2{
+  margin-bottom: 7px;
+  font-size: 26px;
 }
 .seventh-container {
   padding: 0px 0px 0px 50px;
@@ -274,6 +279,12 @@
   }
   .privacy-policies h1{
     margin-bottom: 7px;
+    font-size: 27px;
+
+  }
+  .privacy-policies h2{
+    margin-bottom: 7px;
+    font-size: 22px;
   }
   .group-image-firstcont img {
     width: 100%;
@@ -439,7 +450,11 @@
   }
   .privacy-policies h1{
     margin-bottom: 7px;
-    font-size: 20px;
+    font-size: 22px;
+  }
+  .privacy-policies h2{
+    margin-bottom: 7px;
+    font-size: 16px;
   }
   .group-image-firstcont img {
     width: 100%;
@@ -710,7 +725,7 @@
   }
   .privacy-policies h1{
     margin-bottom: 7px;
-    font-size: 20px;
+    font-size: 18px;
   }
   .bottom-container-social{
     gap: 30px;

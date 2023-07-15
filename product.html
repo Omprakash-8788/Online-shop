@@ -68,7 +68,16 @@
             </section>
             <section class="size-guide">
               <span>Size: 40</span>
-              <span class="size-guide-text">Size Guide</span>
+              <!-- <span class="size-guide-text">Size Guide</span> -->
+              <span class="size-guide-text" id="openPopup">Size Guide</span>
+
+              <div id="popup" class="popup">
+                <div class="popup-content">
+                  <span id="closePopup" class="close">&times;</span>
+                 <h1>Purple Potato</h1>
+                 <p class="popup-text">This is Purple Potato Popup.</p>
+                </div>
+              </div>
             </section>
 
             <section class="size-number">
@@ -332,6 +341,26 @@
             content.style.display = "block";
           }
         });
+      });
+    </script>
+    <script>
+      document
+        .getElementById("openPopup")
+        .addEventListener("click", function () {
+          document.getElementById("popup").style.display = "block";
+        });
+
+      document
+        .getElementById("closePopup")
+        .addEventListener("click", function () {
+          document.getElementById("popup").style.display = "none";
+        });
+
+      window.addEventListener("click", function (event) {
+        var popup = document.getElementById("popup");
+        if (event.target == popup) {
+          popup.style.display = "none";
+        }
       });
     </script>
   </body>
