@@ -958,7 +958,7 @@
     justify-content: center;
     gap: 0px;
     height: fit-content;
-    flex: 1 0 180px;
+    flex: 1 0 179px;
     max-width: 50%;
   }
  
@@ -1089,7 +1089,7 @@
   justify-content: center;
   gap: 0px;
   height: fit-content;
-  flex: 1 0 170px;
+  flex: 1 0 180px;
   max-width: 100%;
   margin: 0 auto;
 }
@@ -1124,7 +1124,7 @@
     margin: 0 auto;
     text-align: center;
     align-items: center;
-    width: 90%;
+    width: 80%;
     height: 400px;
     margin-top: 20px;
     margin-bottom: 40px;
@@ -1211,7 +1211,7 @@
     margin: 0 auto;
     text-align: center;
     align-items: center;
-    width: 90%;
+    width: 87%;
     height: 350px;
     margin-top: 20px;
     margin-bottom: 40px;
@@ -1245,5 +1245,18 @@
 }
 .fourth-container-images{
   padding: 0px 15px 0px 15px;
+}
+.main-box{
+  margin: 100px 30px 0px 30px;
+}
+.inner-box2{
+  width: 100%;
+  gap: 40px;
+}
+.model-girl{
+  min-height: 320px;
+}
+.inner-box2-section{
+  min-width: 100%
 }
 }
