@@ -21,7 +21,7 @@
           </h2>
         </div>
         <div class="login-header-container">
-          <div>
+          <div class="header-logo-container">
             <img src="./asset/headerLogo.png" class="header-logo-image" />
           </div>
           <div class="header-best-sellers">
@@ -38,6 +38,30 @@
               <li>BAG 0</li>
             </ul>
           </div>
+          <header>
+            <nav>
+              <div class="menu-icon">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+              </div>
+              <ul class="menu">
+                <h2>All Pages</h2>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+                <ul class="sellers">
+                  <h2>Sellers Pages</h2>
+                  <li><a href="#">Homesss</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Services</a></li>
+                  <li><a href="#">Contact</a></li>
+                </ul>
+              </ul>
+              
+            </nav>
+          </header>
         </div>
         <div class="login-form-container">
           <div>
@@ -136,5 +160,24 @@
         </div>
       </div>
     </div>
+    <script>
+     document.querySelector('.menu-icon').addEventListener('click', function() {
+  document.querySelector('.menu').classList.toggle('open');
+  const bars = document.querySelectorAll('.bar');
+  bars.forEach(bar => bar.classList.toggle('animate'));
+});
+
+document.addEventListener('click', function(event) {
+  const menu = document.querySelector('.menu');
+  const menuIcon = document.querySelector('.menu-icon');
+
+  if (!menu.contains(event.target) && !menuIcon.contains(event.target)) {
+    menu.classList.remove('open');
+    const bars = document.querySelectorAll('.bar');
+    bars.forEach(bar => bar.classList.remove('animate'));
+  }
+});
+
+    </script>
   </body>
 </html>
