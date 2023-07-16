@@ -65,6 +65,10 @@
 .privacy-policy-contents {
   margin: 50px 200px 20px 200px;
 }
+.privacy-policy-contents h1{
+  font-family: "Roca";
+  font-weight: 200;
+}
 
 .privacy-policies{
   margin-top: 30px;
@@ -77,9 +81,14 @@
   margin-bottom: 7px;
   font-size: 26px;
 }
+.privacy-policies p{
+  font-family: 'Manrope', sans-serif;
+
+}
 .seventh-container {
   padding: 0px 0px 0px 50px;
   margin-top: 100px;
+  margin-bottom: 50px;
 }
 
 .seventh-container h2 {
@@ -722,6 +731,7 @@
   }
   .privacy-policies p{
     font-size: 14px;
+    font-family: 'Manrope', sans-serif;
   }
   .privacy-policies h1{
     margin-bottom: 7px;

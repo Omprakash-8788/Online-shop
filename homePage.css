@@ -395,6 +395,8 @@
   color: white;
   padding: 10px 220px 0px 220px;
   font-size: 30px;
+  font-family: "Roca";
+  font-weight: 400;
 }
 
 .fifth-container h4 {
@@ -697,7 +699,7 @@
     justify-content: center;
     gap: 0px;
     height: fit-content;
-    flex: 1 0 180px;
+    flex: 1 0 190px;
     max-width: 30%;
   }
   .inner-boxes2-section img {

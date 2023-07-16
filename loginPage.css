@@ -51,13 +51,17 @@
 }
 
 .login-form-container h1 {
-  font-size: 40px;
+  font-size: 45px;
+  font-family: "Roca";
+  font-weight: 400;
+  font-size: italic;
 }
 
 .login-form-container p {
   font-size: 20px;
   padding-top: 20px;
   padding-bottom: 30px;
+  font-family: "Manrope";
 }
 
 .form-container {
@@ -242,6 +246,7 @@
   }
   .login-form-container h1 {
     font-size: 35px;
+    
   }
 
   .login-form-container p {

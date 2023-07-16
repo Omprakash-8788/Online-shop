@@ -2,6 +2,15 @@
   overflow-x: hidden;
   margin: 0;
 }
+@font-face {
+  font-family: 'Roca';
+  src: local(''), local('Roca-One-Italic'),
+      url('RocaOne-It.woff2') format('woff2'),
+      url('RocaOne-It.woff') format('woff'),
+      url('./Fonts/RocaOne-It.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
 
 
 body {
@@ -138,6 +147,12 @@ header {
   gap: 30px;
 }
 
+.living-the-gram{
+  font-family: "Roca";
+  font-weight: 200;
+  margin-bottom: 30px;
+}
+
 .seventh-container {
   padding: 0px 0px 0px 50px;
   margin-top: 100px;
@@ -156,7 +171,10 @@ header {
   flex-basis: 30%;
   margin: 30px 40px 0px 70px;
 }
-
+.purple-potato{
+  font-size: 17px;
+  font-family: "Manrope";
+}
 .bottom-container-logo span {
   font-weight: bold;
   padding-right: 20px;
@@ -168,13 +186,16 @@ header {
   flex-direction: row;
   gap: 50px;
 }
-
+.mail-number{
+  margin-top: 10px;
+}
 .bottom-container-social ul {
   display: flex;
   flex-direction: column;
   padding: 0;
   margin-top: 0;
   line-height: 25px;
+  font-size:16px ;
 }
 .bottom-container-contact {
   flex-basis: 30%;
@@ -297,6 +318,7 @@ header {
 }
 .exclusive-text {
   margin: 20px 0px 05px 0px;
+  font-size: 22px;
 }
 .small-icon-text {
   font-size: 14px;
@@ -570,6 +592,7 @@ header {
   }
 }
 @media (max-width: 900px) {
+  
   .bottom-container-first {
     background-color: #755c78;
     height: 70px;

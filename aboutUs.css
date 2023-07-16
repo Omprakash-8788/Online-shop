@@ -1,3 +1,16 @@
+@font-face {
+  font-family: 'Roca';
+  src: local(''), local('Roca-One-Italic'),
+      url('RocaOne-It.woff2') format('woff2'),
+      url('RocaOne-It.woff') format('woff'),
+      url('./Fonts/RocaOne-It.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+
+
+
 .aboutus-container {
   width: 100%;
   position: relative;
@@ -15,6 +28,9 @@
   left: 43%;
   z-index: 1;
   position: absolute;
+  font-family: "Roca";
+  font-style: italic;
+  font-weight: 400;
 }
 
 .aboutus-content-section {
@@ -35,16 +51,26 @@
   margin: 0px 0px 50px 0px;
   text-align: center;
   padding: 0px 0px 0px 100px;
+  font-family: "Manrope";
+  font-weight: 400;
+  font-size: 25px;
 }
 .aboutus-text-section p {
   font-size: 20px;
   padding: 0px 00px 0px 100px;
   margin-bottom: 20px;
+  font-family: "Roca";
+}
+.aboutus-text-section h4{
+  font-family: "Manrope";
 }
 .aboutus-text-section h3 {
-  font-size: 20px;
+  font-size: 25px;
   padding: 0px 100px 0px 100px;
   margin-top: 20px;
+  font-family: "Fasthand";
+  letter-spacing: 4px;
+  font-weight: 400;
 }
 .aboutus-image-section {
   padding: 50px 70px 0px 0px;
@@ -71,7 +97,7 @@
 
 .the-origin-story p {
   font-size: 22px;
-  font-family: monospace;
+  font-family: "Roca";
 }
 
 .aboutus-purple-potato {
@@ -84,6 +110,7 @@
 }
 .aboutus-purple-potato p {
   font-size: 20px;
+  font-family: 'Roca';
 }
 
 .padding-top {
@@ -94,7 +121,10 @@
   padding: 50px 200px 50px 200px;
   font-size: 60px;
   text-align: center;
-  font-weight: 400;
+  font-weight: 100;
+  font-family: 'Fasthand';
+  letter-spacing: 10px;
+  font-style: normal;
 }
 
 @media (max-width: 1200px) {

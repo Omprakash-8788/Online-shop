@@ -17,9 +17,17 @@
   color: white;
   margin-bottom: 25px;
   font-size: 37px;
+  font-family: "Roca";
+  font-weight: 400;
+  font-style: italic;
+
 }
 .contactus-text p{
-  font-size: 22px;
+  font-size: 20px;
+  font-family: "Manrope";
+  font-weight: 500;
+  font-style: normal;
+
 }
 .contactus-image {
   flex-basis: 50%;
@@ -47,6 +55,10 @@
 .live-chat h2 {
   font-size: 26px;
   padding: 20px 0px 0px 20px;
+  font-family: "Roca";
+  font-style: normal;
+  font-weight: 400;
+
 }
 
 .chat-button {
@@ -63,11 +75,16 @@
   display: flex;
   height: 60px;
   font-size: 14px;
+  font-family: "Manrope";
 }
 
 .live-chat p {
   padding: 30px 20px 35px 20px;
   font-size: 16px;
+  font-family: "Manrope";
+  font-weight: 500;
+  font-style: normal;
+
 }
 .padding {
   margin-bottom: 80px;
@@ -87,7 +104,12 @@
   padding: 30px 0px 0px 80px;
   flex: 1;
 }
+.map-text h1{
+  font-family: "Roca";
+  font-weight: 400;
+  font-style: normal;
 
+}
 .contact-section {
   margin: 20px 0px 0px 0px;
 }
@@ -98,13 +120,17 @@
 .need-help {
   font-size: 19px;
   margin: 10px 50px 0px 0px;
+  font-family: "Manrope";
 }
 .contact-heading {
   font-size: 22px;
   font-weight: 400;
+  font-family: "Roca";
+  font-weight: 400;
 }
 .contact-number {
   padding: 10px 0px 0px 0px;
+  font-family: "Manrope";
 }
 
 @media (max-width: 1200px) {
