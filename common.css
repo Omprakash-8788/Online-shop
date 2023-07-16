@@ -3,15 +3,23 @@
   margin: 0;
 }
 @font-face {
-  font-family: 'Roca';
-  src: local(''), local('Roca-One-Italic'),
-      url('RocaOne-It.woff2') format('woff2'),
-      url('RocaOne-It.woff') format('woff'),
-      url('./Fonts/RocaOne-It.ttf') format('truetype');
+  font-family: "Roca";
+  src: local(""), local("Roca-One-Italic"),
+    url("RocaOne-It.woff2") format("woff2"),
+    url("RocaOne-It.woff") format("woff"),
+    url("./Fonts/RocaOne-It.ttf") format("truetype");
   font-weight: normal;
   font-style: italic;
 }
-
+@font-face {
+  font-family: "Roca";
+  src: local(""), local("Roca-One-Regular"),
+    url("RocaOne-Rg.woff2") format("woff2"),
+    url("RocaOne-Rg.woff") format("woff"),
+    url("./Fonts/RocaOne-Rg.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
 
 body {
   margin: 0;
@@ -44,7 +52,7 @@ header {
   padding: 0;
   display: flex;
 }
-.sellers{
+.sellers {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -62,7 +70,7 @@ header {
 }
 
 @media only screen and (max-width: 768px) {
-  header{
+  header {
     display: block;
   }
   .menu-icon {
@@ -81,14 +89,14 @@ header {
     margin-left: 60%;
     height: 100%;
     border-left: 2px solid rgb(244, 242, 242);
-    border-bottom:2px solid rgb(244, 242, 242);
+    border-bottom: 2px solid rgb(244, 242, 242);
     z-index: 2;
   }
-  .sellers{
-    display: none;}
+  .sellers {
+    display: none;
+  }
 
   .menu li {
-   
     width: 60%;
     padding: 10px 0;
     border-bottom: 1px solid rgb(244, 240, 240);
@@ -121,7 +129,7 @@ header {
 .header-logo-image {
   height: 50px;
 }
-.header-logo-container{
+.header-logo-container {
   flex-basis: 20%;
 }
 .login-header-container {
@@ -149,9 +157,11 @@ header {
   gap: 30px;
 }
 
-.living-the-gram{
+.living-the-gram {
   font-family: "Roca";
-  font-weight: 200;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 35px;
   margin-bottom: 30px;
 }
 
@@ -173,13 +183,12 @@ header {
   flex-basis: 30%;
   margin: 30px 40px 0px 70px;
 }
-.purple-potato{
+.purple-potato {
   font-size: 17px;
   font-family: "Manrope";
 }
-.purple2023 p{
+.purple2023 p {
   font-family: "Manrope";
-
 }
 .bottom-container-logo span {
   font-weight: bold;
@@ -193,12 +202,10 @@ header {
   gap: 50px;
   font-size: 20px;
   font-family: "Manrope";
-
 }
-.mail-number{
+.mail-number {
   margin-top: 10px;
   font-family: "Manrope";
-
 }
 .bottom-container-social ul {
   display: flex;
@@ -206,7 +213,7 @@ header {
   padding: 0;
   margin-top: 0;
   line-height: 25px;
-  font-size:16px ;
+  font-size: 16px;
 }
 .bottom-container-contact {
   flex-basis: 30%;
@@ -240,7 +247,6 @@ header {
   left: 62%;
   top: 30%;
   font-family: "Manrope";
-
 }
 
 .bottom-container-third {
@@ -278,7 +284,6 @@ header {
   font-size: 15px;
   padding-top: 15px;
   font-family: "Manrope";
-
 }
 
 .email-subscribe {
@@ -335,12 +340,16 @@ header {
 }
 .small-icons {
   height: 30px;
-  padding-top: 25px;
+  padding-top: 22px;
   padding-right: 30px;
 }
 .exclusive-text {
-  margin: 20px 0px 05px 0px;
+  margin: 15px 0px 05px 0px;
   font-size: 22px;
+  font-family: "Manrope";
+  font-weight: 600;
+  font-style: normal;
+  font-size: 18px;
 }
 .small-icon-text {
   font-size: 14px;
@@ -448,7 +457,6 @@ header {
     margin-top: 0;
     line-height: 25px;
     font-family: "Manrope";
-
   }
   .bottom-container-contact {
     flex-basis: 30%;
@@ -476,9 +484,7 @@ header {
   .purple2023 {
     font-size: 11px;
     padding-top: 15px;
-    
   }
-
 
   .payment-icons {
     display: flex;
@@ -504,7 +510,7 @@ header {
 }
 
 @media (max-width: 768px) {
-  .header-navbar{
+  .header-navbar {
     display: none;
   }
   .bottom-container-second {
@@ -620,7 +626,6 @@ header {
   }
 }
 @media (max-width: 900px) {
-  
   .bottom-container-first {
     background-color: #755c78;
     height: 70px;
@@ -732,7 +737,8 @@ header {
 }
 
 @media (max-width: 600px) {
-  .header-logo-container{
+ 
+  .header-logo-container {
     flex-basis: 40%;
   }
   .bottom-group-images {
@@ -744,7 +750,7 @@ header {
     width: 100%;
   }
 
-  .menu-icon{
+  .menu-icon {
     padding-top: 5px;
   }
   .bottom-group-images img {
@@ -828,7 +834,7 @@ header {
     margin-left: 30%;
     height: 100%;
   }
-  .sellers{
+  .sellers {
     display: block;
   }
   .seventh-container {
@@ -931,7 +937,7 @@ header {
   .bottom-container-contact input {
     width: 95%;
   }
-  .header-best-sellers{
+  .header-best-sellers {
     display: none;
   }
 }
