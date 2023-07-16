@@ -233,8 +233,11 @@ header {
   height: 50px;
   width: 91%;
   background: transparent;
+  border: 1px solid #755c78;
 }
-
+.bottom-container-contact input:focus{
+  outline: none;
+}
 .bottom-container-contact input::placeholder {
   padding-left: 10px;
   font-size: 15px;
