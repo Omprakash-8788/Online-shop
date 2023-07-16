@@ -71,13 +71,16 @@ header {
     right: 0;
     margin-left: 60%;
     height: 100%;
+    border-left: 2px solid rgb(244, 242, 242);
+    border-bottom:2px solid rgb(244, 242, 242);
+    z-index: 2;
   }
   .sellers{
     display: none;}
 
   .menu li {
    
-    width: 50%;
+    width: 60%;
     padding: 10px 0;
     border-bottom: 1px solid rgb(244, 240, 240);
   }
@@ -690,6 +693,9 @@ header {
     width: 100%;
   }
 
+  .menu-icon{
+    padding-top: 5px;
+  }
   .bottom-group-images img {
     width: 30%;
   }
@@ -768,7 +774,7 @@ header {
     top: 0px;
     left: 0;
     right: 0;
-    margin-left: 40%;
+    margin-left: 30%;
     height: 100%;
   }
   .sellers{

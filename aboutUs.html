@@ -33,6 +33,36 @@
             <li>BAG 0</li>
           </ul>
         </div>
+        <header>
+          <nav>
+            <div class="menu-icon">
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+            </div>
+            <ul class="menu">
+              <h2>All Pages</h2>
+              <!-- <li><a href="#">Search</a></li>
+              <li><a href="#">Account</a></li>
+              <li><a href="#">Bag 0</a></li> -->
+              <li><a href="./homePage.html">Home Page</a></li>
+              <li><a href="./aboutUs.html">AboutUs Page</a></li>
+              <li><a href="./contactUs.html">Contact Page</a></li>
+              <li><a href="./dresess.html">Dresess Page</a></li>
+              <li><a href="./loginPage.html">Login Page</a></li>
+              <li><a href="./product.html">Product Page</a></li>
+              <li><a href="./privacyPolicy.html">Privacy Policy Page</a></li>
+
+              <ul class="sellers">
+                <h2>Sellers Page</h2>
+                <li><a href="">Best Sellers</a></li>
+                <li><a href="">Shop New Arrivals</a></li>
+                <li><a href="">Shop New Arrivals</a></li>
+              </ul>
+            </ul>
+            
+          </nav>
+        </header>
       </div>
 
       <div class="aboutus-container">
@@ -195,5 +225,24 @@
 
 
     </div>
+    <script>
+      document.querySelector('.menu-icon').addEventListener('click', function() {
+   document.querySelector('.menu').classList.toggle('open');
+   const bars = document.querySelectorAll('.bar');
+   bars.forEach(bar => bar.classList.toggle('animate'));
+ });
+ 
+ document.addEventListener('click', function(event) {
+   const menu = document.querySelector('.menu');
+   const menuIcon = document.querySelector('.menu-icon');
+ 
+   if (!menu.contains(event.target) && !menuIcon.contains(event.target)) {
+     menu.classList.remove('open');
+     const bars = document.querySelectorAll('.bar');
+     bars.forEach(bar => bar.classList.remove('animate'));
+   }
+ });
+ 
+     </script>
   </body>
 </html>

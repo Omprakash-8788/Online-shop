@@ -241,6 +241,7 @@
 }
 
 @media (max-width: 768px) {
+
   .dressess {
     margin-top: 30px;
   }
@@ -285,7 +286,7 @@
     padding-right: 200px;
   }
   .dressess-container {
-    padding: 100px 30px 0px 45px;
+    padding: 70px 30px 0px 45px;
   }
   .dress-images-continaer {
     display: flex;
@@ -319,7 +320,7 @@
     padding-right: 60px;
   }
   .dressess-container {
-    padding: 100px 25px 0px 25px;
+    padding: 40px 25px 0px 25px;
   }
   .dress-images-continaer {
     display: flex;
