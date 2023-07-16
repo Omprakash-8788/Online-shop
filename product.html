@@ -55,13 +55,11 @@
 
               <ul class="sellers">
                 <h2>Sellers Page</h2>
-                <li><a href="#">Homesss</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="">Best Sellers</a></li>
+                <li><a href="">Shop New Arrivals</a></li>
+                <li><a href="">Shop New Arrivals</a></li>
               </ul>
             </ul>
-            
           </nav>
         </header>
       </div>
@@ -105,8 +103,8 @@
               <div id="popup" class="popup">
                 <div class="popup-content">
                   <span id="closePopup" class="close">&times;</span>
-                 <h1>Purple Potato</h1>
-                 <p class="popup-text">This is Purple Potato Popup.</p>
+                  <h1>Purple Potato</h1>
+                  <p class="popup-text">This is Purple Potato Popup.</p>
                 </div>
               </div>
             </section>
@@ -289,7 +287,6 @@
           <div class="bottom-container-logo">
             <section>
               <img src="./asset/headerLogo.png" />
-              <h3>PURPLE PHOTO</h3>
             </section>
             <section class="purple-potato">
               PurplePotato dummy content. PurplePotato dummy content.
@@ -394,24 +391,25 @@
         }
       });
     </script>
-     <script>
-      document.querySelector('.menu-icon').addEventListener('click', function() {
-   document.querySelector('.menu').classList.toggle('open');
-   const bars = document.querySelectorAll('.bar');
-   bars.forEach(bar => bar.classList.toggle('animate'));
- });
- 
- document.addEventListener('click', function(event) {
-   const menu = document.querySelector('.menu');
-   const menuIcon = document.querySelector('.menu-icon');
- 
-   if (!menu.contains(event.target) && !menuIcon.contains(event.target)) {
-     menu.classList.remove('open');
-     const bars = document.querySelectorAll('.bar');
-     bars.forEach(bar => bar.classList.remove('animate'));
-   }
- });
- 
-     </script>
+    <script>
+      document
+        .querySelector(".menu-icon")
+        .addEventListener("click", function () {
+          document.querySelector(".menu").classList.toggle("open");
+          const bars = document.querySelectorAll(".bar");
+          bars.forEach((bar) => bar.classList.toggle("animate"));
+        });
+
+      document.addEventListener("click", function (event) {
+        const menu = document.querySelector(".menu");
+        const menuIcon = document.querySelector(".menu-icon");
+
+        if (!menu.contains(event.target) && !menuIcon.contains(event.target)) {
+          menu.classList.remove("open");
+          const bars = document.querySelectorAll(".bar");
+          bars.forEach((bar) => bar.classList.remove("animate"));
+        }
+      });
+    </script>
   </body>
 </html>
