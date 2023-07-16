@@ -112,8 +112,10 @@ header {
   margin: 0;
   color: white;
   text-align: center;
-  font-size: 18px;
+  font-size: 16px;
   padding: 10px 0px 10px 0px;
+  font-family: "Manrope";
+  font-weight: 400;
 }
 
 .header-logo-image {
@@ -175,6 +177,10 @@ header {
   font-size: 17px;
   font-family: "Manrope";
 }
+.purple2023 p{
+  font-family: "Manrope";
+
+}
 .bottom-container-logo span {
   font-weight: bold;
   padding-right: 20px;
@@ -185,9 +191,14 @@ header {
   display: flex;
   flex-direction: row;
   gap: 50px;
+  font-size: 20px;
+  font-family: "Manrope";
+
 }
 .mail-number{
   margin-top: 10px;
+  font-family: "Manrope";
+
 }
 .bottom-container-social ul {
   display: flex;
@@ -205,22 +216,31 @@ header {
 .bottom-container-contact h2 {
   font-size: 25px;
   padding-right: 70px;
+  font-family: "Roca";
+  font-weight: 400;
+  line-height: normal;
+  font-style: italic;
 }
 .bottom-container-contact input {
   border-radius: 10px;
   height: 50px;
   width: 91%;
+  background: transparent;
 }
 
 .bottom-container-contact input::placeholder {
   padding-left: 10px;
   font-size: 15px;
+  font-family: "Manrope";
+  font-weight: 400;
 }
 
 .subscribe {
   position: absolute;
   left: 62%;
   top: 30%;
+  font-family: "Manrope";
+
 }
 
 .bottom-container-third {
@@ -257,6 +277,8 @@ header {
   text-align: center;
   font-size: 15px;
   padding-top: 15px;
+  font-family: "Manrope";
+
 }
 
 .email-subscribe {
@@ -410,6 +432,8 @@ header {
   .bottom-container-social {
     padding: 50px 40px 0px 60px;
     gap: 18px;
+    font-size: 17px;
+    font-family: "Manrope";
   }
 
   .mail-number {
@@ -423,6 +447,8 @@ header {
     padding: 0;
     margin-top: 0;
     line-height: 25px;
+    font-family: "Manrope";
+
   }
   .bottom-container-contact {
     flex-basis: 30%;
@@ -450,7 +476,9 @@ header {
   .purple2023 {
     font-size: 11px;
     padding-top: 15px;
+    
   }
+
 
   .payment-icons {
     display: flex;
