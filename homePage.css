@@ -1453,9 +1453,12 @@
     height: 80px;
     width: 20%;
     
+    
 
 
   }
+
+  
   
 .collection-heading {
   display: flex;
@@ -1464,7 +1467,7 @@
 }
 .arrow-section {
   justify-content: flex-end;
-  display: flex;
+  display: none;
   align-items: flex-end;
   gap: 20px;
   padding-right: 20px;
@@ -1598,19 +1601,27 @@
 @media (max-width: 468px) {
   .collection-heading{
     margin-bottom: 20px;
+    position: relative;
+    
   }
   .collection-heading img{
     height: 60px;
-    width: 20%;
+    width: 15%;
+  }
+  .collection-logo{
+    gap: 10px;
   }
   .arrow-section{
-    height: 30px;
+
+    
+    display: none;
   }
   .collection-heading h1{
-    font-size: 22px;
+    font-size: 18px;
+    padding-top: 12px;
   }
   .our-collection{
-    font-size: 20px;
+    font-size: 16px;
   }
   .collection-image-container{
     padding: 0;
