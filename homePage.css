@@ -1599,6 +1599,9 @@
 }
 
 @media (max-width: 468px) {
+  .toppage-container{
+    height: 90vh;
+  }
   .collection-heading{
     margin-bottom: 20px;
     position: relative;
