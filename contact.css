@@ -66,8 +66,6 @@
   background-color: #755c78;
   color: white;
   border-radius: 8px;
-  /* margin-top: 50px; */
-
   margin: 20px auto !important;
   align-items: center;
   justify-content: center;
@@ -76,6 +74,8 @@
   height: 60px;
   font-size: 14px;
   font-family: "Manrope";
+  letter-spacing: 2.1px;
+  font-weight: 600;
 }
 
 .live-chat p {

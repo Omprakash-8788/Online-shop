@@ -6,6 +6,12 @@
     <title>Document</title>
     <link rel="stylesheet" href="contact.css" />
     <link rel="stylesheet" href="common.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div class="loginpagecontainer">
@@ -60,7 +66,6 @@
                 <li><a href="">Shop New Arrivals</a></li>
               </ul>
             </ul>
-            
           </nav>
         </header>
       </div>
@@ -83,27 +88,36 @@
       <div class="question-container">
         <div class="live-chat">
           <h2>Live Chat</h2>
-          <p>The fastest way to reach us. The fastest way to reach us. The fastest way to reach us.</p>
+          <p>
+            The fastest way to reach us. The fastest way to reach us. The
+            fastest way to reach us.
+          </p>
           <button class="chat-button">CHAT NOW</button>
         </div>
         <div class="live-chat">
           <h2>Want to make a return?</h2>
-          <p>Submit your return via our online form. Submit your return via our online form.</p>
+          <p>
+            Submit your return via our online form. Submit your return via our
+            online form.
+          </p>
           <button class="chat-button">BEGIN YOUR RETURN</button>
         </div>
         <div class="live-chat">
           <h2>Have a question?</h2>
-          <p>We probably cover it in our FAQs. We probably cover it in our FAQs.</p>
+          <p>
+            We probably cover it in our FAQs. We probably cover it in our FAQs.
+          </p>
           <button class="chat-button">VIEW OUR FAQ’S</button>
         </div>
-
-
       </div>
 
       <div class="map-container">
         <div class="map-text">
           <h1>H1 For Connect Us</h1>
-          <p class="need-help">Need additional help? Send us a message and one of our customer service teammates will get back to you ASAP.</p>
+          <p class="need-help">
+            Need additional help? Send us a message and one of our customer
+            service teammates will get back to you ASAP.
+          </p>
 
           <section class="contact-section">
             <p class="contact-heading">Call Us</p>
@@ -120,10 +134,8 @@
         </div>
 
         <div class="map-image">
-          <img src="./asset/Map.png" class="map" alt="">
+          <img src="./asset/Map.png" class="map" alt="" />
         </div>
-
-
       </div>
 
       <div class="seventh-container padding">
@@ -212,23 +224,24 @@
       </div>
     </div>
     <script>
-      document.querySelector('.menu-icon').addEventListener('click', function() {
-   document.querySelector('.menu').classList.toggle('open');
-   const bars = document.querySelectorAll('.bar');
-   bars.forEach(bar => bar.classList.toggle('animate'));
- });
- 
- document.addEventListener('click', function(event) {
-   const menu = document.querySelector('.menu');
-   const menuIcon = document.querySelector('.menu-icon');
- 
-   if (!menu.contains(event.target) && !menuIcon.contains(event.target)) {
-     menu.classList.remove('open');
-     const bars = document.querySelectorAll('.bar');
-     bars.forEach(bar => bar.classList.remove('animate'));
-   }
- });
- 
-     </script>
+      document
+        .querySelector(".menu-icon")
+        .addEventListener("click", function () {
+          document.querySelector(".menu").classList.toggle("open");
+          const bars = document.querySelectorAll(".bar");
+          bars.forEach((bar) => bar.classList.toggle("animate"));
+        });
+
+      document.addEventListener("click", function (event) {
+        const menu = document.querySelector(".menu");
+        const menuIcon = document.querySelector(".menu-icon");
+
+        if (!menu.contains(event.target) && !menuIcon.contains(event.target)) {
+          menu.classList.remove("open");
+          const bars = document.querySelectorAll(".bar");
+          bars.forEach((bar) => bar.classList.remove("animate"));
+        }
+      });
+    </script>
   </body>
 </html>

@@ -161,6 +161,8 @@
   justify-content: space-between;
   cursor: pointer;
   font-family: "Manrope";
+  -webkit-tap-highlight-color: transparent; 
+
 }
 .size-guide-text {
   border-bottom: 2px solid black;
@@ -173,7 +175,12 @@
   gap: 7px;
   padding-left: 0px;
   cursor: pointer;
+  -webkit-tap-highlight-color: transparent; 
+
 }
+
+
+
 .fabric-material {
   margin-top: 10px;
   font-size: 15px;
@@ -205,10 +212,14 @@
 .subtract {
   font-size: 22px;
   cursor: pointer;
+  -webkit-tap-highlight-color: transparent; 
+
 }
 .addition {
   font-size: 22px;
   cursor: pointer;
+  -webkit-tap-highlight-color: transparent; 
+
 
 }
 
@@ -222,6 +233,8 @@
 .accordion {
   max-width: 600px;
   margin-right: 50px;
+  -webkit-tap-highlight-color: transparent; 
+
   /* margin: 0 auto; */
 }
 
