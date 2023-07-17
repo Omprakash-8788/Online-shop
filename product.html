@@ -6,9 +6,37 @@
     <title>Document</title>
     <link rel="stylesheet" href="product.css" />
     <link rel="stylesheet" href="common.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script>
+      $(document).ready(function () {
+        $(".size-numbers").click(function () {
+          var clickedNumber = $(this).text();
+          $(".selected-size").text(clickedNumber);
+        });
+      });
+    </script>
+    <script>
+      $(document).ready(function() {
+        $('.minus-icon').click(function() {
+          var numberElement = $(this).siblings('.number-size');
+          var currentValue = parseInt(numberElement.text());
+          numberElement.text(currentValue - 1);
+        });
+  
+        $('.plus-icon').click(function() {
+          var numberElement = $(this).siblings('.number-size');
+          var currentValue = parseInt(numberElement.text());
+          numberElement.text(currentValue + 1);
+        });
+      });
+    </script>
   </head>
   <body>
     <div class="loginpagecontainer">
@@ -99,7 +127,7 @@
               <section class="red-circle"></section>
             </section>
             <section class="size-guide">
-              <span>Size: 40</span>
+              <span>Size: <span class="selected-size">40</span></span>
               <!-- <span class="size-guide-text">Size Guide</span> -->
               <span class="size-guide-text" id="openPopup">Size Guide</span>
 
@@ -113,18 +141,20 @@
             </section>
 
             <section class="size-number">
-              <span>40</span>
-              <span>41</span>
-              <span>42</span>
-              <span>43</span>
-              <span>44</span>
-              <span>45</span>
+              <ul>
+                <li class="size-numbers">40</li>
+                <li class="size-numbers">41</li>
+                <li class="size-numbers">42</li>
+                <li class="size-numbers">43</li>
+                <li class="size-numbers">44</li>
+                <li class="size-numbers">45</li>
+              </ul>
             </section>
             <section class="shop-buttons">
               <button class="size-button">
-                <p class="subtract">&minus;</p>
-                40
-                <p class="addition">&plus;</p>
+                <p class="subtract minus-icon">&minus;</p>
+                <p class="number-size">40</p>
+                <p class="addition plus-icon">&plus;</p>
               </button>
               <button class="add-to-bag">ADD TO BAG</button>
             </section>
@@ -244,7 +274,7 @@
               <h4>Product Short Description</h4>
               <button>ADD TO BAG - ₹2,500</button>
             </section>
-            <section class="inner-box2-section">
+            <!-- <section class="inner-box2-section">
               <img
                 src="./asset/Rectangle 96.png"
                 class="model-girl"
@@ -253,7 +283,7 @@
               <h3>Product Title</h3>
               <h4>Product Short Description</h4>
               <button>ADD TO BAG - ₹2,500</button>
-            </section>
+            </section> -->
           </div>
         </div>
       </div>

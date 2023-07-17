@@ -943,6 +943,11 @@ header {
   .header-best-sellers {
     display: none;
   }
+  .login-header-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 05px 10px 0px 10px;
+  }
 }
 @media (max-width: 400px) {
   .bottom-group-images {

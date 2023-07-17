@@ -1,5 +1,5 @@
 .also-like-container {
-  padding: 100px 50px 0px 50px;
+  padding: 100px 50px 0px 100px;
   margin-bottom: 70px;
 }
 
@@ -165,12 +165,14 @@
 .size-guide-text {
   border-bottom: 2px solid black;
 }
-.size-number {
+.size-number ul {
   margin-top: 5px;
   margin-bottom: 25px;
   display: flex;
   flex-direction: row;
-  gap: 5px;
+  gap: 7px;
+  padding-left: 0px;
+  cursor: pointer;
 }
 .fabric-material {
   margin-top: 10px;
@@ -202,9 +204,12 @@
 }
 .subtract {
   font-size: 22px;
+  cursor: pointer;
 }
 .addition {
   font-size: 22px;
+  cursor: pointer;
+
 }
 
 .add-to-bag {
@@ -330,11 +335,19 @@
   background-color: #755c78;
   font-size: 20px;
   color: white;
-  height: 40px;
+  height: 57px;
   font-family: "Manrope";
 }
 
 @media (max-width: 1200px) {
+  .inner-box2-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: fit-content;
+    max-width: 30%;
+    flex: 1 0 220px;
+  }
   .accordion {
     max-width: 600px;
     margin: 0 auto;
@@ -386,18 +399,22 @@
   .product-img {
     height: 500px;
   }
-  .dummy-text-container {
-    margin: 50px 0px 0px 0px;
-    background-color: #755c78;
-    height: fit-content;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    gap: 15px;
-    color: white;
-    padding: 10px 0px 8px 10px;
-    font-size: 17px;
-  }
+  
+.dummy-text-container {
+  margin: 50px 0px 0px 0px;
+  background-color: #755c78;
+  height: fit-content;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  color: white;
+  padding: 10px 0px 8px 0px;
+  font-size: 21px;
+  font-family: "Manrope";
+  font-weight: 500;
+  font-style: normal;
+}
   .dummy-section {
     display: flex;
     flex-direction: row;
@@ -460,6 +477,10 @@
 }
 
 @media (max-width: 900px) {
+  .also-like-container{
+    padding-left: 50px;
+  }
+
   
 .also-like-container h1 {
   text-align: center;
@@ -467,6 +488,7 @@
   font-size: 35px;
   font-style: italic;
   font-weight: 400;
+  
 }
   .single-product-container {
     padding: 50px 40px 0px 40px;
@@ -477,6 +499,7 @@
   .product-img {
     height: 450px;
   }
+
   .dummy-text-container {
     margin: 50px 0px 0px 0px;
     background-color: #755c78;
@@ -484,10 +507,13 @@
     width: 100%;
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap: 20px;
     color: white;
-    padding: 10px 0px 8px 10px;
-    font-size: 12px;
+    padding: 10px 0px 8px 0px;
+    font-size: 19px;
+    font-family: "Manrope";
+    font-weight: 500;
+    font-style: normal;
   }
   .dummy-section {
     display: flex;
@@ -559,7 +585,7 @@
     justify-content: flex-start;
     height: fit-content;
     max-width: 48%;
-    flex: 1 0 230px;
+    flex: 1 0 190px;
   }
   
 .inner-box2-section button {
@@ -570,9 +596,27 @@
   height: 40px;
   font-family: "Manrope";
 }
+
+.accordion-item .accordion-header {
+  padding: 10px 10px 0px 0px;
+  cursor: pointer;
+  font-size: 18px;
+  font-family: "Manrope";
+  font-weight: 600;
+  font-style: normal;
+}
 }
 
 @media (max-width: 600px) {
+  
+.accordion-item .accordion-header {
+  padding: 10px 10px 0px 0px;
+  cursor: pointer;
+  font-size: 17px;
+  font-family: "Manrope";
+  font-weight: 600;
+  font-style: normal;
+}
   .single-product-container {
     padding: 50px 20px 0px 20px;
     display: flex;
@@ -583,18 +627,22 @@
     padding: 0px 0px 0px 0px;
     gap: 0px;
   }
-  .dummy-text-container {
-    margin: 50px 0px 0px 0px;
-    background-color: #755c78;
-    height: fit-content;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    gap: 6px;
-    color: white;
-    padding: 10px 0px 8px 0px;
-    font-size: 10px;
-  }
+ 
+.dummy-text-container {
+  margin: 50px 0px 0px 0px;
+  background-color: #755c78;
+  height: fit-content;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  color: white;
+  padding: 10px 0px 8px 0px;
+  font-size: 17px;
+  font-family: "Manrope";
+  font-weight: 500;
+  font-style: normal;
+}
   .dummy-section {
     display: flex;
     flex-direction: row;

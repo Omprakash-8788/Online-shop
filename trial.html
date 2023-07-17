@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Number Increment/Decrement</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      $('.minus-icon').click(function() {
+        var numberElement = $(this).siblings('.number');
+        var currentValue = parseInt(numberElement.text());
+        numberElement.text(currentValue - 1);
+      });
+
+      $('.plus-icon').click(function() {
+        var numberElement = $(this).siblings('.number');
+        var currentValue = parseInt(numberElement.text());
+        numberElement.text(currentValue + 1);
+      });
+    });
+  </script>
+  <style>
+    .number-box {
+      display: flex;
+      align-items: center;
+    }
+    .icon {
+      cursor: pointer;
+      padding: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="number-box">
+    <div class="icon minus-icon">-</div>
+    <div class="number">0</div>
+    <div class="icon plus-icon">+</div>
+  </div>
+</body>
+</html>
