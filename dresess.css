@@ -404,3 +404,11 @@
     padding-top: 10px;
   }
 }
+
+
+@media (min-height:1100px) and (max-width:900px){
+  .discover-the-world{
+    font-size: 14px;
+  }
+  
+}

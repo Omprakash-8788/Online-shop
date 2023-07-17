@@ -1361,6 +1361,15 @@
 }
 
 @media (max-width: 400px) {
+  .collection-image-container{
+    flex-wrap: nowrap;
+  }
+  .carousel-slide {
+    flex: 0 0 70.33%; 
+    padding: 10px;
+    box-sizing: border-box;
+    width: 40%;
+  }
   .toppage-section {
     position: absolute;
     top: 7%;
