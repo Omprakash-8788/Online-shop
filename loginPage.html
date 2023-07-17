@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link
-    href="https://fonts.googleapis.com/css2?family=Manrope&display=swap"
-    rel="stylesheet"
-  />
-  <link rel="stylesheet" href="loginPage.css" />
-  <link rel="stylesheet" href="common.css">
+      href="https://fonts.googleapis.com/css2?family=Manrope&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="loginPage.css" />
+    <link rel="stylesheet" href="common.css" />
   </head>
   <body>
     <div>
@@ -22,7 +22,11 @@
         </div>
         <div class="login-header-container">
           <div class="header-logo-container">
-            <img src="./asset/headerLogo.png" class="header-logo-image" />
+            <img
+              src="./asset/headerLogo.png"
+              class="header-logo-image"
+              alt="Logo"
+            />
           </div>
           <div class="header-best-sellers">
             <ul>
@@ -47,9 +51,9 @@
               </div>
               <ul class="menu">
                 <h2>All Pages</h2>
-                <!-- <li><a href="#">Search</a></li>
-                <li><a href="#">Account</a></li>
-                <li><a href="#">Bag 0</a></li> -->
+                <!-- <li><a href="">Search</a></li>
+                <li><a href="">Account</a></li>
+                <li><a href="">Bag 0</a></li> -->
                 <li><a href="./homePage.html">Home Page</a></li>
                 <li><a href="./aboutUs.html">AboutUs Page</a></li>
                 <li><a href="./contactUs.html">Contact Page</a></li>
@@ -65,11 +69,9 @@
                   <li><a href="">Shop New Arrivals</a></li>
                 </ul>
               </ul>
-              
             </nav>
           </header>
         </div>
-
 
         <div class="login-form-container">
           <div>
@@ -96,12 +98,11 @@
           </div>
         </div>
 
-
         <div>
           <div class="bottom-container-second">
             <div class="bottom-container-logo">
               <section>
-                <img src="./asset/headerLogo.png" />
+                <img src="./asset/headerLogo.png" alt="Logo" />
               </section>
               <section class="purple-potato">
                 PurplePotato dummy content. PurplePotato dummy content.
@@ -152,12 +153,12 @@
               <p>© PURPLEPOTATO ⋆ 2023</p>
             </div>
             <div class="payment-icons">
-              <img src="./asset/Amex.png" alt="" />
-              <img src="./asset/iPay.png" />
-              <img src="./asset/PayPal.png" />
-              <img src="./asset/MasterCard.png" />
-              <img src="./asset/VISA.png" />
-              <img src="./asset/UPI.png" />
+              <img src="./asset/Amex.png" alt="payment-icon" />
+              <img src="./asset/iPay.png" alt="payment-icon" />
+              <img src="./asset/PayPal.png" alt="payment-icon" />
+              <img src="./asset/MasterCard.png" alt="payment-icon" />
+              <img src="./asset/VISA.png" alt="payment-icon" />
+              <img src="./asset/UPI.png" alt="payment-icon" />
             </div>
             <div class="bottom-cont-pages">
               <span>Privacy Policy</span>
@@ -169,23 +170,24 @@
       </div>
     </div>
     <script>
-     document.querySelector('.menu-icon').addEventListener('click', function() {
-  document.querySelector('.menu').classList.toggle('open');
-  const bars = document.querySelectorAll('.bar');
-  bars.forEach(bar => bar.classList.toggle('animate'));
-});
+      document
+        .querySelector(".menu-icon")
+        .addEventListener("click", function () {
+          document.querySelector(".menu").classList.toggle("open");
+          const bars = document.querySelectorAll(".bar");
+          bars.forEach((bar) => bar.classList.toggle("animate"));
+        });
 
-document.addEventListener('click', function(event) {
-  const menu = document.querySelector('.menu');
-  const menuIcon = document.querySelector('.menu-icon');
+      document.addEventListener("click", function (event) {
+        const menu = document.querySelector(".menu");
+        const menuIcon = document.querySelector(".menu-icon");
 
-  if (!menu.contains(event.target) && !menuIcon.contains(event.target)) {
-    menu.classList.remove('open');
-    const bars = document.querySelectorAll('.bar');
-    bars.forEach(bar => bar.classList.remove('animate'));
-  }
-});
-
+        if (!menu.contains(event.target) && !menuIcon.contains(event.target)) {
+          menu.classList.remove("open");
+          const bars = document.querySelectorAll(".bar");
+          bars.forEach((bar) => bar.classList.remove("animate"));
+        }
+      });
     </script>
   </body>
 </html>

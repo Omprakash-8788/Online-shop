@@ -59,12 +59,12 @@
   color: white;
   gap: 50px;
   font-size: 15px;
- font-family: "Manrope";
- font-style: normal;
- font-weight: 500;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
 }
 
-.privacypolicy{
+.privacypolicy {
   font-family: "Roca";
   font-weight: 400;
   font-style: normal;
@@ -74,7 +74,7 @@
 .privacy-policy-contents {
   margin: 50px 200px 20px 200px;
 }
-.privacy-policy-contents h1{
+.privacy-policy-contents h1 {
   font-family: "Roca";
   font-weight: 400;
   font-style: italic;
@@ -82,25 +82,24 @@
   font-size: 32px;
 }
 
-.privacy-policies{
+.privacy-policies {
   margin-top: 30px;
 }
-.privacy-policies h1{
+.privacy-policies h1 {
   margin-bottom: 7px;
   font-size: 25px;
   color: #000;
 }
-.privacy-policies h2{
+.privacy-policies h2 {
   margin-bottom: 7px;
   font-size: 26px;
 }
-.privacy-policies p{
-  font-family: 'Manrope', sans-serif;
-  color: rgba(0, 0, 0, 0.60);
+.privacy-policies p {
+  font-family: "Manrope", sans-serif;
+  color: rgba(0, 0, 0, 0.6);
   font-size: 14px;
   font-weight: 500;
   width: 90%;
-
 }
 .seventh-container {
   padding: 0px 0px 0px 50px;
@@ -162,7 +161,7 @@
     flex-direction: row;
     margin: 20px 30px 15px 30px;
   }
-  
+
   .header-best-sellers ul {
     display: flex;
     flex-direction: row;
@@ -170,28 +169,26 @@
     padding-top: 10px;
     font-size: 14px;
   }
-  
+
   .header-navbar ul {
     display: flex;
     flex-direction: row;
     gap: 15px;
     padding-top: 10px;
     font-size: 14px;
-
   }
   .privacy-policy-contents {
     margin: 50px 100px 20px 100px;
   }
-  
-  .privacy-policies{
+
+  .privacy-policies {
     margin-top: 30px;
   }
-  .privacy-policies h1{
+  .privacy-policies h1 {
     margin-bottom: 7px;
     font-size: 27px;
-
   }
-  .privacy-policies h2{
+  .privacy-policies h2 {
     margin-bottom: 7px;
     font-size: 22px;
   }
@@ -211,10 +208,9 @@
   .bottom-group-images img {
     width: 30%;
   }
- 
 }
 @media (max-width: 900px) {
-  .header-logo-image{
+  .header-logo-image {
     height: 35px;
     width: 100px;
   }
@@ -224,7 +220,7 @@
     margin: 20px 30px 15px 30px;
     gap: 20px;
   }
-  
+
   .header-best-sellers ul {
     display: flex;
     flex-direction: row;
@@ -234,7 +230,7 @@
     padding: 05px 05px 0px 05px;
     margin: 0;
   }
-  
+
   .header-navbar ul {
     display: flex;
     flex-direction: row;
@@ -242,9 +238,8 @@
     font-size: 12px;
     padding: 05px 0px 0px 0px;
     margin: 0;
-
   }
-  .loginpage-top-container h2{
+  .loginpage-top-container h2 {
     font-size: 15px;
     margin: 0px 10px 0px 10px;
   }
@@ -255,7 +250,7 @@
     background-color: #755c78;
     height: 80px;
   }
-  
+
   .privay-policy-header ul {
     display: flex;
     flex-direction: row;
@@ -265,18 +260,16 @@
     color: white;
     gap: 25px;
     font-size: 15px;
-    
-   
   }
-  
-  .privacy-policies{
+
+  .privacy-policies {
     margin-top: 30px;
   }
-  .privacy-policies h1{
+  .privacy-policies h1 {
     margin-bottom: 7px;
     font-size: 22px;
   }
-  .privacy-policies h2{
+  .privacy-policies h2 {
     margin-bottom: 7px;
     font-size: 16px;
   }
@@ -296,14 +289,13 @@
   .bottom-group-images img {
     width: 45%;
   }
-  
 }
 @media (max-width: 768px) {
   .privay-policy-header {
     background-color: #755c78;
     height: 80px;
   }
-  
+
   .privay-policy-header ul {
     display: flex;
     flex-direction: row;
@@ -313,24 +305,18 @@
     color: white;
     gap: 30px;
     font-size: 15px;
-    
-   
   }
-  
 }
-
-
 
 @media (max-width: 600px) {
-  
-.privacypolicy{
-  font-family: "Roca";
-  font-weight: 400;
-  font-style: normal;
-  line-height: normal;
-  font-size: 28px;
-}
-  .header-logo-image{
+  .privacypolicy {
+    font-family: "Roca";
+    font-weight: 400;
+    font-style: normal;
+    line-height: normal;
+    font-size: 28px;
+  }
+  .header-logo-image {
     height: 35px;
     width: 80px;
     margin-left: 0;
@@ -343,7 +329,7 @@
     gap: 05px;
     justify-content: space-between;
   }
-  
+
   .header-best-sellers ul {
     display: flex;
     flex-direction: row;
@@ -353,7 +339,7 @@
     padding: 05px 0px 0px 0px;
     margin: 0;
   }
-  
+
   .header-navbar ul {
     display: none;
     flex-direction: row;
@@ -361,9 +347,8 @@
     font-size: 12px;
     padding: 05px 0px 0px 0px;
     margin: 0;
-
   }
-  .loginpage-top-container h2{
+  .loginpage-top-container h2 {
     font-size: 13px;
     margin: 0px 10px 0px 10px;
   }
@@ -412,15 +397,15 @@
     background-color: #755c78;
     height: 80px;
   }
-  
-.privacypolicy{
-  font-family: "Roca";
-  font-weight: 400;
-  font-style: normal;
-  line-height: normal;
-  font-size: 24px;
-}
-  
+
+  .privacypolicy {
+    font-family: "Roca";
+    font-weight: 400;
+    font-style: normal;
+    line-height: normal;
+    font-size: 24px;
+  }
+
   .privay-policy-header ul {
     display: flex;
     flex-direction: row;
@@ -430,10 +415,8 @@
     color: white;
     gap: 10px;
     font-size: 13px;
-    
+
     padding: 20px 0px 0px 0px;
-    
-   
   }
   .bottom-container-third {
     display: flex;
@@ -448,29 +431,28 @@
   .privacy-policy-contents {
     margin: 50px 10px 20px 30px;
   }
-  
-  .privacy-policies{
+
+  .privacy-policies {
     margin-top: 30px;
   }
-  .privacy-policies p{
+  .privacy-policies p {
     font-size: 14px;
-    font-family: 'Manrope', sans-serif;
+    font-family: "Manrope", sans-serif;
   }
-  .privacy-policies h1{
+  .privacy-policies h1 {
     margin-bottom: 7px;
     font-size: 18px;
   }
-  .bottom-container-social{
+  .bottom-container-social {
     gap: 30px;
   }
-  .seventh-container{
+  .seventh-container {
     padding: 0px 0px 0px 20px;
   }
-  .privay-policy-header ul{
+  .privay-policy-header ul {
     font-size: 12px;
-    
   }
-  .privay-policy-header li{
+  .privay-policy-header li {
     padding: 0;
     margin: 0;
   }
@@ -497,30 +479,20 @@
   .bottom-group-images img {
     width: 45%;
   }
-  /* .bottom-container-social {
-    padding: 50px 20px 0px 40px;
-  }
-  .purple-potato {
-    margin: 0px 30px 0px 30px;
-  }
-  .bottom-container-contact h2 {
-    font-size: 17px;
-  } */
-  .header-logo-image{
+  .header-logo-image {
     min-width: 120px;
     z-index: 1;
   }
-  .header-best-sellers{
+  .header-best-sellers {
     justify-content: flex-end !important;
     align-items: end;
     text-align: end;
   }
-  .privacy-policies p{
-    font-family: 'Manrope', sans-serif;
-    color: rgba(0, 0, 0, 0.60);
+  .privacy-policies p {
+    font-family: "Manrope", sans-serif;
+    color: rgba(0, 0, 0, 0.6);
     font-size: 14px;
     font-weight: 500;
     width: 95%;
-  
   }
 }

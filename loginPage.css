@@ -55,7 +55,7 @@
   font-family: "Roca";
   font-weight: 400;
   font-size: italic;
-  color: #755C78;
+  color: #755c78;
 }
 
 .login-form-container p {
@@ -65,8 +65,7 @@
   font-family: "Manrope";
   font-style: normal;
   font-weight: 500;
-  color: rgba(0, 0, 0, 0.60);
-
+  color: rgba(0, 0, 0, 0.6);
 }
 
 .form-container {
@@ -93,14 +92,13 @@
   font-size: 20px;
   text-indent: 30px;
   background: transparent;
- 
 }
 
 .email::placeholder {
   font-size: 17px;
 }
 
-.email:focus{
+.email:focus {
   outline: none;
 }
 
@@ -111,13 +109,13 @@
   border: 2px solid #755c78;
   text-indent: 30px;
   font-size: 17px;
-  background:transparent;
+  background: transparent;
 }
 
 .password::placeholder {
   font-size: 17px;
 }
-.password:focus{
+.password:focus {
   outline: none;
 }
 .form-button {
@@ -130,10 +128,7 @@
   cursor: pointer;
   margin-top: 15px;
   border: 1px solid #755c78;
-
 }
-
-
 
 @media (max-width: 1200px) {
   .header-logo-image {
@@ -161,7 +156,6 @@
   }
   .login-form-container h1 {
     font-size: 35px;
-    
   }
 
   .login-form-container p {
@@ -196,13 +190,12 @@
     color: white;
     font-size: 20px;
     margin-top: 15px;
-
   }
-  
 }
 
-@media (max-width: 768px) {}
-  
+@media (max-width: 768px) {
+}
+
 @media (max-width: 900px) {
   .loginpage-top-container h2 {
     margin: 0;
@@ -277,9 +270,7 @@
     color: white;
     font-size: 20px;
     margin-top: 10px;
-
   }
-
 }
 
 @media (max-width: 650px) {
@@ -345,7 +336,6 @@
     height: 30px;
     border: 2px solid #755c78;
     text-indent: 10px;
-    
   }
 
   .email::placeholder {
@@ -370,19 +360,15 @@
     height: 40px;
     color: white;
     font-size: 16px;
-
   }
-  
 }
 @media (max-width: 468px) {
- 
 }
 @media (max-width: 400px) {
   .login-form-container {
     padding-top: 40px !important;
     margin-bottom: 80px;
     margin-top: 0px;
-    
   }
   .form-button {
     width: 66.5%;
@@ -393,10 +379,8 @@
     font-size: 16px;
     border: 1px solid #755c78;
     margin-top: 10px;
-
   }
-  .email-password{
+  .email-password {
     gap: 20px !important;
   }
- 
 }

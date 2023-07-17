@@ -144,7 +144,7 @@
   color: rgba(255, 255, 255, 0.8);
 }
 
-.content-box span {
+.content-box p {
   font-size: 16px;
   margin-bottom: 20px;
   color: rgba(255, 255, 255, 0.8);
@@ -831,6 +831,14 @@
 }
 
 @media (max-width: 900px) {
+  .content-box h1{
+    font-size: 40px;
+   
+  }
+  .content-box p{
+    font-size: 15px;
+    width: 100%;
+  }
   
 .toppage-container h2 {
   text-align: center;
@@ -993,6 +1001,7 @@
   .PlayButton{
     height: 60px;
   }
+  
 }
 
 @media (max-width: 768px) {
@@ -1074,6 +1083,7 @@
 }
 
 @media (max-width: 468px) {
+  
   .toppage-section {
     position: absolute;
     top: 6.5%;
@@ -1217,6 +1227,21 @@
 }
 }
 @media (max-width: 600px) {
+  .content-box{
+    width: 80%;
+  }
+  .content-box h1{
+    font-size: 30px;
+   
+  }
+  .content-box p{
+    font-size: 13px;
+    width: 100%;
+  }
+  .content-box button{
+    font-size: 15px;
+
+  }
   .toppage-container h2 {
     text-align: center;
     margin: 0px;
