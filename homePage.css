@@ -296,13 +296,24 @@
   padding: 0px 70px 0px 80px;
 }
 
+.collection-logo{
+  display: flex;
+  gap: 20px;
+}
 .collection-heading {
   display: flex;
   flex-direction: row;
-  gap: 20px;
+  justify-content: space-between;
 }
 .arrow-section {
   justify-content: flex-end;
+  display: flex;
+  align-items: flex-end;
+  gap: 20px;
+  padding-right: 20px;
+  margin-top: 0px;
+  padding-top: 0px;
+  
 }
 
 .collection-heading h1 {
@@ -1215,12 +1226,15 @@
     top: 6.5%;
     left: 0;
     width: 100%;
-    height: 90%;
+    height: 86%;
     background-image: url("./asset/Rectangle\ 2.png");
     background-size: cover;
   }
   .popup-content{
     width: 75%;
+  }
+  .dummy-text{
+    z-index: 1 !important;
   }
   .collection-image-container {
     display: flex;
@@ -1432,16 +1446,36 @@
 
   .collection-heading{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 0px;
   }
   .collection-heading img{
     height: 80px;
-    width: 70%;
+    width: 20%;
     
 
-  }
 
+  }
+  
+.collection-heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.arrow-section {
+  justify-content: flex-end;
+  display: flex;
+  align-items: flex-end;
+  gap: 20px;
+  padding-right: 20px;
+  margin-top: 0px;
+  padding-top: 0px;
+ 
+}
+
+.arrow-section img{
+  height: 30px;
+}
   .vintage-image {
     margin: 0 auto;
     text-align: center;
@@ -1527,13 +1561,13 @@
     top: 7%;
     left: 0;
     width: 100%;
-    height: 89%;
+    height: 85%;
     background-image: url("./asset/Rectangle\ 2.png");
     background-size: cover;
   }
   .dummy-text {
     padding-top: 0px;
-    top: 96%;
+    top: 93%;
   }
   .third-container p {
     text-align: center;
@@ -1567,7 +1601,10 @@
   }
   .collection-heading img{
     height: 60px;
-    width: 70%;
+    width: 20%;
+  }
+  .arrow-section{
+    height: 30px;
   }
   .collection-heading h1{
     font-size: 22px;
