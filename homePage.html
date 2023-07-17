@@ -43,7 +43,7 @@
             Use Code - PP1
           </h2>
           <section class="toppage-section">
-            <section class="top-heading">
+            <!-- <section class="top-heading">
               <section class="logo-homepage">
                 <img src="./asset/headerLogo.png" class="logo" alt="" />
               </section>
@@ -58,8 +58,56 @@
                 <span>Account</span>
                 <span>BAG0</span>
               </section>
-            </section>
-            <section class="content-box">
+            </section> -->
+            <div class="login-header-container home">
+              <div>
+                <img src="./asset/headerLogo.png" class="header-logo-image" />
+              </div>
+              <div class="header-best-sellers">
+                <ul>
+                  <li>BEST SELLERS</li>
+                  <li>SHOP NEW ARRIVALS</li>
+                  <li>SHOP NEW ARRIVALS</li>
+                </ul>
+              </div>
+              <div class="header-navbar">
+                <ul>
+                  <li>SEARCH</li>
+                  <li>ACCOUNT</li>
+                  <li>BAG 0</li>
+                </ul>
+              </div>
+              <header>
+                <nav>
+                  <div class="menu-icon">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                  </div>
+                  <ul class="menu">
+                    <h2>All Pages</h2>
+                    <!-- <li><a href="#">Search</a></li>
+                    <li><a href="#">Account</a></li>
+                    <li><a href="#">Bag 0</a></li> -->
+                    <li><a href="./homePage.html">Home Page</a></li>
+                    <li><a href="./aboutUs.html">AboutUs Page</a></li>
+                    <li><a href="./contactUs.html">Contact Page</a></li>
+                    <li><a href="./dresess.html">Dresess Page</a></li>
+                    <li><a href="./loginPage.html">Login Page</a></li>
+                    <li><a href="./product.html">Product Page</a></li>
+                    <li><a href="./privacyPolicy.html">Privacy Policy Page</a></li>
+      
+                    <ul class="sellers">
+                      <h2>Sellers Page</h2>
+                      <li><a href="">Best Sellers</a></li>
+                      <li><a href="">Shop New Arrivals</a></li>
+                      <li><a href="">Shop New Arrivals</a></li>
+                    </ul>
+                  </ul>
+                </nav>
+              </header>
+            </div>
+                        <section class="content-box">
               <h1>H1 Heading</h1>
               <p>
                 Free Shipping Worldwide | Get Flat 10% off* On Your First
@@ -136,38 +184,32 @@
                 <img src="./asset/Topwear.png" alt="" />
                 <span class="span-tag">Topwear</span>
               </section>
-              <!-- <section>
-                <img src="./asset/Topwear.png" alt="" />
-                <span class="span-tag">Topwear</span>
-              </section> -->
             </section>
           </div>
         </div>
 
-        
-          <div class="third-container">
-            <img
-              src="./asset/PlayButton.png"
-              id="openPopup"
-              class="PlayButton"
-              alt="play"
-            />
+        <div class="third-container">
+          <img
+            src="./asset/PlayButton.png"
+            id="openPopup"
+            class="PlayButton"
+            alt="play"
+          />
 
-            <div id="popup" class="popup">
-              <div class="popup-content">
-                <span id="closePopup" class="close">&times;</span>
-                <h1>Purple Potato</h1>
-              </div>
+          <div id="popup" class="popup">
+            <div class="popup-content">
+              <span id="closePopup" class="close">&times;</span>
+              <h1>Purple Potato</h1>
             </div>
-
-            <h1>H1 Heading</h1>
-            <p>
-              Our vintage-inspired, unique, and limited-run occasion styles are
-              made to love forever.
-            </p>
-            <img src="./asset/Rectangle 2.png" alt="" class="vintage-image" />
           </div>
-        
+
+          <h1>H1 Heading</h1>
+          <p>
+            Our vintage-inspired, unique, and limited-run occasion styles are
+            made to love forever.
+          </p>
+          <img src="./asset/Rectangle 2.png" alt="" class="vintage-image" />
+        </div>
 
         <div>
           <div class="main-box">
@@ -510,5 +552,25 @@
         }
       });
     </script>
+      <script>
+        document
+          .querySelector(".menu-icon")
+          .addEventListener("click", function () {
+            document.querySelector(".menu").classList.toggle("open");
+            const bars = document.querySelectorAll(".bar");
+            bars.forEach((bar) => bar.classList.toggle("animate"));
+          });
+  
+        document.addEventListener("click", function (event) {
+          const menu = document.querySelector(".menu");
+          const menuIcon = document.querySelector(".menu-icon");
+  
+          if (!menu.contains(event.target) && !menuIcon.contains(event.target)) {
+            menu.classList.remove("open");
+            const bars = document.querySelectorAll(".bar");
+            bars.forEach((bar) => bar.classList.remove("animate"));
+          }
+        });
+      </script>
   </body>
 </html>

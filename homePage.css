@@ -95,6 +95,9 @@
   padding: 0px;
   padding-left: 60px;
 }
+.home{
+  color: white !important;
+}
 .free-shipping {
   padding-top: 100px;
   color: white;
@@ -521,6 +524,10 @@
 }
 .product-section h2 {
   text-align: center;
+  font-family: "Manrope";
+  font-size: 35px;
+  font-weight: 600;
+
 }
 .quality-section {
   flex: 2;
@@ -551,6 +558,9 @@
 .quality-section h2 {
   font-size: 18px;
   padding-right: 100px;
+  font-family: "Roca";
+  font-style: italic;
+  font-weight: 400;
 }
 
 .quality-section-star {
@@ -1038,6 +1048,13 @@
     text-align: center;
     align-items: center;
   }
+  
+.product-section h2 {
+  font-family: "Manrope";
+  font-size: 27px;
+  font-weight: 600;
+
+}
 
   .review-container button {
     background-color: #755c78;
@@ -1095,6 +1112,13 @@
 }
 
 @media (max-width: 768px) {
+   
+.product-section h2 {
+  font-family: "Manrope";
+  font-size: 22px;
+  font-weight: 600;
+
+}
   .collection-image-container {
     display: flex;
     flex-direction: row;
@@ -1195,6 +1219,9 @@
     background-image: url("./asset/Rectangle\ 2.png");
     background-size: cover;
   }
+  .popup-content{
+    width: 75%;
+  }
   .collection-image-container {
     display: flex;
     flex-direction: row;
@@ -1209,6 +1236,7 @@
     height: 350px;
     width: 100%;
   }
+  
   .nnnn {
     flex-direction: column;
     display: flex;
@@ -1267,6 +1295,13 @@
     text-align: center;
     align-items: center;
   }
+   
+.product-section h2 {
+  font-family: "Manrope";
+  font-size: 22px;
+  font-weight: 600;
+
+}
   /*   
   .review-container button {
     background-color: #755c78;
@@ -1449,6 +1484,7 @@
     text-align: center;
     align-items: center;
   }
+  
 
   .review-container button {
     background-color: #755c78;
