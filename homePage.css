@@ -275,6 +275,7 @@
 .collection-container {
   margin-top: 100px;
   padding: 0px 70px 0px 80px;
+  position: relative;
 }
 
 .collection-logo {
@@ -975,11 +976,11 @@
     text-align: center;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     margin: 0px 20px 0px 20px;
   }
   .topwear-img-cont {
-    flex: 1 0 200px;
+    flex-wrap: nowrap;
     align-items: start;
     justify-content: flex-start;
     display: flex;
@@ -1081,7 +1082,7 @@
     text-align: center;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
   }
   .collection-image-container img {
     height: 350px;
@@ -1212,6 +1213,12 @@
   }
 }
 @media (max-width: 600px) {
+  .carousel-slide {
+    flex: 0 0 70.33%; 
+    padding: 10px;
+    box-sizing: border-box;
+    width: 40%;
+  }
   .content-box {
     width: 80%;
   }
@@ -1264,7 +1271,7 @@
   }
   .arrow-section {
     justify-content: flex-end;
-    display: none;
+    display:none;
     align-items: flex-end;
     gap: 20px;
     padding-right: 20px;
@@ -1365,7 +1372,7 @@
   }
   .dummy-text {
     padding-top: 0px;
-    top: 96%;
+    top: 95%;
   }
   .third-container p {
     text-align: center;

@@ -11,6 +11,8 @@
     />
     <link rel="stylesheet" href="homePage.css" />
     <link rel="stylesheet" href="common.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
     <style>
       .marquee {
         overflow: hidden;
@@ -33,6 +35,58 @@
         }
       }
     </style>
+     <style>
+      .carousel {
+        width:100%;
+        height: 100%;
+        overflow: hidden;
+      }
+      
+      .carousel-inner {
+        display: flex;
+        width: 100%;
+        gap: 0px;
+      }
+      
+      .carousel-slide {
+        flex: 0 0 33.33%; 
+        padding: 10px;
+        box-sizing: border-box;
+        
+      }
+      
+      .carousel-slide img {
+        width: 90%;
+        /* height: 100%; */
+        object-fit: cover;
+        border-radius: 20px;
+      }
+      
+      .carousel-btn {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        padding: 10px;
+        border: none;
+        background-color: transparent;
+        color: #fff;
+        cursor: pointer;
+      }
+      
+      .carousel-btn.next {
+        left: 87%;
+        top: 10%;
+        cursor: pointer;
+      }
+      
+      .carousel-btn.prev {
+        left: 80%;
+        top: 10%;
+        cursor: pointer;
+
+      }
+      
+        </style>
   </head>
   <body>
     <div>
@@ -43,22 +97,6 @@
             Use Code - PP1
           </h2>
           <section class="toppage-section">
-            <!-- <section class="top-heading">
-              <section class="logo-homepage">
-                <img src="./asset/headerLogo.png" class="logo" alt="" />
-              </section>
-
-              <section class="sellers">
-                <span>Best Sellers</span>
-                <span>Shop New Arrivals</span>
-                <span>Shop New Arrivals</span>
-              </section>
-              <section class="sellers">
-                <span>Search</span>
-                <span>Account</span>
-                <span>BAG0</span>
-              </section>
-            </section> -->
             <div class="login-header-container home">
               <div>
                 <img src="./asset/headerLogo.png" class="header-logo-image" />
@@ -168,11 +206,11 @@
               <h1>Shop <span class="our-collection">our collection</span></h1>
               </section>
               <section class="arrow-section">
-                <img src="./asset/LeftArrow.png" alt="" />
-                <img src="./asset/RightArrow.png" alt="" />
+                <img class="carousel-btn prev" src="./asset/LeftArrow.png" alt="" />
+                <img class="carousel-btn next" src="./asset/RightArrow.png" alt="" />
               </section>
             </section>
-            <section class="collection-image-container">
+            <!-- <section class="collection-image-container">
               <section class="topwear-img-cont">
                 <img src="./asset/Topwear.png" alt="" />
                 <span class="span-tag">Topwear</span>
@@ -185,7 +223,34 @@
               <section class="topwear-img-cont">
                 <img src="./asset/Topwear.png" alt="" />
                 <span class="span-tag">Topwear</span>
-              </section>
+              </section> -->
+              <div class="carousel">
+                <div class="carousel-inner collection-image-container">
+                  <section class="topwear-img-cont carousel-slide">
+                    <img src="./asset/Topwear.png" alt="" />
+                    <span class="span-tag">Topwear</span>
+                  </section>
+                  <section class="topwear-img-cont carousel-slide">
+                    <img src="./asset/Topwear.png" alt="" />
+                    <span class="span-tag">Topwear</span>
+                  </section>
+                  <section class="topwear-img-cont carousel-slide">
+                    <img src="./asset/Topwear.png" alt="" />
+                    <span class="span-tag">Topwear</span>
+                  </section>
+                  <section class="topwear-img-cont carousel-slide">
+                    <img src="./asset/Topwear.png" alt="" />
+                    <span class="span-tag">Topwear</span>
+                  </section>
+                  <section class="topwear-img-cont carousel-slide">
+                    <img src="./asset/Topwear.png" alt="" />
+                    <span class="span-tag">Topwear</span>
+                  </section>
+                  <!-- Add more carousel-slide divs for additional images -->
+                </div>
+                <!-- <button class="carousel-btn prev">Previous</button>
+                <button class="carousel-btn next">Next</button> -->
+              </div>
             </section>
           </div>
         </div>
@@ -574,5 +639,28 @@
           }
         });
       </script>
+      <script>
+        $(document).ready(function() {
+       var carouselInner = $('.carousel-inner');
+       var prevBtn = $('.prev');
+       var nextBtn = $('.next');
+     
+       var currentIndex = 0;
+       var slideCount = carouselInner.children().length;
+       var slidesInView = 3; // Number of slides to show at a time
+       var slideWidth = 100 / slidesInView;
+     
+       prevBtn.on('click', function() {
+         currentIndex = (currentIndex === 0) ? slideCount - slidesInView : currentIndex - 1;
+         carouselInner.css('transform', 'translateX(-' + currentIndex * slideWidth + '%)');
+       });
+     
+       nextBtn.on('click', function() {
+         currentIndex = (currentIndex === slideCount - slidesInView) ? 0 : currentIndex + 1;
+         carouselInner.css('transform', 'translateX(-' + currentIndex * slideWidth + '%)');
+       });
+     });
+     
+       </script>
   </body>
 </html>
