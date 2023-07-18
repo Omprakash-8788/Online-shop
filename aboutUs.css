@@ -451,3 +451,12 @@
 
   }
 }
+
+
+@media (min-height:1180px) and (min-width:820px) {
+
+  .aboutus-content-section{
+    display: flex;
+    flex-direction: column;
+  }
+}
