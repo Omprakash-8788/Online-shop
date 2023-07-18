@@ -16,6 +16,8 @@
       href="https://fonts.googleapis.com/css2?family=Manrope&display=swap"
       rel="stylesheet"
     />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
    
   </head>
   <body>
@@ -296,22 +298,23 @@
       </div>
     </div>
     <script>
-      document
-        .querySelector(".menu-icon")
-        .addEventListener("click", function () {
-          document.querySelector(".menu").classList.toggle("open");
-          const bars = document.querySelectorAll(".bar");
-          bars.forEach((bar) => bar.classList.toggle("animate"));
-        });
+      $(".menu-icon").click(function () {
+        $(".menu").toggleClass("open");
+        $(".bar").toggleClass("animate");
+      });
 
-      document.addEventListener("click", function (event) {
-        const menu = document.querySelector(".menu");
-        const menuIcon = document.querySelector(".menu-icon");
+      $(document).click(function (event) {
+        const menu = $(".menu");
+        const menuIcon = $(".menu-icon");
 
-        if (!menu.contains(event.target) && !menuIcon.contains(event.target)) {
-          menu.classList.remove("open");
-          const bars = document.querySelectorAll(".bar");
-          bars.forEach((bar) => bar.classList.remove("animate"));
+        if (
+          !menu.is(event.target) &&
+          !menuIcon.is(event.target) &&
+          menu.has(event.target).length === 0 &&
+          menuIcon.has(event.target).length === 0
+        ) {
+          menu.removeClass("open");
+          $(".bar").removeClass("animate");
         }
       });
     </script>

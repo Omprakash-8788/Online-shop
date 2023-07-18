@@ -9,7 +9,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fasthand&display=swap" rel="stylesheet">
-  </head>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  
+</head>
   <body>
     <div class="loginpagecontainer">
       <div class="loginpage-top-container">
@@ -228,23 +230,25 @@
 
     </div>
     <script>
-      document.querySelector('.menu-icon').addEventListener('click', function() {
-   document.querySelector('.menu').classList.toggle('open');
-   const bars = document.querySelectorAll('.bar');
-   bars.forEach(bar => bar.classList.toggle('animate'));
- });
- 
- document.addEventListener('click', function(event) {
-   const menu = document.querySelector('.menu');
-   const menuIcon = document.querySelector('.menu-icon');
- 
-   if (!menu.contains(event.target) && !menuIcon.contains(event.target)) {
-     menu.classList.remove('open');
-     const bars = document.querySelectorAll('.bar');
-     bars.forEach(bar => bar.classList.remove('animate'));
-   }
- });
- 
-     </script>
+      $(".menu-icon").click(function () {
+        $(".menu").toggleClass("open");
+        $(".bar").toggleClass("animate");
+      });
+
+      $(document).click(function (event) {
+        const menu = $(".menu");
+        const menuIcon = $(".menu-icon");
+
+        if (
+          !menu.is(event.target) &&
+          !menuIcon.is(event.target) &&
+          menu.has(event.target).length === 0 &&
+          menuIcon.has(event.target).length === 0
+        ) {
+          menu.removeClass("open");
+          $(".bar").removeClass("animate");
+        }
+      });
+    </script>
   </body>
 </html>

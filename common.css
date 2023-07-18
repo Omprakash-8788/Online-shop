@@ -64,6 +64,7 @@ header {
 
 .menu li {
   padding: 0 15px;
+  overflow-y: hidden;
 }
 
 .menu li a {
@@ -808,14 +809,6 @@ header {
     padding: 10px 0px 0px 0px;
   }
 
-  /* .subscribe {
-    top: 37%;
-    left: 60%;
-  } */
-  /* .bottom-container-contact input {
-    width: 65%;
-    height: 40px;
-  } */
   .bottom-container-contact h2 {
     font-size: 20px;
   }

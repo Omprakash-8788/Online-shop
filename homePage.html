@@ -1,216 +1,216 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Manrope&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="homePage.css" />
-    <link rel="stylesheet" href="common.css" />
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
-    <style>
-      .marquee {
-        overflow: hidden;
-        white-space: nowrap;
-        position: relative;
-        width: 100%;
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="homePage.css" />
+  <link rel="stylesheet" href="common.css" />
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  <style>
+    .marquee {
+      overflow: hidden;
+      white-space: nowrap;
+      position: relative;
+      width: 100%;
+    }
+
+    .marquee-content {
+      display: inline-block;
+      padding-left: 100%;
+      animation: marquee 30s linear infinite;
+    }
+
+    @keyframes marquee {
+      0% {
+        transform: translateX(0);
       }
 
-      .marquee-content {
-        display: inline-block;
-        padding-left: 100%;
-        animation: marquee 30s linear infinite;
+      100% {
+        transform: translateX(-100%);
       }
-      @keyframes marquee {
-        0% {
-          transform: translateX(0);
-        }
-        100% {
-          transform: translateX(-100%);
-        }
-      }
-    </style>
-     <style>
-      .carousel {
-        width:100%;
-        height: 100%;
-        overflow: hidden;
-      }
-      
-      .carousel-inner {
-        display: flex;
-        width: 100%;
-        gap: 0px;
-      }
-      
-      .carousel-slide {
-        flex: 0 0 33.33%; 
-        padding: 10px;
-        box-sizing: border-box;
-        
-      }
-      
-      .carousel-slide img {
-        width: 90%;
-        /* height: 100%; */
-        object-fit: cover;
-        border-radius: 20px;
-      }
-      
-      .carousel-btn {
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
-        padding: 10px;
-        border: none;
-        background-color: transparent;
-        color: #fff;
-        cursor: pointer;
-      }
-      
-      .carousel-btn.next {
-        left: 87%;
-        top: 10%;
-        cursor: pointer;
-      }
-      
-      .carousel-btn.prev {
-        left: 80%;
-        top: 10%;
-        cursor: pointer;
+    }
+  </style>
+  <style>
+    .carousel {
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+    }
 
-      }
-      
-        </style>
-  </head>
-  <body>
+    .carousel-inner {
+      display: flex;
+      width: 100%;
+      gap: 0px;
+    }
+
+    .carousel-slide {
+      flex: 0 0 33.33%;
+      padding: 10px;
+      box-sizing: border-box;
+
+    }
+
+    .carousel-slide img {
+      width: 90%;
+      /* height: 100%; */
+      object-fit: cover;
+      border-radius: 20px;
+    }
+
+    .carousel-btn {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      padding: 10px;
+      border: none;
+      background-color: transparent;
+      color: #fff;
+      cursor: pointer;
+    }
+
+    .carousel-btn.next {
+      left: 87%;
+      top: 10%;
+      cursor: pointer;
+    }
+
+    .carousel-btn.prev {
+      left: 80%;
+      top: 10%;
+      cursor: pointer;
+
+    }
+  </style>
+</head>
+
+<body>
+  <div>
     <div>
-      <div>
-        <div class="toppage-container">
-          <h2 class="trialsss">
-            Free Shipping Worldwide | Get Flat 10% off* On Your First Purchase |
-            Use Code - PP1
-          </h2>
-          <section class="toppage-section">
-            <div class="login-header-container home">
-              <div>
-                <img src="./asset/headerLogo.png" class="header-logo-image" />
-              </div>
-              <div class="header-best-sellers">
-                <ul>
-                  <li>BEST SELLERS</li>
-                  <li>SHOP NEW ARRIVALS</li>
-                  <li>SHOP NEW ARRIVALS</li>
-                </ul>
-              </div>
-              <div class="header-navbar">
-                <ul>
-                  <li>SEARCH</li>
-                  <li>ACCOUNT</li>
-                  <li>BAG 0</li>
-                </ul>
-              </div>
-              <header>
-                <nav>
-                  <div class="menu-icon">
-                    <div class="bar"></div>
-                    <div class="bar"></div>
-                    <div class="bar"></div>
-                  </div>
-                  <ul class="menu">
-                    <h2>All Pages</h2>
-                    <!-- <li><a href="#">Search</a></li>
+      <div class="toppage-container">
+        <h2 class="trialsss">
+          Free Shipping Worldwide | Get Flat 10% off* On Your First Purchase |
+          Use Code - PP1
+        </h2>
+        <section class="toppage-section">
+          <div class="login-header-container home">
+            <div>
+              <img src="./asset/headerLogo.png" class="header-logo-image" />
+            </div>
+            <div class="header-best-sellers">
+              <ul>
+                <li>BEST SELLERS</li>
+                <li>SHOP NEW ARRIVALS</li>
+                <li>SHOP NEW ARRIVALS</li>
+              </ul>
+            </div>
+            <div class="header-navbar">
+              <ul>
+                <li>SEARCH</li>
+                <li>ACCOUNT</li>
+                <li>BAG 0</li>
+              </ul>
+            </div>
+            <header>
+              <nav>
+                <div class="menu-icon">
+                  <div class="bar"></div>
+                  <div class="bar"></div>
+                  <div class="bar"></div>
+                </div>
+                <ul class="menu">
+                  <h2>All Pages</h2>
+                  <!-- <li><a href="#">Search</a></li>
                     <li><a href="#">Account</a></li>
                     <li><a href="#">Bag 0</a></li> -->
-                    <li><a href="./homePage.html">Home Page</a></li>
-                    <li><a href="./aboutUs.html">AboutUs Page</a></li>
-                    <li><a href="./contactUs.html">Contact Page</a></li>
-                    <li><a href="./dresess.html">Dresess Page</a></li>
-                    <li><a href="./loginPage.html">Login Page</a></li>
-                    <li><a href="./product.html">Product Page</a></li>
-                    <li><a href="./privacyPolicy.html">Privacy Policy Page</a></li>
-      
-                    <ul class="sellers">
-                      <h2>Sellers Page</h2>
-                      <li><a href="">Best Sellers</a></li>
-                      <li><a href="">Shop New Arrivals</a></li>
-                      <li><a href="">Shop New Arrivals</a></li>
-                    </ul>
-                  </ul>
-                </nav>
-              </header>
-            </div>
-                        <section class="content-box">
-              <h1>H1 Heading</h1>
-              <p>
-                Free Shipping Worldwide | Get Flat 10% off* On Your First
-                Purchase | Use Code - PP10 Free Shipping Worldwide | Get Flat
-                10% off* On Your First Purchase | Use Code - PP10
-              </p>
-              <button>Shop Now</button>
-            </section>
-          </section>
+                  <li><a href="./homePage.html">Home Page</a></li>
+                  <li><a href="./aboutUs.html">AboutUs Page</a></li>
+                  <li><a href="./contactUs.html">Contact Page</a></li>
+                  <li><a href="./dresess.html">Dresess Page</a></li>
+                  <li><a href="./loginPage.html">Login Page</a></li>
+                  <li><a href="./product.html">Product Page</a></li>
+                  <li><a href="./privacyPolicy.html">Privacy Policy Page</a></li>
 
-          <div class="dummy-text">
-            <div class="marquee">
-              <div class="marquee-content">
-                <span>Dummy Text</span>
-                <img src="./asset/Vector.png" alt="" />
-                <span>Dummy Text</span>
-                <img src="./asset/Vector.png" alt="" />
-                <span>Dummy Text</span>
-                <img src="./asset/Vector.png" alt="" />
-                <span>Dummy Text</span>
-                <img src="./asset/Vector.png" alt="" />
-                <span>Dummy Text</span>
-                <img src="./asset/Vector.png" alt="" />
-                <span>Dummy Text</span>
-                <img src="./asset/Vector.png" alt="" />
-                <span>Dummy Text</span>
-                <img src="./asset/Vector.png" alt="" />
-                <span>Dummy Text</span>
-                <img src="./asset/Vector.png" alt="" />
-                <span>Dummy Text</span>
-                <img src="./asset/Vector.png" alt="" />
-                <span>Dummy Text</span>
-                <img src="./asset/Vector.png" alt="" />
-                <span>Dummy Text</span>
-                <img src="./asset/Vector.png" alt="" />
-                <span>Dummy Text</span>
-                <img src="./asset/Vector.png" alt="" />
-                <span>Dummy Text</span>
-                <img src="./asset/Vector.png" alt="" />
-                <span>Dummy Text</span>
-                <span>Dummy Text</span>
-                <img src="./asset/Vector.png" alt="" />
-                <span>Dummy Text</span>
-                <img src="./asset/Vector.png" alt="" />
-                <span>Dummy Text</span>
-                <img src="./asset/Vector.png" alt="" /><span>Dummy Text</span>
-                <img src="./asset/Vector.png" alt="" />
-              </div>
+                  <ul class="sellers">
+                    <h2>Sellers Page</h2>
+                    <li><a href="">Best Sellers</a></li>
+                    <li><a href="">Shop New Arrivals</a></li>
+                    <li><a href="">Shop New Arrivals</a></li>
+                  </ul>
+                </ul>
+              </nav>
+            </header>
+          </div>
+          <section class="content-box">
+            <h1>H1 Heading</h1>
+            <p>
+              Free Shipping Worldwide | Get Flat 10% off* On Your First
+              Purchase | Use Code - PP10 Free Shipping Worldwide | Get Flat
+              10% off* On Your First Purchase | Use Code - PP10
+            </p>
+            <button>Shop Now</button>
+          </section>
+        </section>
+
+        <div class="dummy-text">
+          <div class="marquee">
+            <div class="marquee-content">
+              <span>Dummy Text</span>
+              <img src="./asset/Vector.png" alt="" />
+              <span>Dummy Text</span>
+              <img src="./asset/Vector.png" alt="" />
+              <span>Dummy Text</span>
+              <img src="./asset/Vector.png" alt="" />
+              <span>Dummy Text</span>
+              <img src="./asset/Vector.png" alt="" />
+              <span>Dummy Text</span>
+              <img src="./asset/Vector.png" alt="" />
+              <span>Dummy Text</span>
+              <img src="./asset/Vector.png" alt="" />
+              <span>Dummy Text</span>
+              <img src="./asset/Vector.png" alt="" />
+              <span>Dummy Text</span>
+              <img src="./asset/Vector.png" alt="" />
+              <span>Dummy Text</span>
+              <img src="./asset/Vector.png" alt="" />
+              <span>Dummy Text</span>
+              <img src="./asset/Vector.png" alt="" />
+              <span>Dummy Text</span>
+              <img src="./asset/Vector.png" alt="" />
+              <span>Dummy Text</span>
+              <img src="./asset/Vector.png" alt="" />
+              <span>Dummy Text</span>
+              <img src="./asset/Vector.png" alt="" />
+              <span>Dummy Text</span>
+              <span>Dummy Text</span>
+              <img src="./asset/Vector.png" alt="" />
+              <span>Dummy Text</span>
+              <img src="./asset/Vector.png" alt="" />
+              <span>Dummy Text</span>
+              <img src="./asset/Vector.png" alt="" /><span>Dummy Text</span>
+              <img src="./asset/Vector.png" alt="" />
             </div>
           </div>
         </div>
+      </div>
 
-        <div>
-          <div class="collection-container">
-            <section class="collection-heading">
-              <section class="collection-logo">
-                <img src="./asset/image 1.png" width="{50}" alt="" />
+      <div>
+        <div class="collection-container">
+          <section class="collection-heading">
+            <section class="collection-logo">
+              <img src="./asset/image 1.png" width="{50}" alt="" />
               <h1>Shop <span class="our-collection">our collection</span></h1>
-              </section>
-              <section class="arrow-section">
-                <img class="carousel-btn prev" src="./asset/LeftArrow.png" alt="" />
-                <img class="carousel-btn next" src="./asset/RightArrow.png" alt="" />
-              </section>
             </section>
-            <!-- <section class="collection-image-container">
+            <section class="arrow-section">
+              <img class="carousel-btn prev" src="./asset/LeftArrow.png" alt="" />
+              <img class="carousel-btn next" src="./asset/RightArrow.png" alt="" />
+            </section>
+          </section>
+          <!-- <section class="collection-image-container">
               <section class="topwear-img-cont">
                 <img src="./asset/Topwear.png" alt="" />
                 <span class="span-tag">Topwear</span>
@@ -224,443 +224,387 @@
                 <img src="./asset/Topwear.png" alt="" />
                 <span class="span-tag">Topwear</span>
               </section> -->
-              <div class="carousel">
-                <div class="carousel-inner collection-image-container">
-                  <section class="topwear-img-cont carousel-slide">
-                    <img src="./asset/Topwear.png" alt="" />
-                    <span class="span-tag">Topwear</span>
-                  </section>
-                  <section class="topwear-img-cont carousel-slide">
-                    <img src="./asset/Topwear.png" alt="" />
-                    <span class="span-tag">Topwear</span>
-                  </section>
-                  <section class="topwear-img-cont carousel-slide">
-                    <img src="./asset/Topwear.png" alt="" />
-                    <span class="span-tag">Topwear</span>
-                  </section>
-                  <section class="topwear-img-cont carousel-slide">
-                    <img src="./asset/Topwear.png" alt="" />
-                    <span class="span-tag">Topwear</span>
-                  </section>
-                  <section class="topwear-img-cont carousel-slide">
-                    <img src="./asset/Topwear.png" alt="" />
-                    <span class="span-tag">Topwear</span>
-                  </section>
-                  <!-- Add more carousel-slide divs for additional images -->
-                </div>
-                <!-- <button class="carousel-btn prev">Previous</button>
+          <div class="carousel">
+            <div class="carousel-inner collection-image-container">
+              <section class="topwear-img-cont carousel-slide">
+                <img src="./asset/Topwear.png" alt="" />
+                <span class="span-tag">Topwear</span>
+              </section>
+              <section class="topwear-img-cont carousel-slide">
+                <img src="./asset/Topwear.png" alt="" />
+                <span class="span-tag">Topwear</span>
+              </section>
+              <section class="topwear-img-cont carousel-slide">
+                <img src="./asset/Topwear.png" alt="" />
+                <span class="span-tag">Topwear</span>
+              </section>
+              <section class="topwear-img-cont carousel-slide">
+                <img src="./asset/Topwear.png" alt="" />
+                <span class="span-tag">Topwear</span>
+              </section>
+              <section class="topwear-img-cont carousel-slide">
+                <img src="./asset/Topwear.png" alt="" />
+                <span class="span-tag">Topwear</span>
+              </section>
+              <!-- Add more carousel-slide divs for additional images -->
+            </div>
+            <!-- <button class="carousel-btn prev">Previous</button>
                 <button class="carousel-btn next">Next</button> -->
-              </div>
+          </div>
+          </section>
+        </div>
+      </div>
+
+      <div class="third-container">
+        <img src="./asset/PlayButton.png" id="openPopup" class="PlayButton" alt="play" />
+
+        <div id="popup" class="popup">
+          <div class="popup-content">
+            <span id="closePopup" class="close">&times;</span>
+            <h1>Purple Potato</h1>
+          </div>
+        </div>
+
+        <h1>H1 Heading</h1>
+        <p>
+          Our vintage-inspired, unique, and limited-run occasion styles are
+          made to love forever.
+        </p>
+        <img src="./asset/Rectangle 2.png" alt="" class="vintage-image" />
+      </div>
+
+      <div>
+        <div class="main-box">
+          <div class="inner-box1">
+            <section class="inner-box1-imagecontent">
+              <img src="./asset/Rectangle 19.png" height="{590}" width="{650}" alt="Large Image" />
+              <h2>Collection Title</h2>
+              <h3>
+                Our vintage-inspired, unique, and limited-run occasion styles
+                are made to love forever.
+              </h3>
+              <h3 class="shop-now">Shop Now -></h3>
+            </section>
+          </div>
+          <div class="inner-box2">
+            <section class="inner-box2-section">
+              <img src="./asset/Rectangle 96.png" class="model-girl" alt="Image 1" />
+              <h3>Product Title</h3>
+              <h4>Product Short Description</h4>
+              <button>ADD TO BAG - ₹2,500</button>
+            </section>
+            <section class="inner-box2-section">
+              <img src="./asset/Rectangle 96.png" class="model-girl" alt="Image 1" />
+              <h3>Product Title</h3>
+              <h4>Product Short Description</h4>
+              <button>ADD TO BAG - ₹2,500</button>
+            </section>
+            <section class="inner-box2-section">
+              <img src="./asset/Rectangle 96.png" class="model-girl" alt="Image 1" />
+              <h3>Product Title</h3>
+              <h4>Product Short Description</h4>
+              <button>ADD TO BAG - ₹2,500</button>
+            </section>
+            <section class="inner-box2-section">
+              <img src="./asset/Rectangle 96.png" class="model-girl" alt="Image 1" />
+              <h3>Product Title</h3>
+              <h4>Product Short Description</h4>
+              <button>ADD TO BAG - ₹2,500</button>
             </section>
           </div>
         </div>
+      </div>
 
-        <div class="third-container">
-          <img
-            src="./asset/PlayButton.png"
-            id="openPopup"
-            class="PlayButton"
-            alt="play"
-          />
-
-          <div id="popup" class="popup">
-            <div class="popup-content">
-              <span id="closePopup" class="close">&times;</span>
-              <h1>Purple Potato</h1>
-            </div>
+      <div class="fourth-container">
+        <div class="fourth-container-content">
+          <div class="fourth-container-logo-section">
+            <img src="{Logo}" width="{37}" height="{62}" alt="" />
+            <h1>Shop <span class="new-arrivals">new arrivals</span></h1>
           </div>
-
-          <h1>H1 Heading</h1>
-          <p>
-            Our vintage-inspired, unique, and limited-run occasion styles are
-            made to love forever.
-          </p>
-          <img src="./asset/Rectangle 2.png" alt="" class="vintage-image" />
+          <div>
+            <h2 class="go-to-collection">Go to collection</h2>
+          </div>
         </div>
+        <div class="fourth-container-images">
+          <section class="inner-boxes2-section">
+            <img src="./asset/Rectangle 96.png" class="fourth-container-img" alt="Image 1" />
+            <h3>Product Title</h3>
+            <h4>Product Short Description</h4>
+            <button>ADD TO BAG - ₹2,500</button>
+          </section>
+          <section class="inner-boxes2-section">
+            <img src="./asset/Rectangle 96.png" class="fourth-container-img" alt="Image 1" />
+            <h3>Product Title</h3>
+            <h4>Product Short Description</h4>
+            <button>ADD TO BAG - ₹2,500</button>
+          </section>
 
+          <section class="inner-boxes2-section">
+            <img src="./asset/Rectangle 96.png" class="fourth-container-img" alt="Image 1" />
+            <h3>Product Title</h3>
+            <h4>Product Short Description</h4>
+            <button>ADD TO BAG - ₹2,500</button>
+          </section>
+
+          <section class="inner-boxes2-section">
+            <img src="./asset/Rectangle 96.png" class="fourth-container-img" alt="Image 1" />
+            <h3>Product Title</h3>
+            <h4>Product Short Description</h4>
+            <button>ADD TO BAG - ₹2,500</button>
+          </section>
+          <section class="inner-boxes2-section">
+            <img src="./asset/Rectangle 96.png" class="fourth-container-img" alt="Image 1" />
+            <h3>Product Title</h3>
+            <h4>Product Short Description</h4>
+            <button>ADD TO BAG - ₹2,500</button>
+          </section>
+          <section class="inner-boxes2-section">
+            <img src="./asset/Rectangle 96.png" class="fourth-container-img" alt="Image 1" />
+            <h3>Product Title</h3>
+            <h4>Product Short Description</h4>
+            <button>ADD TO BAG - ₹2,500</button>
+          </section>
+          <section class="inner-boxes2-section">
+            <img src="./asset/Rectangle 96.png" class="fourth-container-img" alt="Image 1" />
+            <h3>Product Title</h3>
+            <h4>Product Short Description</h4>
+            <button>ADD TO BAG - ₹2,500</button>
+          </section>
+          <section class="inner-boxes2-section">
+            <img src="./asset/Rectangle 96.png" class="fourth-container-img" alt="Image 1" />
+            <h3>Product Title</h3>
+            <h4>Product Short Description</h4>
+            <button>ADD TO BAG - ₹2,500</button>
+          </section>
+        </div>
+      </div>
+
+      <div class="fifth-container">
         <div>
-          <div class="main-box">
-            <div class="inner-box1">
-              <section class="inner-box1-imagecontent">
-                <img
-                  src="./asset/Rectangle 19.png"
-                  height="{590}"
-                  width="{650}"
-                  alt="Large Image"
-                />
-                <h2>Collection Title</h2>
-                <h3>
-                  Our vintage-inspired, unique, and limited-run occasion styles
-                  are made to love forever.
-                </h3>
-                <h3 class="shop-now">Shop Now -></h3>
-              </section>
-            </div>
-            <div class="inner-box2">
-              <section class="inner-box2-section">
-                <img
-                  src="./asset/Rectangle 96.png"
-                  class="model-girl"
-                  alt="Image 1"
-                />
-                <h3>Product Title</h3>
-                <h4>Product Short Description</h4>
-                <button>ADD TO BAG - ₹2,500</button>
-              </section>
-              <section class="inner-box2-section">
-                <img
-                  src="./asset/Rectangle 96.png"
-                  class="model-girl"
-                  alt="Image 1"
-                />
-                <h3>Product Title</h3>
-                <h4>Product Short Description</h4>
-                <button>ADD TO BAG - ₹2,500</button>
-              </section>
-              <section class="inner-box2-section">
-                <img
-                  src="./asset/Rectangle 96.png"
-                  class="model-girl"
-                  alt="Image 1"
-                />
-                <h3>Product Title</h3>
-                <h4>Product Short Description</h4>
-                <button>ADD TO BAG - ₹2,500</button>
-              </section>
-              <section class="inner-box2-section">
-                <img
-                  src="./asset/Rectangle 96.png"
-                  class="model-girl"
-                  alt="Image 1"
-                />
-                <h3>Product Title</h3>
-                <h4>Product Short Description</h4>
-                <button>ADD TO BAG - ₹2,500</button>
-              </section>
-            </div>
+          <img src="./asset/Rectangle 2.png" />
+        </div>
+        <h2>FEMALE FOUNDERS</h2>
+        <p>
+          The story of PURPLEPOTATO began in 2015, in the living room of our
+          University flat. We had become best friends over our love of
+          vintage, and we wanted to bridge amazing fit with unique designs and
+          prints. Eight years later, our philosophy has stayed the same, and
+          we are so proud to now be dressing women all over the world.
+        </p>
+        <h4>SHOP NOW</h4>
+      </div>
+
+      <div class="sixth-container">
+        <div class="product-section">
+          <h2>Great Product!</h2>
+          <section class="star-container">
+            <img src="./asset/star.png" class="star-container-image" alt="" />
+            <img src="./asset/star.png" class="star-container-image" alt="" />
+            <img src="./asset/star.png" class="star-container-image" alt="" />
+            <img src="./asset/star.png" class="star-container-image" alt="" />
+            <img src="./asset/star.png" class="star-container-image" alt="" />
+            <span>5/5 star</span>
+          </section>
+        </div>
+        <div class="quality-section">
+          <h2>
+            Very good quality and style products and the team is very
+            professional and friendly. Must try 🙏
+          </h2>
+          <section class="quality-section-star">
+            <img src="./asset/star.png" class="star-container-image" alt="" />
+            <img src="./asset/star.png" class="star-container-image" alt="" />
+            <img src="./asset/star.png" class="star-container-image" alt="" />
+            <img src="./asset/star.png" class="star-container-image" alt="" />
+            <img src="./asset/star.png" class="star-container-image" alt="" />
+          </section>
+          <section class="review-container">
+            <h3>XYZ Name</h3>
+            <button>See All Reviews</button>
+            <img src="./asset/RightArrow.png" class="right-arrow" />
+          </section>
+        </div>
+      </div>
+
+      <div class="seventh-container">
+        <h2 class="living-the-gram">Livin the gram life</h2>
+        <div class="group-image-container">
+          <div class="group-image-firstcont">
+            <img src="./asset/Rectangle 19.png" alt="" />
+          </div>
+          <div class="bottom-group-images">
+            <img src="./asset/Group1.png" alt="" />
+            <img src="./asset/Group2.png" alt="" />
+            <img src="./asset/Group3.png" alt="" />
+            <img src="./asset/Group4.png" alt="" />
+            <img src="./asset/Group5.png" alt="" />
+            <img src="./asset/Group6.png" alt="" />
           </div>
         </div>
+      </div>
 
-        <div class="fourth-container">
-          <div class="fourth-container-content">
-            <div class="fourth-container-logo-section">
-              <img src="{Logo}" width="{37}" height="{62}" alt="" />
-              <h1>Shop <span class="new-arrivals">new arrivals</span></h1>
+      <div class="bottom-container">
+        <div class="bottom-container-first">
+          <section class="bottom-container-first-content">
+            <img src="./asset/bottom-star.png" class="small-icons" alt="" />
+            <section>
+              <p class="exclusive-text">EXCLUSIVE</p>
+              <p class="small-icon-text">
+                Monthly collections, limited runs, exclusive styles
+              </p>
+            </section>
+          </section>
+          <section class="bottom-container-first-content">
+            <img src="./asset/Sizing.png" class="small-icons" alt="" />
+            <section>
+              <p class="exclusive-text">EXTENDED SIZING</p>
+              <p class="small-icon-text">Selected styles up to UK 24</p>
+            </section>
+          </section>
+          <section class="bottom-container-first-content">
+            <img src="./asset/Call.png" class="small-icons" alt="" />
+            <section>
+              <p class="exclusive-text">WE'RE HERE TO HELP</p>
+              <p class="small-icon-text">
+                Call, message or email us Contact Us
+              </p>
+            </section>
+          </section>
+        </div>
+        <div class="bottom-container-second">
+          <div class="bottom-container-logo">
+            <section>
+              <img src="./asset/headerLogo.png" />
+            </section>
+            <section>
+              PurplePotato dummy content. PurplePotato dummy content.
+              PurplePotato dummy content. PurplePotato dummy content.
+            </section>
+            <section>
+              <span>Mail: hi@xyz.com</span>
+              <span>Tel: +91 8888 88888</span>
+            </section>
+          </div>
+          <div class="bottom-container-social">
+            <div>
+              <h3>Social</h3>
+              <ul>
+                <li>Facebook</li>
+                <li>Instagram</li>
+                <li>Youtube</li>
+              </ul>
             </div>
             <div>
-              <h2 class="go-to-collection">Go to collection</h2>
+              <h3>About Us</h3>
+              <ul>
+                <li>Facebook</li>
+                <li>Instagram</li>
+                <li>Youtube</li>
+              </ul>
+            </div>
+            <div>
+              <h3>Help</h3>
+              <ul>
+                <li>Facebook</li>
+                <li>Instagram</li>
+                <li>Youtube</li>
+              </ul>
             </div>
           </div>
-          <div class="fourth-container-images">
-            <section class="inner-boxes2-section">
-              <img
-                src="./asset/Rectangle 96.png"
-                class="fourth-container-img"
-                alt="Image 1"
-              />
-              <h3>Product Title</h3>
-              <h4>Product Short Description</h4>
-              <button>ADD TO BAG - ₹2,500</button>
-            </section>
-            <section class="inner-boxes2-section">
-              <img
-                src="./asset/Rectangle 96.png"
-                class="fourth-container-img"
-                alt="Image 1"
-              />
-              <h3>Product Title</h3>
-              <h4>Product Short Description</h4>
-              <button>ADD TO BAG - ₹2,500</button>
-            </section>
+          <div class="bottom-container-contact">
+            <h2>Subscribe to our newsletter!</h2>
 
-            <section class="inner-boxes2-section">
-              <img
-                src="./asset/Rectangle 96.png"
-                class="fourth-container-img"
-                alt="Image 1"
-              />
-              <h3>Product Title</h3>
-              <h4>Product Short Description</h4>
-              <button>ADD TO BAG - ₹2,500</button>
-            </section>
-
-            <section class="inner-boxes2-section">
-              <img
-                src="./asset/Rectangle 96.png"
-                class="fourth-container-img"
-                alt="Image 1"
-              />
-              <h3>Product Title</h3>
-              <h4>Product Short Description</h4>
-              <button>ADD TO BAG - ₹2,500</button>
-            </section>
-            <section class="inner-boxes2-section">
-              <img
-                src="./asset/Rectangle 96.png"
-                class="fourth-container-img"
-                alt="Image 1"
-              />
-              <h3>Product Title</h3>
-              <h4>Product Short Description</h4>
-              <button>ADD TO BAG - ₹2,500</button>
-            </section>
-            <section class="inner-boxes2-section">
-              <img
-                src="./asset/Rectangle 96.png"
-                class="fourth-container-img"
-                alt="Image 1"
-              />
-              <h3>Product Title</h3>
-              <h4>Product Short Description</h4>
-              <button>ADD TO BAG - ₹2,500</button>
-            </section>
-            <section class="inner-boxes2-section">
-              <img
-                src="./asset/Rectangle 96.png"
-                class="fourth-container-img"
-                alt="Image 1"
-              />
-              <h3>Product Title</h3>
-              <h4>Product Short Description</h4>
-              <button>ADD TO BAG - ₹2,500</button>
-            </section>
-            <section class="inner-boxes2-section">
-              <img
-                src="./asset/Rectangle 96.png"
-                class="fourth-container-img"
-                alt="Image 1"
-              />
-              <h3>Product Title</h3>
-              <h4>Product Short Description</h4>
-              <button>ADD TO BAG - ₹2,500</button>
+            <section class="email-subscribe">
+              <input placeholder="Enter Email" />
+              <span class="subscribe">Subscribe</span>
             </section>
           </div>
         </div>
-
-        <div class="fifth-container">
-          <div>
-            <img src="./asset/Rectangle 2.png" />
+        <div class="bottom-container-third">
+          <div class="purple2023">
+            <p>© PURPLEPOTATO ⋆ 2023</p>
           </div>
-          <h2>FEMALE FOUNDERS</h2>
-          <p>
-            The story of PURPLEPOTATO began in 2015, in the living room of our
-            University flat. We had become best friends over our love of
-            vintage, and we wanted to bridge amazing fit with unique designs and
-            prints. Eight years later, our philosophy has stayed the same, and
-            we are so proud to now be dressing women all over the world.
-          </p>
-          <h4>SHOP NOW</h4>
-        </div>
-
-        <div class="sixth-container">
-          <div class="product-section">
-            <h2>Great Product!</h2>
-            <section class="star-container">
-              <img src="./asset/star.png" class="star-container-image" alt="" />
-              <img src="./asset/star.png" class="star-container-image" alt="" />
-              <img src="./asset/star.png" class="star-container-image" alt="" />
-              <img src="./asset/star.png" class="star-container-image" alt="" />
-              <img src="./asset/star.png" class="star-container-image" alt="" />
-              <span>5/5 star</span>
-            </section>
+          <div class="payment-icons">
+            <img src="./asset/Amex.png" alt="payment-icons" />
+            <img src="./asset/iPay.png" alt="payment-icons" />
+            <img src="./asset/PayPal.png" alt="payment-icons" />
+            <img src="./asset/MasterCard.png" alt="payment-icons" />
+            <img src="./asset/VISA.png" alt="payment-icons" />
+            <img src="./asset/UPI.png" alt="payment-icons" />
           </div>
-          <div class="quality-section">
-            <h2>
-              Very good quality and style products and the team is very
-              professional and friendly. Must try 🙏
-            </h2>
-            <section class="quality-section-star">
-              <img src="./asset/star.png" class="star-container-image" alt="" />
-              <img src="./asset/star.png" class="star-container-image" alt="" />
-              <img src="./asset/star.png" class="star-container-image" alt="" />
-              <img src="./asset/star.png" class="star-container-image" alt="" />
-              <img src="./asset/star.png" class="star-container-image" alt="" />
-            </section>
-            <section class="review-container">
-              <h3>XYZ Name</h3>
-              <button>See All Reviews</button>
-              <img src="./asset/RightArrow.png" class="right-arrow" />
-            </section>
-          </div>
-        </div>
-
-        <div class="seventh-container">
-          <h2 class="living-the-gram">Livin the gram life</h2>
-          <div class="group-image-container">
-            <div class="group-image-firstcont">
-              <img src="./asset/Rectangle 19.png" alt="" />
-            </div>
-            <div class="bottom-group-images">
-              <img src="./asset/Group1.png" alt="" />
-              <img src="./asset/Group2.png" alt="" />
-              <img src="./asset/Group3.png" alt="" />
-              <img src="./asset/Group4.png" alt="" />
-              <img src="./asset/Group5.png" alt="" />
-              <img src="./asset/Group6.png" alt="" />
-            </div>
-          </div>
-        </div>
-
-        <div class="bottom-container">
-          <div class="bottom-container-first">
-            <section class="bottom-container-first-content">
-              <img src="./asset/bottom-star.png" class="small-icons" alt="" />
-              <section>
-                <p class="exclusive-text">EXCLUSIVE</p>
-                <p class="small-icon-text">
-                  Monthly collections, limited runs, exclusive styles
-                </p>
-              </section>
-            </section>
-            <section class="bottom-container-first-content">
-              <img src="./asset/Sizing.png" class="small-icons" alt="" />
-              <section>
-                <p class="exclusive-text">EXTENDED SIZING</p>
-                <p class="small-icon-text">Selected styles up to UK 24</p>
-              </section>
-            </section>
-            <section class="bottom-container-first-content">
-              <img src="./asset/Call.png" class="small-icons" alt="" />
-              <section>
-                <p class="exclusive-text">WE'RE HERE TO HELP</p>
-                <p class="small-icon-text">
-                  Call, message or email us Contact Us
-                </p>
-              </section>
-            </section>
-          </div>
-          <div class="bottom-container-second">
-            <div class="bottom-container-logo">
-              <section>
-                <img src="./asset/headerLogo.png" />
-              </section>
-              <section>
-                PurplePotato dummy content. PurplePotato dummy content.
-                PurplePotato dummy content. PurplePotato dummy content.
-              </section>
-              <section>
-                <span>Mail: hi@xyz.com</span>
-                <span>Tel: +91 8888 88888</span>
-              </section>
-            </div>
-            <div class="bottom-container-social">
-              <div>
-                <h3>Social</h3>
-                <ul>
-                  <li>Facebook</li>
-                  <li>Instagram</li>
-                  <li>Youtube</li>
-                </ul>
-              </div>
-              <div>
-                <h3>About Us</h3>
-                <ul>
-                  <li>Facebook</li>
-                  <li>Instagram</li>
-                  <li>Youtube</li>
-                </ul>
-              </div>
-              <div>
-                <h3>Help</h3>
-                <ul>
-                  <li>Facebook</li>
-                  <li>Instagram</li>
-                  <li>Youtube</li>
-                </ul>
-              </div>
-            </div>
-            <div class="bottom-container-contact">
-              <h2>Subscribe to our newsletter!</h2>
-
-              <section class="email-subscribe">
-                <input placeholder="Enter Email" />
-                <span class="subscribe">Subscribe</span>
-              </section>
-            </div>
-          </div>
-          <div class="bottom-container-third">
-            <div class="purple2023">
-              <p>© PURPLEPOTATO ⋆ 2023</p>
-            </div>
-            <div class="payment-icons">
-              <img src="./asset/Amex.png" alt="payment-icons" />
-              <img src="./asset/iPay.png"  alt="payment-icons"/>
-              <img src="./asset/PayPal.png"  alt="payment-icons"/>
-              <img src="./asset/MasterCard.png"  alt="payment-icons"/>
-              <img src="./asset/VISA.png"  alt="payment-icons" />
-              <img src="./asset/UPI.png"  alt="payment-icons"/>
-            </div>
-            <div class="bottom-cont-pages">
-              <a href="privacyPolicy.html">Privacy Policy</a>
-              <span>Cookie Policy</span>
-              <span>Terms & Conditions</span>
-            </div>
+          <div class="bottom-cont-pages">
+            <a href="privacyPolicy.html">Privacy Policy</a>
+            <span>Cookie Policy</span>
+            <span>Terms & Conditions</span>
           </div>
         </div>
       </div>
     </div>
-    <script>
-      document
-        .getElementById("openPopup")
-        .addEventListener("click", function () {
-          document.getElementById("popup").style.display = "block";
-        });
-
-      document
-        .getElementById("closePopup")
-        .addEventListener("click", function () {
-          document.getElementById("popup").style.display = "none";
-        });
-
-      window.addEventListener("click", function (event) {
-        var popup = document.getElementById("popup");
-        if (event.target == popup) {
-          popup.style.display = "none";
-        }
+  </div>
+  <script>
+    document
+      .getElementById("openPopup")
+      .addEventListener("click", function () {
+        document.getElementById("popup").style.display = "block";
       });
-    </script>
-      <script>
-        document
-          .querySelector(".menu-icon")
-          .addEventListener("click", function () {
-            document.querySelector(".menu").classList.toggle("open");
-            const bars = document.querySelectorAll(".bar");
-            bars.forEach((bar) => bar.classList.toggle("animate"));
-          });
-  
-        document.addEventListener("click", function (event) {
-          const menu = document.querySelector(".menu");
-          const menuIcon = document.querySelector(".menu-icon");
-  
-          if (!menu.contains(event.target) && !menuIcon.contains(event.target)) {
-            menu.classList.remove("open");
-            const bars = document.querySelectorAll(".bar");
-            bars.forEach((bar) => bar.classList.remove("animate"));
-          }
-        });
-      </script>
-      <script>
-        $(document).ready(function() {
-       var carouselInner = $('.carousel-inner');
-       var prevBtn = $('.prev');
-       var nextBtn = $('.next');
-     
-       var currentIndex = 0;
-       var slideCount = carouselInner.children().length;
-       var slidesInView = 3; // Number of slides to show at a time
-       var slideWidth = 100 / slidesInView;
-     
-       prevBtn.on('click', function() {
-         currentIndex = (currentIndex === 0) ? slideCount - slidesInView : currentIndex - 1;
-         carouselInner.css('transform', 'translateX(-' + currentIndex * slideWidth + '%)');
-       });
-     
-       nextBtn.on('click', function() {
-         currentIndex = (currentIndex === slideCount - slidesInView) ? 0 : currentIndex + 1;
-         carouselInner.css('transform', 'translateX(-' + currentIndex * slideWidth + '%)');
-       });
-     });
-     
-       </script>
-  </body>
+
+    document
+      .getElementById("closePopup")
+      .addEventListener("click", function () {
+        document.getElementById("popup").style.display = "none";
+      });
+
+    window.addEventListener("click", function (event) {
+      var popup = document.getElementById("popup");
+      if (event.target == popup) {
+        popup.style.display = "none";
+      }
+    });
+  </script>
+   <script>
+    $(".menu-icon").click(function () {
+      $(".menu").toggleClass("open");
+      $(".bar").toggleClass("animate");
+    });
+
+    $(document).click(function (event) {
+      const menu = $(".menu");
+      const menuIcon = $(".menu-icon");
+
+      if (
+        !menu.is(event.target) &&
+        !menuIcon.is(event.target) &&
+        menu.has(event.target).length === 0 &&
+        menuIcon.has(event.target).length === 0
+      ) {
+        menu.removeClass("open");
+        $(".bar").removeClass("animate");
+      }
+    });
+  </script>
+  <script>
+    $(document).ready(function () {
+      var carouselInner = $('.carousel-inner');
+      var prevBtn = $('.prev');
+      var nextBtn = $('.next');
+
+      var currentIndex = 0;
+      var slideCount = carouselInner.children().length;
+      var slidesInView = 3; // Number of slides to show at a time
+      var slideWidth = 100 / slidesInView;
+
+      prevBtn.on('click', function () {
+        currentIndex = (currentIndex === 0) ? slideCount - slidesInView : currentIndex - 1;
+        carouselInner.css('transform', 'translateX(-' + currentIndex * slideWidth + '%)');
+      });
+
+      nextBtn.on('click', function () {
+        currentIndex = (currentIndex === slideCount - slidesInView) ? 0 : currentIndex + 1;
+        carouselInner.css('transform', 'translateX(-' + currentIndex * slideWidth + '%)');
+      });
+    });
+
+  </script>
+</body>
+
 </html>
