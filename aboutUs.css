@@ -453,10 +453,14 @@
 }
 
 
-@media (min-height:1450px) and (min-width:845px) {
+@media (min-height:1450px) and (min-width:840px) {
 
   .aboutus-content-section{
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
+  }
+  .aboutus-text-section p{
+    padding-left: 15px;
+    
   }
 }
