@@ -459,17 +459,17 @@
 
 
 @media (min-height:1450px) and (min-width:840px) {
-  /* .contactus-text{
-    padding: 30px 30px 50px 30px  ;
+  .contactus-text{
+    padding: 30px 20px 50px 20px  ;
 
   }
   .contactus-text h1{
-    font-size: 19px;
+    font-size: 23px;
   }
   .contactus-text p{
-    font-size: 10px;
+    font-size: 15px;
     padding-top: 10px;
-  } */
+  }
 
  
 }
