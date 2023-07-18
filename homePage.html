@@ -35,57 +35,6 @@
       }
     }
   </style>
-  <style>
-    .carousel {
-      width: 100%;
-      height: 100%;
-      overflow: hidden;
-    }
-
-    .carousel-inner {
-      display: flex;
-      width: 100%;
-      gap: 0px;
-    }
-
-    .carousel-slide {
-      flex: 0 0 33.33%;
-      padding: 10px;
-      box-sizing: border-box;
-
-    }
-
-    .carousel-slide img {
-      width: 90%;
-      /* height: 100%; */
-      object-fit: cover;
-      border-radius: 20px;
-    }
-
-    .carousel-btn {
-      position: absolute;
-      top: 50%;
-      transform: translateY(-50%);
-      padding: 10px;
-      border: none;
-      background-color: transparent;
-      color: #fff;
-      cursor: pointer;
-    }
-
-    .carousel-btn.next {
-      left: 87%;
-      top: 10%;
-      cursor: pointer;
-    }
-
-    .carousel-btn.prev {
-      left: 80%;
-      top: 10%;
-      cursor: pointer;
-
-    }
-  </style>
 </head>
 
 <body>
@@ -210,20 +159,6 @@
               <img class="carousel-btn next" src="./asset/RightArrow.png" alt="" />
             </section>
           </section>
-          <!-- <section class="collection-image-container">
-              <section class="topwear-img-cont">
-                <img src="./asset/Topwear.png" alt="" />
-                <span class="span-tag">Topwear</span>
-              </section>
-
-              <section class="topwear-img-cont">
-                <img src="./asset/Topwear.png" alt="" />
-                <span class="span-tag">Topwear</span>
-              </section>
-              <section class="topwear-img-cont">
-                <img src="./asset/Topwear.png" alt="" />
-                <span class="span-tag">Topwear</span>
-              </section> -->
           <div class="carousel">
             <div class="carousel-inner collection-image-container">
               <section class="topwear-img-cont carousel-slide">
@@ -283,7 +218,7 @@
                 Our vintage-inspired, unique, and limited-run occasion styles
                 are made to love forever.
               </h3>
-              <h3 class="shop-now">Shop Now -></h3>
+              <h3 class="shop-now">Shop Now <span><img src="./asset//right-arrow.svg" alt=""></span></h3>
             </section>
           </div>
           <div class="inner-box2">
@@ -382,6 +317,8 @@
       <div class="fifth-container">
         <div>
           <img src="./asset/Rectangle 2.png" />
+          <h1>H1 Heading</h1>
+          <button>Shop Now</button>
         </div>
         <h2>FEMALE FOUNDERS</h2>
         <p>
@@ -391,7 +328,7 @@
           prints. Eight years later, our philosophy has stayed the same, and
           we are so proud to now be dressing women all over the world.
         </p>
-        <h4>SHOP NOW</h4>
+        <h4>SHOP NOW <span><img src="./asset/shopnowarrow.svg" class="shop-arrow" height="20px" alt=""></span></h4>
       </div>
 
       <div class="sixth-container">
@@ -419,9 +356,11 @@
             <img src="./asset/star.png" class="star-container-image" alt="" />
           </section>
           <section class="review-container">
-            <h3>XYZ Name</h3>
+            <h3>Xyz Name</h3>
             <button>See All Reviews</button>
-            <img src="./asset/RightArrow.png" class="right-arrow" />
+            <img src="./asset/reviewleftarrow.svg" class="review-left-arrow" alt="">
+            <img src="./asset/reviewrightarrow.svg" class="review-right-arrow" alt="">
+
           </section>
         </div>
       </div>
