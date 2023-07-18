@@ -1365,7 +1365,7 @@
     flex-wrap: nowrap;
   }
   .carousel-slide {
-    flex: 0 0 100.33%; 
+    flex: 0 0 100% !important; 
     padding: 10px;
     box-sizing: border-box;
     width: 40%;
