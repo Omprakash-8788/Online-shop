@@ -1,8 +1,7 @@
 * {
   overflow-x: hidden;
   margin: 0;
-  -webkit-tap-highlight-color: transparent; 
-
+  -webkit-tap-highlight-color: transparent;
 }
 @font-face {
   font-family: "Roca";
@@ -34,7 +33,6 @@ header {
   color: #fff;
   display: none;
 }
-
 
 .menu-icon {
   display: none;
@@ -239,7 +237,7 @@ header {
   background: transparent;
   border: 1px solid #755c78;
 }
-.bottom-container-contact input:focus{
+.bottom-container-contact input:focus {
   outline: none;
 }
 .bottom-container-contact input::placeholder {
@@ -254,6 +252,12 @@ header {
   left: 62%;
   top: 30%;
   font-family: "Manrope";
+
+  color: rgba(0, 0, 0, 0.7);
+
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }
 
 .bottom-container-third {
@@ -744,7 +748,6 @@ header {
 }
 
 @media (max-width: 600px) {
- 
   .header-logo-container {
     flex-basis: 40%;
   }
@@ -818,6 +821,11 @@ header {
   }
   .email-password {
     gap: 30px;
+  }
+  .subscribe {
+    top: 32%;
+    left: 43% !important;
+    font-size: 12px !important;
   }
 }
 @media (max-width: 468px) {
@@ -930,7 +938,7 @@ header {
     margin-top: 0px;
   }
   .subscribe {
-    left: 72% !important;
+    left: 70% !important;
     font-size: 12px !important;
   }
   .bottom-container-contact input {
@@ -939,7 +947,7 @@ header {
   .header-best-sellers {
     display: none;
   }
-  .login-header-container{
+  .login-header-container {
     display: flex;
     justify-content: space-between;
     padding: 05px 10px 0px 10px;
