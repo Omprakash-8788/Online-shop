@@ -481,26 +481,23 @@
     </div>
   </div>
   <script>
-    document
-      .getElementById("openPopup")
-      .addEventListener("click", function () {
-        document.getElementById("popup").style.display = "block";
-      });
+    $("#openPopup").on("click", function () {
+      $("#popup").css("display", "block");
+    });
 
-    document
-      .getElementById("closePopup")
-      .addEventListener("click", function () {
-        document.getElementById("popup").style.display = "none";
-      });
+    $("#closePopup").on("click", function () {
+      $("#popup").css("display", "none");
+    });
 
-    window.addEventListener("click", function (event) {
-      var popup = document.getElementById("popup");
-      if (event.target == popup) {
-        popup.style.display = "none";
+    $(window).on("click", function (event) {
+      var popup = $("#popup");
+      if (event.target == popup[0]) {
+        popup.css("display", "none");
       }
     });
+
   </script>
-   <script>
+  <script>
     $(".menu-icon").click(function () {
       $(".menu").toggleClass("open");
       $(".bar").toggleClass("animate");

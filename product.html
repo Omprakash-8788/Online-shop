@@ -1,438 +1,422 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="product.css" />
-    <link rel="stylesheet" href="common.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Manrope&display=swap"
-      rel="stylesheet"
-    />
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
-    <script>
-      $(document).ready(function () {
-        $(".size-numbers").click(function () {
-          var clickedNumber = $(this).text();
-          $(".selected-size").text(clickedNumber);
-        });
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="product.css" />
+  <link rel="stylesheet" href="common.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet" />
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  <script>
+    $(document).ready(function () {
+      $(".size-numbers").click(function () {
+        var clickedNumber = $(this).text();
+        $(".selected-size").text(clickedNumber);
       });
-    </script>
-    <script>
-      $(document).ready(function() {
-        $('.minus-icon').click(function() {
-          var numberElement = $(this).siblings('.number-size');
-          var currentValue = parseInt(numberElement.text());
-          numberElement.text(currentValue - 1);
-        });
-  
-        $('.plus-icon').click(function() {
-          var numberElement = $(this).siblings('.number-size');
-          var currentValue = parseInt(numberElement.text());
-          numberElement.text(currentValue + 1);
-        });
+    });
+  </script>
+  <script>
+    $(document).ready(function () {
+      $('.minus-icon').click(function () {
+        var numberElement = $(this).siblings('.number-size');
+        var currentValue = parseInt(numberElement.text());
+        numberElement.text(currentValue - 1);
       });
-    </script>
-  </head>
-  <body>
-    <div class="loginpagecontainer">
-      <div class="loginpage-top-container">
-        <h2>
-          Free Shipping Worldwide | Get Flat 10% off* On Your First Purchase |
-          Use Code - PP10
-        </h2>
+
+      $('.plus-icon').click(function () {
+        var numberElement = $(this).siblings('.number-size');
+        var currentValue = parseInt(numberElement.text());
+        numberElement.text(currentValue + 1);
+      });
+    });
+  </script>
+</head>
+
+<body>
+  <div class="loginpagecontainer">
+    <div class="loginpage-top-container">
+      <h2>
+        Free Shipping Worldwide | Get Flat 10% off* On Your First Purchase |
+        Use Code - PP10
+      </h2>
+    </div>
+    <div class="login-header-container">
+      <div>
+        <img src="./asset/headerLogo.png" class="header-logo-image" />
       </div>
-      <div class="login-header-container">
-        <div>
-          <img src="./asset/headerLogo.png" class="header-logo-image" />
-        </div>
-        <div class="header-best-sellers">
-          <ul>
-            <li>BEST SELLERS</li>
-            <li>SHOP NEW ARRIVALS</li>
-            <li>SHOP NEW ARRIVALS</li>
-          </ul>
-        </div>
-        <div class="header-navbar">
-          <ul>
-            <li>SEARCH</li>
-            <li>ACCOUNT</li>
-            <li>BAG 0</li>
-          </ul>
-        </div>
-        <header>
-          <nav>
-            <div class="menu-icon">
-              <div class="bar"></div>
-              <div class="bar"></div>
-              <div class="bar"></div>
-            </div>
-            <ul class="menu">
-              <h2>All Pages</h2>
-              <li><a href="#">Search</a></li>
-              <li><a href="#">Account</a></li>
-              <li><a href="#">Bag 0</a></li>
-              <li><a href="./homePage.html">Home Page</a></li>
-              <li><a href="./aboutUs.html">AboutUs Page</a></li>
-              <li><a href="./contactUs.html">Contact Page</a></li>
-              <li><a href="./dresess.html">Dresess Page</a></li>
-              <li><a href="./loginPage.html">Login Page</a></li>
-              <li><a href="./product.html">Product Page</a></li>
-              <li><a href="./privacyPolicy.html">Privacy Policy Page</a></li>
+      <div class="header-best-sellers">
+        <ul>
+          <li>BEST SELLERS</li>
+          <li>SHOP NEW ARRIVALS</li>
+          <li>SHOP NEW ARRIVALS</li>
+        </ul>
+      </div>
+      <div class="header-navbar">
+        <ul>
+          <li>SEARCH</li>
+          <li>ACCOUNT</li>
+          <li>BAG 0</li>
+        </ul>
+      </div>
+      <header>
+        <nav>
+          <div class="menu-icon">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+          </div>
+          <ul class="menu">
+            <h2>All Pages</h2>
+            <li><a href="#">Search</a></li>
+            <li><a href="#">Account</a></li>
+            <li><a href="#">Bag 0</a></li>
+            <li><a href="./homePage.html">Home Page</a></li>
+            <li><a href="./aboutUs.html">AboutUs Page</a></li>
+            <li><a href="./contactUs.html">Contact Page</a></li>
+            <li><a href="./dresess.html">Dresess Page</a></li>
+            <li><a href="./loginPage.html">Login Page</a></li>
+            <li><a href="./product.html">Product Page</a></li>
+            <li><a href="./privacyPolicy.html">Privacy Policy Page</a></li>
 
-              <ul class="sellers">
-                <h2>Sellers Page</h2>
-                <li><a href="">Best Sellers</a></li>
-                <li><a href="">Shop New Arrivals</a></li>
-                <li><a href="">Shop New Arrivals</a></li>
-              </ul>
+            <ul class="sellers">
+              <h2>Sellers Page</h2>
+              <li><a href="">Best Sellers</a></li>
+              <li><a href="">Shop New Arrivals</a></li>
+              <li><a href="">Shop New Arrivals</a></li>
             </ul>
-          </nav>
-        </header>
-      </div>
-      <h2 class="hompage-dresses">HOMEPGE.DRESSES</h2>
+          </ul>
+        </nav>
+      </header>
+    </div>
+    <h2 class="hompage-dresses">HOMEPGE.DRESSES</h2>
 
-      <div class="single-product-container">
-        <div class="product-image-container">
+    <div class="single-product-container">
+      <div class="product-image-container">
+        <section>
+          <img src="./asset/Rectangle 96.png" alt="" class="product-img" />
+        </section>
+        <section class="product-group-image">
+          <img src="./asset/Rectangle 34624692.png" alt="" />
+          <img src="./asset/Rectangle 34624693.png" alt="" />
+          <img src="./asset/Rectangle 34624694.png" alt="" />
+          <img src="./asset/Rectangle 34624695.png" alt="" />
+        </section>
+      </div>
+      <div class="product-description-container">
+        <div class="descriptions">
+          <h1>Product Title H1 Product Title H1</h1>
+          <h1>Product Title H1</h1>
+          <p class="fabric-material">Fabric/Material Name</p>
+          <section class="rupee">
+            <span class="cost">&#8377;2,500</span>
+            <span class="money">&#8377;2,200</span>
+          </section>
+
+          <p class="color-red">Color:Red</p>
+          <section class="red-circle-container">
+            <section class="red-circle"></section>
+            <section class="red-circle"></section>
+            <section class="red-circle"></section>
+            <section class="red-circle"></section>
+            <section class="red-circle"></section>
+          </section>
+          <section class="size-guide">
+            <span>Size: <span class="selected-size">40</span></span>
+            <span class="size-guide-text" id="openPopup">Size Guide</span>
+
+            <div id="popup" class="popup">
+              <div class="popup-content">
+                <span id="closePopup" class="close">&times;</span>
+                <h1>Purple Potato</h1>
+                <p class="popup-text">This is Purple Potato Popup.</p>
+              </div>
+            </div>
+          </section>
+
+          <section class="size-number">
+            <ul>
+              <li class="size-numbers">40</li>
+              <li class="size-numbers">41</li>
+              <li class="size-numbers">42</li>
+              <li class="size-numbers">43</li>
+              <li class="size-numbers">44</li>
+              <li class="size-numbers">45</li>
+            </ul>
+          </section>
+          <section class="shop-buttons">
+            <button class="size-button">
+              <p class="subtract minus-icon">&minus;</p>
+              <p class="number-size">40</p>
+              <p class="addition plus-icon">&plus;</p>
+            </button>
+            <button class="add-to-bag">ADD TO BAG</button>
+          </section>
           <section>
-            <img src="./asset/Rectangle 96.png" alt="" class="product-img" />
-          </section>
-          <section class="product-group-image">
-            <img src="./asset/Rectangle 34624692.png" alt="" />
-            <img src="./asset/Rectangle 34624693.png" alt="" />
-            <img src="./asset/Rectangle 34624694.png" alt="" />
-            <img src="./asset/Rectangle 34624695.png" alt="" />
-          </section>
-        </div>
-        <div class="product-description-container">
-          <div class="descriptions">
-            <h1>Product Title H1 Product Title H1</h1>
-            <h1>Product Title H1</h1>
-            <p class="fabric-material">Fabric/Material Name</p>
-            <section class="rupee">
-              <span class="cost">&#8377;2,500</span>
-              <span class="money">&#8377;2,200</span>
-            </section>
-
-            <p class="color-red">Color:Red</p>
-            <section class="red-circle-container">
-              <section class="red-circle"></section>
-              <section class="red-circle"></section>
-              <section class="red-circle"></section>
-              <section class="red-circle"></section>
-              <section class="red-circle"></section>
-            </section>
-            <section class="size-guide">
-              <span>Size: <span class="selected-size">40</span></span>
-              <span class="size-guide-text" id="openPopup">Size Guide</span>
-
-              <div id="popup" class="popup">
-                <div class="popup-content">
-                  <span id="closePopup" class="close">&times;</span>
-                  <h1>Purple Potato</h1>
-                  <p class="popup-text">This is Purple Potato Popup.</p>
+            <div class="accordion">
+              <div class="accordion-item active">
+                <div class="accordion-header">Product Details & Fit</div>
+                <div class="accordion-content product-details-fit">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Repellendus consequatur dicta tenetur aliquam doloribus
+                    libero laborum amet laudantium, qui quas.
+                  </p>
                 </div>
+                <hr class="horizontal-line" />
               </div>
-            </section>
-
-            <section class="size-number">
-              <ul>
-                <li class="size-numbers">40</li>
-                <li class="size-numbers">41</li>
-                <li class="size-numbers">42</li>
-                <li class="size-numbers">43</li>
-                <li class="size-numbers">44</li>
-                <li class="size-numbers">45</li>
-              </ul>
-            </section>
-            <section class="shop-buttons">
-              <button class="size-button">
-                <p class="subtract minus-icon">&minus;</p>
-                <p class="number-size">40</p>
-                <p class="addition plus-icon">&plus;</p>
-              </button>
-              <button class="add-to-bag">ADD TO BAG</button>
-            </section>
-            <section>
-              <div class="accordion">
-                <div class="accordion-item active">
-                  <div class="accordion-header">Product Details & Fit</div>
-                  <div class="accordion-content product-details-fit">
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      Repellendus consequatur dicta tenetur aliquam doloribus
-                      libero laborum amet laudantium, qui quas.
-                    </p>
-                  </div>
-                  <hr class="horizontal-line" />
+              <div class="accordion-item">
+                <div class="accordion-header">Product Details & Fit</div>
+                <div class="accordion-content product-details-fit">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Repellendus consequatur dicta tenetur aliquam doloribus
+                    libero laborum amet laudantium, qui quas.
+                  </p>
                 </div>
-                <div class="accordion-item">
-                  <div class="accordion-header">Product Details & Fit</div>
-                  <div class="accordion-content product-details-fit">
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      Repellendus consequatur dicta tenetur aliquam doloribus
-                      libero laborum amet laudantium, qui quas.
-                    </p>
-                  </div>
-                  <hr class="horizontal-line" />
-                </div>
-
-                <div class="accordion-item">
-                  <div class="accordion-header">Product Details & Fit</div>
-                  <div class="accordion-content product-details-fit">
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      Repellendus consequatur dicta tenetur aliquam doloribus
-                      libero laborum amet laudantium, qui quas.
-                    </p>
-                  </div>
-                  <hr class="horizontal-line" />
-                </div>
+                <hr class="horizontal-line" />
               </div>
-            </section>
-          </div>
-        </div>
-      </div>
 
-      <div class="dummy-text-container">
-        <div class="marquee">
-          <div class="marquee-content">
-            <span>Dummy Text</span>
-            <img src="./asset/Vector.png" alt="" />
-            <span>Dummy Text</span>
-            <img src="./asset/Vector.png" alt="" />
-            <span>Dummy Text</span>
-            <img src="./asset/Vector.png" alt="" />
-            <span>Dummy Text</span>
-            <img src="./asset/Vector.png" alt="" />
-            <span>Dummy Text</span>
-            <img src="./asset/Vector.png" alt="" />
-            <span>Dummy Text</span>
-            <img src="./asset/Vector.png" alt="" />
-            <span>Dummy Text</span>
-            <img src="./asset/Vector.png" alt="" />
-            <span>Dummy Text</span>
-            <img src="./asset/Vector.png" alt="" />
-            <span>Dummy Text</span>
-            <img src="./asset/Vector.png" alt="" />
-            <span>Dummy Text</span>
-            <img src="./asset/Vector.png" alt="" />
-            <span>Dummy Text</span>
-            <img src="./asset/Vector.png" alt="" />
-            <span>Dummy Text</span>
-            <img src="./asset/Vector.png" alt="" />
-            <span>Dummy Text</span>
-            <img src="./asset/Vector.png" alt="" />
-            <span>Dummy Text</span>
-            <span>Dummy Text</span>
-            <img src="./asset/Vector.png" alt="" />
-            <span>Dummy Text</span>
-            <img src="./asset/Vector.png" alt="" />
-            <span>Dummy Text</span>
-            <img src="./asset/Vector.png" alt="" /><span>Dummy Text</span>
-            <img src="./asset/Vector.png" alt="" />
-          </div>
-        </div>
-      </div>
-      <div class="also-like-container">
-        <h1>You May Also Like</h1>
-        <div>
-          <div class="dress-images-continaer">
-            <section class="inner-box2-section">
-              <img
-                src="./asset/Rectangle 96.png"
-                class="model-girl"
-                alt="Image 1"
-              />
-              <h3>Product Title</h3>
-              <h4>Product Short Description</h4>
-              <button>ADD TO BAG - ₹2,500</button>
-            </section>
-            <section class="inner-box2-section">
-              <img
-                src="./asset/Rectangle 96.png"
-                class="model-girl"
-                alt="Image 1"
-              />
-              <h3>Product Title</h3>
-              <h4>Product Short Description</h4>
-              <button>ADD TO BAG - ₹2,500</button>
-            </section>
-            <section class="inner-box2-section">
-              <img
-                src="./asset/Rectangle 96.png"
-                class="model-girl"
-                alt="Image 1"
-              />
-              <h3>Product Title</h3>
-              <h4>Product Short Description</h4>
-              <button>ADD TO BAG - ₹2,500</button>
-            </section>
-          </div>
-        </div>
-      </div>
-
-      <div class="bottom-container">
-        <div class="bottom-container-first">
-          <section class="bottom-container-first-content">
-            <img src="./asset/bottom-star.png" class="small-icons" alt="" />
-            <section>
-              <p class="exclusive-text">EXCLUSIVE</p>
-              <p class="small-icon-text">
-                Monthly collections, limited runs, exclusive styles
-              </p>
-            </section>
-          </section>
-          <section class="bottom-container-first-content">
-            <img src="./asset/Sizing.png" class="small-icons" alt="" />
-            <section>
-              <p class="exclusive-text">EXTENDED SIZING</p>
-              <p class="small-icon-text">Selected styles up to UK 24</p>
-            </section>
-          </section>
-          <section class="bottom-container-first-content">
-            <img src="./asset/Call.png" class="small-icons" alt="" />
-            <section>
-              <p class="exclusive-text">WE'RE HERE TO HELP</p>
-              <p class="small-icon-text">
-                Call, message or email us Contact Us
-              </p>
-            </section>
-          </section>
-        </div>
-        <div class="bottom-container-second">
-          <div class="bottom-container-logo">
-            <section>
-              <img src="./asset/headerLogo.png" alt="Logo" />
-            </section>
-            <section class="purple-potato">
-              PurplePotato dummy content. PurplePotato dummy content.
-              PurplePotato dummy content. PurplePotato dummy content.
-            </section>
-            <section class="mail-number">
-              <span>Mail: hi@xyz.com</span>
-              <span>Tel: +91 8888 88888</span>
-            </section>
-          </div>
-          <div class="bottom-container-social">
-            <div>
-              <h3>Social</h3>
-              <ul>
-                <li>Facebook</li>
-                <li>Instagram</li>
-                <li>Youtube</li>
-              </ul>
+              <div class="accordion-item">
+                <div class="accordion-header">Product Details & Fit</div>
+                <div class="accordion-content product-details-fit">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Repellendus consequatur dicta tenetur aliquam doloribus
+                    libero laborum amet laudantium, qui quas.
+                  </p>
+                </div>
+                <hr class="horizontal-line" />
+              </div>
             </div>
-            <div>
-              <h3>About Us</h3>
-              <ul>
-                <li>Facebook</li>
-                <li>Instagram</li>
-                <li>Youtube</li>
-              </ul>
-            </div>
-            <div>
-              <h3>Help</h3>
-              <ul>
-                <li>Facebook</li>
-                <li>Instagram</li>
-                <li>Youtube</li>
-              </ul>
-            </div>
-          </div>
-          <div class="bottom-container-contact">
-            <h2>Subscribe to our newsletter!</h2>
-
-            <section class="email-subscribe">
-              <input placeholder="Enter Email" />
-              <span class="subscribe">Subscribe</span>
-            </section>
-          </div>
-        </div>
-        <div class="bottom-container-third">
-          <div class="purple2023">
-            <p>© PURPLEPOTATO ⋆ 2023</p>
-          </div>
-          <div class="payment-icons">
-            <img src="./asset/Amex.png" alt="payment-icon" />
-            <img src="./asset/iPay.png" alt="payment-icon"/>
-            <img src="./asset/PayPal.png" alt="payment-icon"/>
-            <img src="./asset/MasterCard.png" alt="payment-icon"/>
-            <img src="./asset/VISA.png" alt="payment-icon"/>
-            <img src="./asset/UPI.png" alt="payment-icon"/>
-          </div>
-          <div class="bottom-cont-pages">
-            <span>Privacy Policy</span>
-            <span>Cookie Policy</span>
-            <span>Terms & Conditions</span>
-          </div>
+          </section>
         </div>
       </div>
     </div>
 
-    <script>
-      const accordionItems = document.querySelectorAll(".accordion-item");
-      accordionItems.forEach((item) => {
-        const header = item.querySelector(".accordion-header");
-        const content = item.querySelector(".accordion-content");
-        header.addEventListener("click", () => {
-          const isActive = item.classList.contains("active");
-          accordionItems.forEach((item) => {
-            item.classList.remove("active");
-            item.querySelector(".accordion-content").style.display = "none";
-          });
-          if (!isActive) {
-            item.classList.add("active");
-            content.style.display = "block";
-          }
-        });
-      });
-    </script>
-    <script>
-      document
-        .getElementById("openPopup")
-        .addEventListener("click", function () {
-          document.getElementById("popup").style.display = "block";
-        });
+    <div class="dummy-text-container">
+      <div class="marquee">
+        <div class="marquee-content">
+          <span>Dummy Text</span>
+          <img src="./asset/Vector.png" alt="" />
+          <span>Dummy Text</span>
+          <img src="./asset/Vector.png" alt="" />
+          <span>Dummy Text</span>
+          <img src="./asset/Vector.png" alt="" />
+          <span>Dummy Text</span>
+          <img src="./asset/Vector.png" alt="" />
+          <span>Dummy Text</span>
+          <img src="./asset/Vector.png" alt="" />
+          <span>Dummy Text</span>
+          <img src="./asset/Vector.png" alt="" />
+          <span>Dummy Text</span>
+          <img src="./asset/Vector.png" alt="" />
+          <span>Dummy Text</span>
+          <img src="./asset/Vector.png" alt="" />
+          <span>Dummy Text</span>
+          <img src="./asset/Vector.png" alt="" />
+          <span>Dummy Text</span>
+          <img src="./asset/Vector.png" alt="" />
+          <span>Dummy Text</span>
+          <img src="./asset/Vector.png" alt="" />
+          <span>Dummy Text</span>
+          <img src="./asset/Vector.png" alt="" />
+          <span>Dummy Text</span>
+          <img src="./asset/Vector.png" alt="" />
+          <span>Dummy Text</span>
+          <span>Dummy Text</span>
+          <img src="./asset/Vector.png" alt="" />
+          <span>Dummy Text</span>
+          <img src="./asset/Vector.png" alt="" />
+          <span>Dummy Text</span>
+          <img src="./asset/Vector.png" alt="" /><span>Dummy Text</span>
+          <img src="./asset/Vector.png" alt="" />
+        </div>
+      </div>
+    </div>
+    <div class="also-like-container">
+      <h1>You May Also Like</h1>
+      <div>
+        <div class="dress-images-continaer">
+          <section class="inner-box2-section">
+            <img src="./asset/Rectangle 96.png" class="model-girl" alt="Image 1" />
+            <h3>Product Title</h3>
+            <h4>Product Short Description</h4>
+            <button>ADD TO BAG - ₹2,500</button>
+          </section>
+          <section class="inner-box2-section">
+            <img src="./asset/Rectangle 96.png" class="model-girl" alt="Image 1" />
+            <h3>Product Title</h3>
+            <h4>Product Short Description</h4>
+            <button>ADD TO BAG - ₹2,500</button>
+          </section>
+          <section class="inner-box2-section">
+            <img src="./asset/Rectangle 96.png" class="model-girl" alt="Image 1" />
+            <h3>Product Title</h3>
+            <h4>Product Short Description</h4>
+            <button>ADD TO BAG - ₹2,500</button>
+          </section>
+        </div>
+      </div>
+    </div>
 
-      document
-        .getElementById("closePopup")
-        .addEventListener("click", function () {
-          document.getElementById("popup").style.display = "none";
-        });
+    <div class="bottom-container">
+      <div class="bottom-container-first">
+        <section class="bottom-container-first-content">
+          <img src="./asset/bottom-star.png" class="small-icons" alt="" />
+          <section>
+            <p class="exclusive-text">EXCLUSIVE</p>
+            <p class="small-icon-text">
+              Monthly collections, limited runs, exclusive styles
+            </p>
+          </section>
+        </section>
+        <section class="bottom-container-first-content">
+          <img src="./asset/Sizing.png" class="small-icons" alt="" />
+          <section>
+            <p class="exclusive-text">EXTENDED SIZING</p>
+            <p class="small-icon-text">Selected styles up to UK 24</p>
+          </section>
+        </section>
+        <section class="bottom-container-first-content">
+          <img src="./asset/Call.png" class="small-icons" alt="" />
+          <section>
+            <p class="exclusive-text">WE'RE HERE TO HELP</p>
+            <p class="small-icon-text">
+              Call, message or email us Contact Us
+            </p>
+          </section>
+        </section>
+      </div>
+      <div class="bottom-container-second">
+        <div class="bottom-container-logo">
+          <section>
+            <img src="./asset/headerLogo.png" alt="Logo" />
+          </section>
+          <section class="purple-potato">
+            PurplePotato dummy content. PurplePotato dummy content.
+            PurplePotato dummy content. PurplePotato dummy content.
+          </section>
+          <section class="mail-number">
+            <span>Mail: hi@xyz.com</span>
+            <span>Tel: +91 8888 88888</span>
+          </section>
+        </div>
+        <div class="bottom-container-social">
+          <div>
+            <h3>Social</h3>
+            <ul>
+              <li>Facebook</li>
+              <li>Instagram</li>
+              <li>Youtube</li>
+            </ul>
+          </div>
+          <div>
+            <h3>About Us</h3>
+            <ul>
+              <li>Facebook</li>
+              <li>Instagram</li>
+              <li>Youtube</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Help</h3>
+            <ul>
+              <li>Facebook</li>
+              <li>Instagram</li>
+              <li>Youtube</li>
+            </ul>
+          </div>
+        </div>
+        <div class="bottom-container-contact">
+          <h2>Subscribe to our newsletter!</h2>
 
-      window.addEventListener("click", function (event) {
-        var popup = document.getElementById("popup");
-        if (event.target == popup) {
-          popup.style.display = "none";
+          <section class="email-subscribe">
+            <input placeholder="Enter Email" />
+            <span class="subscribe">Subscribe</span>
+          </section>
+        </div>
+      </div>
+      <div class="bottom-container-third">
+        <div class="purple2023">
+          <p>© PURPLEPOTATO ⋆ 2023</p>
+        </div>
+        <div class="payment-icons">
+          <img src="./asset/Amex.png" alt="payment-icon" />
+          <img src="./asset/iPay.png" alt="payment-icon" />
+          <img src="./asset/PayPal.png" alt="payment-icon" />
+          <img src="./asset/MasterCard.png" alt="payment-icon" />
+          <img src="./asset/VISA.png" alt="payment-icon" />
+          <img src="./asset/UPI.png" alt="payment-icon" />
+        </div>
+        <div class="bottom-cont-pages">
+          <span>Privacy Policy</span>
+          <span>Cookie Policy</span>
+          <span>Terms & Conditions</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const accordionItems = document.querySelectorAll(".accordion-item");
+    accordionItems.forEach((item) => {
+      const header = item.querySelector(".accordion-header");
+      const content = item.querySelector(".accordion-content");
+      header.addEventListener("click", () => {
+        const isActive = item.classList.contains("active");
+        accordionItems.forEach((item) => {
+          item.classList.remove("active");
+          item.querySelector(".accordion-content").style.display = "none";
+        });
+        if (!isActive) {
+          item.classList.add("active");
+          content.style.display = "block";
         }
       });
-    </script>
-    <script>
-      $(".menu-icon").click(function () {
-        $(".menu").toggleClass("open");
-        $(".bar").toggleClass("animate");
-      });
+    });
+  </script>
+  <script>
+    $("#openPopup").on("click", function () {
+      $("#popup").css("display", "block");
+    });
 
-      $(document).click(function (event) {
-        const menu = $(".menu");
-        const menuIcon = $(".menu-icon");
+    $("#closePopup").on("click", function () {
+      $("#popup").css("display", "none");
+    });
 
-        if (
-          !menu.is(event.target) &&
-          !menuIcon.is(event.target) &&
-          menu.has(event.target).length === 0 &&
-          menuIcon.has(event.target).length === 0
-        ) {
-          menu.removeClass("open");
-          $(".bar").removeClass("animate");
-        }
-      });
-    </script>
-  </body>
+    $(window).on("click", function (event) {
+      var popup = $("#popup");
+      if (event.target == popup[0]) {
+        popup.css("display", "none");
+      }
+    });
+  </script>
+  <script>
+    $(".menu-icon").click(function () {
+      $(".menu").toggleClass("open");
+      $(".bar").toggleClass("animate");
+    });
+
+    $(document).click(function (event) {
+      const menu = $(".menu");
+      const menuIcon = $(".menu-icon");
+
+      if (
+        !menu.is(event.target) &&
+        !menuIcon.is(event.target) &&
+        menu.has(event.target).length === 0 &&
+        menuIcon.has(event.target).length === 0
+      ) {
+        menu.removeClass("open");
+        $(".bar").removeClass("animate");
+      }
+    });
+  </script>
+</body>
+
 </html>
