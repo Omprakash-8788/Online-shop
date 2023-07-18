@@ -1712,3 +1712,29 @@
     min-width: 100%;
   }
 }
+
+
+
+@media (min-height:1450px) and (min-width:840px) {
+  .sixth-container {
+    background-color: #f9f6f1;
+    padding: 150px 00px 100px 00px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin-bottom: 0px;
+    height: fit-content;
+  }
+  .review-left-arrow{
+    top: 20%;
+  }
+  .review-right-arrow{
+    top: 20%;
+  }
+  .fifth-container p{
+    /* font-size: 13px; */
+  }
+  
+
+ 
+}
