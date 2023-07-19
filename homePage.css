@@ -1640,6 +1640,26 @@
 }
 
 @media (max-width: 400px) {
+  .background-image{
+    height: 88vh;
+  }
+  .content-box h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: rgba(255, 255, 255, 0.8);
+  }
+  .content-box{
+    padding: 80px 00px 0px 00px;
+    margin: 0 auto !important;
+    
+  }
+  .content-box p {
+    font-size: 13px;
+    margin-bottom: 20px;
+    color: rgba(255, 255, 255, 0.8);
+    padding: 0px 0px 20px 0px !important;
+    margin: 10 auto !important;
+  }
   .collection-image-container {
     flex-wrap: nowrap;
   }
