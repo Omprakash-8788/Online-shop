@@ -3,6 +3,7 @@
   margin: 0;
   -webkit-tap-highlight-color: transparent;
 }
+
 @font-face {
   font-family: "Roca";
   src: local(""), local("Roca-One-Italic"),
@@ -12,6 +13,7 @@
   font-weight: normal;
   font-style: italic;
 }
+
 @font-face {
   font-family: "Roca";
   src: local(""), local("Roca-One-Regular"),
@@ -53,6 +55,7 @@ header {
   padding: 0;
   display: flex;
 }
+
 .sellers {
   list-style-type: none;
   margin: 0;
@@ -75,6 +78,7 @@ header {
   header {
     display: block;
   }
+
   .menu-icon {
     display: block;
   }
@@ -94,6 +98,7 @@ header {
     border-bottom: 2px solid rgb(244, 242, 242);
     z-index: 2;
   }
+
   .sellers {
     display: none;
   }
@@ -131,9 +136,11 @@ header {
 .header-logo-image {
   height: 50px;
 }
+
 .header-logo-container {
   flex-basis: 20%;
 }
+
 .login-header-container {
   display: flex;
   flex-direction: row;
@@ -175,6 +182,7 @@ header {
 .seventh-container h2 {
   font-size: 35px;
 }
+
 .bottom-container-second {
   display: flex;
   flex-direction: row;
@@ -185,17 +193,21 @@ header {
   flex-basis: 30%;
   margin: 30px 40px 0px 70px;
 }
+
 .purple-potato {
   font-size: 17px;
   font-family: "Manrope";
 }
+
 .purple2023 p {
   font-family: "Manrope";
 }
+
 .bottom-container-logo span {
   font-weight: bold;
   padding-right: 20px;
 }
+
 .bottom-container-social {
   padding: 50px 40px 0px 120px;
   flex-basis: 40%;
@@ -205,10 +217,12 @@ header {
   font-size: 20px;
   font-family: "Manrope";
 }
+
 .mail-number {
   margin-top: 10px;
   font-family: "Manrope";
 }
+
 .bottom-container-social ul {
   display: flex;
   flex-direction: column;
@@ -217,11 +231,13 @@ header {
   line-height: 25px;
   font-size: 16px;
 }
+
 .bottom-container-contact {
   flex-basis: 30%;
   padding: 40px 40px 0px 80px;
   position: relative;
 }
+
 .bottom-container-contact h2 {
   font-size: 25px;
   padding-right: 70px;
@@ -230,6 +246,7 @@ header {
   line-height: normal;
   font-style: italic;
 }
+
 .bottom-container-contact input {
   border-radius: 10px;
   height: 50px;
@@ -237,9 +254,11 @@ header {
   background: transparent;
   border: 1px solid #755c78;
 }
+
 .bottom-container-contact input:focus {
   outline: none;
 }
+
 .bottom-container-contact input::placeholder {
   padding-left: 10px;
   font-size: 15px;
@@ -252,9 +271,7 @@ header {
   left: 62%;
   top: 30%;
   font-family: "Manrope";
-
   color: rgba(0, 0, 0, 0.7);
-
   font-style: normal;
   font-weight: 600;
   line-height: normal;
@@ -308,11 +325,13 @@ header {
 .email-subscribe input::placeholder {
   padding-left: 0px;
 }
+
 .group-image-container {
   display: flex;
   flex-direction: row;
   gap: 30px;
 }
+
 .group-image-firstcont {
   flex: 2;
 }
@@ -321,6 +340,7 @@ header {
   width: 100%;
   height: 500px;
 }
+
 .bottom-group-images {
   display: flex;
   flex: 2;
@@ -333,6 +353,7 @@ header {
 .bottom-group-images img {
   width: 30%;
 }
+
 .bottom-container-first {
   background-color: #755c78;
   height: 80px;
@@ -349,43 +370,50 @@ header {
   display: flex;
   margin: 0 auto;
 }
+
 .small-icons {
   height: 30px;
   padding-top: 22px;
   padding-right: 30px;
 }
+
 .exclusive-text {
   margin: 15px 0px 05px 0px;
   font-size: 22px;
   font-family: "Manrope";
   font-weight: 600;
   font-style: normal;
-  font-size: 18px;
 }
+
 .small-icon-text {
   font-size: 14px;
   margin: 0;
   padding: 0;
 }
+
 @media (max-width: 1200px) {
   .small-icons {
     height: 30px;
     padding-top: 25px;
     padding-right: 30px;
   }
+
   .exclusive-text {
     margin: 20px 0px 05px 0px;
     font-size: 14px;
   }
+
   .small-icon-text {
     font-size: 12px;
     margin: 0;
     padding: 0;
   }
+
   .bottom-container-first-content {
     display: flex;
     margin: 0 auto;
   }
+
   .bottom-container-first {
     background-color: #755c78;
     height: 80px;
@@ -395,6 +423,7 @@ header {
     color: white;
     justify-content: space-between;
   }
+
   .bottom-group-images {
     display: flex;
     flex: 2;
@@ -407,13 +436,16 @@ header {
   .bottom-group-images img {
     width: 30%;
   }
+
   .group-image-firstcont img {
     width: 100%;
     height: 450px;
   }
+
   .header-logo-image {
     height: 40px;
   }
+
   .login-header-container {
     display: flex;
     flex-direction: row;
@@ -434,6 +466,7 @@ header {
     gap: 19px;
     font-size: 13px;
   }
+
   .bottom-container-second {
     display: flex;
     flex-direction: row;
@@ -449,6 +482,7 @@ header {
     font-weight: bold;
     padding-right: 20px;
   }
+
   .bottom-container-social {
     padding: 50px 40px 0px 60px;
     gap: 18px;
@@ -469,14 +503,17 @@ header {
     line-height: 25px;
     font-family: "Manrope";
   }
+
   .bottom-container-contact {
     flex-basis: 30%;
     padding: 40px 20px 0px 20px;
   }
+
   .bottom-container-contact h2 {
     font-size: 24px;
     padding-right: 20px;
   }
+
   .subscribe {
     font-size: 14px;
     top: 50%;
@@ -524,6 +561,7 @@ header {
   .header-navbar {
     display: none;
   }
+
   .bottom-container-second {
     display: flex;
     flex-direction: column;
@@ -553,22 +591,27 @@ header {
     position: relative;
     width: 90%;
   }
+
   .subscribe {
     left: 45% !important;
     font-size: 15px !important;
   }
+
   .bottom-container-contact h2 {
     font-size: 24px;
     padding-right: 20px;
     padding-bottom: 10px;
   }
+
   .purple-potato {
     margin: 0px 200px 0px 00px;
     padding: 0;
   }
+
   .bottom-container-contact input {
     width: 60%;
   }
+
   .purple2023 {
     font-size: 11px;
     padding-top: 15px;
@@ -595,6 +638,7 @@ header {
     font-size: 13px;
     padding-top: 15px;
   }
+
   .bottom-container-third {
     margin: 50px 0px 7px 0px;
     padding: 0px 30px 0px 30px;
@@ -603,6 +647,7 @@ header {
     gap: 20px;
     flex-direction: row;
   }
+
   .bottom-container-social {
     display: flex;
     flex-direction: column;
@@ -612,6 +657,7 @@ header {
     font-size: 20px;
     width: 100%;
   }
+
   .bottom-container-social ul {
     display: flex;
     flex-direction: row;
@@ -629,6 +675,7 @@ header {
     top: 35%;
   }
 }
+
 @media (min-width: 1345px) {
   .subscribe {
     position: absolute;
@@ -636,6 +683,7 @@ header {
     top: 35%;
   }
 }
+
 @media (max-width: 900px) {
   .bottom-container-first {
     background-color: #755c78;
@@ -649,6 +697,7 @@ header {
     margin-right: 20px;
     gap: 10px;
   }
+
   .bottom-group-images {
     display: flex;
     flex: 2;
@@ -661,10 +710,12 @@ header {
   .bottom-group-images img {
     width: 45%;
   }
+
   .group-image-firstcont img {
     width: 100%;
     height: 600px;
   }
+
   .loginpage-top-container h2 {
     margin: 0;
     color: white;
@@ -672,15 +723,18 @@ header {
     font-size: 14px;
     padding: 10px 0px 10px 0px;
   }
+
   .header-logo-image {
     height: 35px;
   }
+
   .login-header-container {
     display: flex;
     flex-direction: row;
     margin: 20px 10px 0px 10px;
     gap: 20px;
   }
+
   .login-form-container {
     padding-top: 80px;
   }
@@ -702,33 +756,41 @@ header {
     margin: 0;
     padding: 10px 0px 0px 0px;
   }
+
   .purple2023 p {
     font-size: 9px;
     text-align: center !important;
   }
+
   .payment-icons {
     gap: 10px;
   }
+
   .payment-icons img {
     width: 15% !important;
   }
+
   .bottom-cont-pages {
     font-size: 12px;
     gap: 5px;
     margin-right: 0px;
   }
+
   .subscribe {
     font-size: 12px;
   }
+
   .small-icons {
     height: 20px;
     padding-top: 25px;
     padding-right: 10px;
   }
+
   .exclusive-text {
     margin: 20px 0px 05px 0px;
     font-size: 12px;
   }
+
   .small-icon-text {
     font-size: 10px;
     margin: 0;
@@ -751,6 +813,7 @@ header {
   .header-logo-container {
     flex-basis: 40%;
   }
+
   .bottom-group-images {
     display: flex;
     flex: 2;
@@ -763,17 +826,21 @@ header {
   .menu-icon {
     padding-top: 5px;
   }
+
   .bottom-group-images img {
     width: 30%;
   }
+
   .group-image-firstcont img {
     width: 95%;
     height: 450px;
   }
+
   .group-image-container {
     display: flex;
     flex-direction: column;
   }
+
   .loginpage-top-container h2 {
     margin: 0;
     color: white;
@@ -781,15 +848,18 @@ header {
     font-size: 10px;
     padding: 10px 10px 10px 10px;
   }
+
   .header-logo-image {
     height: 35px;
   }
+
   .login-header-container {
     display: flex;
     flex-direction: row;
     margin: 10px 10px 0px 10px;
     gap: 20px;
   }
+
   .login-form-container {
     padding-top: 60px;
     margin-bottom: 80px;
@@ -816,18 +886,22 @@ header {
   .bottom-container-contact h2 {
     font-size: 20px;
   }
+
   .purple-potato {
     margin: 0px 0px 0px 00px;
   }
+
   .email-password {
     gap: 30px;
   }
+
   .subscribe {
     top: 32%;
     left: 43% !important;
     font-size: 12px !important;
   }
 }
+
 @media (max-width: 468px) {
   .menu {
     display: none;
@@ -841,19 +915,24 @@ header {
     margin-left: 30%;
     height: 100%;
   }
+
   .sellers {
     display: block;
   }
+
   .seventh-container {
     padding: 0px 0px 0px 20px;
   }
+
   .seventh-container h2 {
     font-size: 22px;
     margin-bottom: 10px;
   }
+
   .bottom-container-second {
     padding: 20px 30px 0px 20px;
   }
+
   .bottom-container-first {
     background-color: #755c78;
     height: fit-content;
@@ -867,19 +946,24 @@ header {
     /* margin-right: 20px; */
     gap: 10px;
   }
+
   .bottom-container-first-content {
     padding: 0;
     margin: 0px 0px 0px 30px;
   }
+
   .exclusive-text {
     font-size: 15px;
   }
+
   .small-icon-text {
     font-size: 13px;
   }
+
   .small-icons {
     height: 25px;
   }
+
   .purple2023 p {
     font-size: 15px;
     padding-top: 15px;
@@ -911,6 +995,7 @@ header {
     /* margin: 0 auto; */
     gap: 7px;
   }
+
   .bottom-container-third {
     margin: 50px 0px 7px 0px;
     padding: 0px 30px 0px 20px;
@@ -920,6 +1005,7 @@ header {
     flex-direction: column;
     align-items: start;
   }
+
   .bottom-container-social {
     display: flex;
     flex-direction: column;
@@ -929,6 +1015,7 @@ header {
     font-size: 20px;
     width: 100%;
   }
+
   .bottom-container-social ul {
     display: flex;
     flex-direction: row;
@@ -937,22 +1024,27 @@ header {
     margin-right: 30px;
     margin-top: 0px;
   }
+
   .subscribe {
     left: 70% !important;
     font-size: 12px !important;
   }
+
   .bottom-container-contact input {
     width: 95%;
   }
+
   .header-best-sellers {
     display: none;
   }
+
   .login-header-container {
     display: flex;
     justify-content: space-between;
     padding: 05px 10px 0px 10px;
   }
 }
+
 @media (max-width: 400px) {
   .bottom-group-images {
     display: flex;
@@ -966,45 +1058,32 @@ header {
   .bottom-group-images img {
     width: 45%;
   }
+
   .group-image-firstcont img {
     width: 95%;
     height: 400px;
   }
+
   .group-image-container {
     display: flex;
     flex-direction: column;
   }
-  /* .bottom-container-social {
-    padding: 50px 0px 0px 5px;
-    gap: 40px;
-  } */
-  .bottom-group-images {
-    display: flex;
-    flex: 2;
-    flex-direction: row;
-    gap: 15px;
-    flex-wrap: wrap;
-    width: 100%;
-  }
 
-  .bottom-group-images img {
-    width: 45%;
-  }
-  /* .bottom-container-social {
-    padding: 50px 20px 0px 40px;
-  } */
   .purple-potato {
     margin: 0px 0px 15px 00px;
     width: 100%;
     margin-right: 0;
     padding-right: 0;
   }
+
   .bottom-container-contact h2 {
     font-size: 17px;
   }
+
   .header-best-sellers {
     margin-left: 10px;
   }
+
   .header-logo-image {
     width: 100px;
   }

@@ -12,6 +12,7 @@
   width: 100%;
   position: relative;
 }
+
 .aboutus-image {
   width: 100%;
   height: 800px;
@@ -44,6 +45,7 @@
   flex: 1;
   text-align: center;
 }
+
 .aboutus-text-section h2 {
   margin: 0px 0px 50px 0px;
   text-align: center;
@@ -52,15 +54,18 @@
   font-weight: 400;
   font-size: 25px;
 }
+
 .aboutus-text-section p {
   font-size: 20px;
   padding: 0px 00px 0px 100px;
   margin-bottom: 20px;
   font-family: "Roca";
 }
+
 .aboutus-text-section h4 {
   font-family: "Manrope";
 }
+
 .aboutus-text-section h3 {
   font-size: 25px;
   padding: 0px 100px 0px 100px;
@@ -69,6 +74,7 @@
   letter-spacing: 4px;
   font-weight: 400;
 }
+
 .aboutus-image-section {
   padding: 50px 70px 0px 0px;
   width: 100%;
@@ -105,6 +111,7 @@
 .aboutus-purple-potato h2 {
   margin-bottom: 50px;
 }
+
 .aboutus-purple-potato p {
   font-size: 20px;
   font-family: "Roca";
@@ -123,11 +130,13 @@
   letter-spacing: 10px;
   font-style: normal;
 }
-.with-love-container h1{
+
+.with-love-container h1 {
   font-size: 65px;
   font-family: "Fasthand";
   font-weight: 400;
 }
+
 @media (max-width: 1200px) {
   .aboutus-text-section {
     padding: 200px 0px 0px 00px;
@@ -135,20 +144,24 @@
     text-align: center;
     flex: 1;
   }
+
   .aboutus-text-section h2 {
     margin-bottom: 50px;
     padding: 0px 0px 0px 100px;
   }
+
   .aboutus-text-section p {
     font-size: 18px;
     padding: 0px 0px 0px 70px;
     margin-bottom: 20px;
   }
+
   .aboutus-text-section h3 {
     font-size: 20px;
     padding: 0px 100px 0px 100px;
     margin-top: 20px;
   }
+
   .aboutus-image-section {
     flex: 1;
 
@@ -160,6 +173,7 @@
     width: 80%;
     height: 550px;
   }
+
   .the-origin-story {
     padding: 100px 100px 100px 100px;
     background-color: #f9f6f1;
@@ -202,35 +216,40 @@
     z-index: 1;
     position: absolute;
   }
+
   .aboutus-text-section {
     padding: 130px 0px 0px 00px;
 
     text-align: center;
     flex: 1;
   }
+
   .aboutus-text-section h2 {
     margin-bottom: 30px;
     padding: 0px 0px 0px 60px;
     font-size: 16px;
   }
+
   .aboutus-text-section p {
-    font-size: 18px;
+    font-size: 17px;
     padding: 0px 0px 0px 60px;
     margin-bottom: 20px;
-    font-size: 15px;
   }
+
   .aboutus-text-section h3 {
     font-size: 20px;
     text-align: center;
     margin-top: 20px;
     padding: 0px 0px 0px 70px;
   }
+
   .aboutus-text-section h4 {
     font-size: 20px;
     text-align: center;
     margin-top: 20px;
     padding: 0px 0px 0px 70px;
   }
+
   .aboutus-image-section {
     flex: 1;
 
@@ -243,6 +262,7 @@
     height: 450px;
     padding-left: 50px;
   }
+
   .the-origin-story {
     padding: 60px 30px 60px 30px;
     background-color: #f9f6f1;
@@ -269,6 +289,7 @@
     margin-bottom: 30px;
     font-size: 21px;
   }
+
   .aboutus-purple-potato p {
     font-size: 17px;
   }
@@ -296,38 +317,44 @@
     z-index: 1;
     position: absolute;
   }
+
   .aboutus-content-section {
     margin: 50px 0px 50px 0px;
   }
+
   .aboutus-text-section {
     padding: 90px 0px 0px 00px;
 
     text-align: center;
     flex: 1;
   }
+
   .aboutus-text-section h2 {
     margin-bottom: 10px;
     padding: 0px 0px 0px 30px;
     font-size: 15px;
   }
+
   .aboutus-text-section p {
-    font-size: 18px;
     padding: 0px 0px 0px 30px;
     margin-bottom: 20px;
     font-size: 14px;
   }
+
   .aboutus-text-section h3 {
     font-size: 20px;
     text-align: center;
     margin-top: 05px;
     padding: 0px 0px 0px 30px;
   }
+
   .aboutus-text-section h4 {
     font-size: 17px;
     text-align: center;
     margin-top: 0px;
     padding: 0px 0px 0px 30px;
   }
+
   .aboutus-image-section {
     flex: 1;
 
@@ -364,41 +391,47 @@
     z-index: 1;
     position: absolute;
   }
+
   .aboutus-content-section {
     margin: 50px 0px 50px 0px;
     display: flex;
     flex-direction: column-reverse;
     gap: 0px;
   }
+
   .aboutus-text-section {
     margin: 0 auto;
     padding: 50px 25px 0px 0px;
 
     text-align: center;
   }
+
   .aboutus-text-section h2 {
     margin-bottom: 10px;
     padding: 0px 0px 0px 30px;
     font-size: 18px;
   }
+
   .aboutus-text-section p {
-    font-size: 20px;
     padding: 0px 0px 0px 30px;
     margin-bottom: 20px;
     font-size: 14px;
   }
+
   .aboutus-text-section h3 {
     font-size: 23px;
     text-align: center;
     margin-top: 05px;
     padding: 0px 0px 0px 30px;
   }
+
   .aboutus-text-section h4 {
     font-size: 21px;
     text-align: center;
     margin-top: 0px;
     padding: 0px 0px 0px 30px;
   }
+
   .aboutus-image-section {
     padding: 50px 0px 0px 0px;
     align-items: center;
@@ -411,6 +444,7 @@
     align-items: center;
     padding-left: 0px;
   }
+
   .the-origin-story {
     padding: 40px 25px 40px 25px;
     background-color: #f9f6f1;
@@ -427,6 +461,7 @@
     font-family: "Roca";
     margin-bottom: 10px;
   }
+
   .aboutus-purple-potato {
     padding: 80px 30px 10px 30px;
     text-align: center;
@@ -436,6 +471,7 @@
     margin-bottom: 30px;
     font-size: 18px;
   }
+
   .aboutus-purple-potato p {
     font-size: 14px;
   }
@@ -446,21 +482,19 @@
     text-align: center;
     font-weight: 300;
   }
-  .with-love-container h1{
-    font-size: 35px;
 
+  .with-love-container h1 {
+    font-size: 35px;
   }
 }
 
-
-@media (min-height:1450px) and (min-width:840px) {
-
-  .aboutus-content-section{
+@media (min-height: 1450px) and (min-width: 840px) {
+  .aboutus-content-section {
     display: flex;
     flex-direction: column-reverse;
   }
-  .aboutus-text-section p{
+
+  .aboutus-text-section p {
     padding-left: 15px;
-    
   }
 }

@@ -26,14 +26,17 @@
   font-weight: 500;
   font-style: normal;
 }
+
 .dummy-section {
   display: flex;
   flex-direction: row;
   gap: 20px;
 }
+
 .dummy-section img {
   height: 20px;
 }
+
 .hompage-dresses {
   margin: 30px 0px 0px 80px;
   font-family: "Manrope";
@@ -49,6 +52,7 @@
   padding-bottom: 10px;
   font-size: 23px;
 }
+
 .marquee-content span {
   padding: 0px 15px 0px 15px;
 }
@@ -59,12 +63,15 @@
   flex-direction: row;
   gap: 50px;
 }
+
 .product-image-container {
   flex: 1;
 }
+
 .product-description-container {
   flex: 1;
 }
+
 .product-img {
   width: 100%;
   height: 650px;
@@ -79,6 +86,7 @@
   flex-direction: row;
   gap: 10px;
 }
+
 .product-group-image img {
   width: 24%;
   /* flex: 1 0 300px; */
@@ -88,17 +96,20 @@
   margin-top: 0px;
   padding: 0px 50px 0px 50px;
 }
+
 .descriptions h1 {
   font-family: "Roca";
   font-style: normal;
   font-weight: 400;
 }
+
 .rupee {
   display: flex;
   flex-direction: row;
   gap: 30px;
   font-size: 18px;
 }
+
 .cost {
   text-decoration: line-through;
   font-size: 20px;
@@ -108,17 +119,20 @@
   color: #eb001b;
   font-size: 20px;
 }
+
 .red-circle-container {
   display: flex;
   gap: 10px;
   margin-bottom: 20px;
 }
+
 .red-circle {
   background-color: #eb001b;
   height: 20px;
   border-radius: 50%;
   width: 20px;
 }
+
 .popup {
   display: none;
   position: fixed;
@@ -129,6 +143,7 @@
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 999;
 }
+
 .popup-text {
   margin-top: 50px;
   font-size: 18px;
@@ -161,12 +176,14 @@
   justify-content: space-between;
   cursor: pointer;
   font-family: "Manrope";
-  -webkit-tap-highlight-color: transparent; 
+  -webkit-tap-highlight-color: transparent;
 
 }
+
 .size-guide-text {
   border-bottom: 2px solid black;
 }
+
 .size-number ul {
   margin-top: 5px;
   margin-bottom: 25px;
@@ -175,7 +192,7 @@
   gap: 7px;
   padding-left: 0px;
   cursor: pointer;
-  -webkit-tap-highlight-color: transparent; 
+  -webkit-tap-highlight-color: transparent;
 
 }
 
@@ -187,6 +204,7 @@
   margin-bottom: 20px;
   font-family: "Manrope";
 }
+
 .color-red {
   margin-top: 20px;
   margin-bottom: 20px;
@@ -199,6 +217,7 @@
   justify-content: space-between;
   width: 85%;
 }
+
 .size-button {
   width: 40%;
   height: 40px;
@@ -209,16 +228,18 @@
   align-items: center;
   justify-content: center;
 }
+
 .subtract {
   font-size: 22px;
   cursor: pointer;
-  -webkit-tap-highlight-color: transparent; 
+  -webkit-tap-highlight-color: transparent;
 
 }
+
 .addition {
   font-size: 22px;
   cursor: pointer;
-  -webkit-tap-highlight-color: transparent; 
+  -webkit-tap-highlight-color: transparent;
 
 
 }
@@ -230,10 +251,11 @@
   color: white;
   font-family: "Manrope";
 }
+
 .accordion {
   max-width: 600px;
   margin-right: 50px;
-  -webkit-tap-highlight-color: transparent; 
+  -webkit-tap-highlight-color: transparent;
 
   /* margin: 0 auto; */
 }
@@ -251,6 +273,7 @@
   font-weight: 600;
   font-style: normal;
 }
+
 .accordion-item .accordion-header::after {
   content: "\002B";
   float: right;
@@ -285,14 +308,17 @@
   padding-left: 100%;
   animation: marquee 30s linear infinite;
 }
+
 @keyframes marquee {
   0% {
     transform: translateX(0);
   }
+
   100% {
     transform: translateX(-100%);
   }
 }
+
 .product-details-fit {
   width: 85%;
   margin-top: 30px;
@@ -300,11 +326,15 @@
   justify-content: space-between;
   font-size: 20px;
 }
+
 .horizontal-line {
   width: 100%;
-  border: none; /* Remove the default border */
-  border-top: 2px solid #000; /* Set the desired border color and thickness */
-  margin: 0px 0px 20px 0px; /* Adjust the margin as needed */
+  border: none;
+  /* Remove the default border */
+  border-top: 2px solid #000;
+  /* Set the desired border color and thickness */
+  margin: 0px 0px 20px 0px;
+  /* Adjust the margin as needed */
 }
 
 .dress-images-continaer {
@@ -315,6 +345,7 @@
   width: 100%;
   flex-wrap: wrap;
 }
+
 .inner-box2-section {
   display: flex;
   flex-direction: column;
@@ -323,10 +354,12 @@
   max-width: 30%;
   flex: 1 0 300px;
 }
+
 .inner-box2-section img {
   height: 380px;
   width: 100%;
 }
+
 .inner-box2-section h3 {
   margin: 0;
   font-family: "Roca";
@@ -361,6 +394,7 @@
     max-width: 30%;
     flex: 1 0 220px;
   }
+
   .accordion {
     max-width: 600px;
     margin: 0 auto;
@@ -376,6 +410,7 @@
     cursor: pointer;
     font-size: 20px;
   }
+
   .accordion-item .accordion-header::after {
     content: "\002B";
     float: right;
@@ -396,6 +431,7 @@
   .accordion-item.active .accordion-content {
     display: block;
   }
+
   .product-details-fit {
     font-size: 17px;
     padding-top: 0px;
@@ -403,52 +439,61 @@
     margin-right: 0px;
     padding-right: 0px;
   }
+
   .single-product-container {
     padding: 50px 40px 0px 40px;
     display: flex;
     flex-direction: row;
     gap: 30px;
   }
+
   .product-img {
     height: 500px;
   }
-  
-.dummy-text-container {
-  margin: 50px 0px 0px 0px;
-  background-color: #755c78;
-  height: fit-content;
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  gap: 20px;
-  color: white;
-  padding: 10px 0px 8px 0px;
-  font-size: 21px;
-  font-family: "Manrope";
-  font-weight: 500;
-  font-style: normal;
-}
+
+  .dummy-text-container {
+    margin: 50px 0px 0px 0px;
+    background-color: #755c78;
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    color: white;
+    padding: 10px 0px 8px 0px;
+    font-size: 21px;
+    font-family: "Manrope";
+    font-weight: 500;
+    font-style: normal;
+  }
+
   .dummy-section {
     display: flex;
     flex-direction: row;
     gap: 15px;
   }
+
   .dummy-section img {
     height: 18px;
   }
+
   .hompage-dresses {
     margin: 30px 0px 0px 40px;
   }
+
   .descriptions {
     padding: 0px 0px 0px 35px;
   }
+
   .descriptions h1 {
     font-size: 21px;
   }
+
   .shop-buttons {
     gap: 30px;
     margin-bottom: 50px;
   }
+
   .size-button {
     width: 50%;
     height: 40px;
@@ -459,6 +504,7 @@
     align-items: center;
     justify-content: center;
   }
+
   .add-to-bag {
     width: 50%;
   }
@@ -478,37 +524,39 @@
     font-weight: 400;
     margin: 0;
   }
-  
-.inner-box2-section button {
-  margin-top: 10px;
-  background-color: #755c78;
-  font-size: 17px;
-  color: white;
-  height: 40px;
-  font-family: "Manrope";
-}
+
+  .inner-box2-section button {
+    margin-top: 10px;
+    background-color: #755c78;
+    font-size: 17px;
+    color: white;
+    height: 40px;
+    font-family: "Manrope";
+  }
 }
 
 @media (max-width: 900px) {
-  .also-like-container{
+  .also-like-container {
     padding-left: 50px;
   }
 
-  
-.also-like-container h1 {
-  text-align: center;
-  font-family: "Roca";
-  font-size: 35px;
-  font-style: italic;
-  font-weight: 400;
-  
-}
+
+  .also-like-container h1 {
+    text-align: center;
+    font-family: "Roca";
+    font-size: 35px;
+    font-style: italic;
+    font-weight: 400;
+
+  }
+
   .single-product-container {
     padding: 50px 40px 0px 40px;
     display: flex;
     flex-direction: row;
     gap: 10px;
   }
+
   .product-img {
     height: 450px;
   }
@@ -528,39 +576,48 @@
     font-weight: 500;
     font-style: normal;
   }
+
   .dummy-section {
     display: flex;
     flex-direction: row;
     gap: 5px;
   }
+
   .dummy-section img {
     height: 15px;
   }
+
   .hompage-dresses {
     font-size: 20px;
     margin: 30px 0px 0px 40px;
   }
+
   .descriptions {
     padding: 0px 0px 0px 35px;
     gap: 0px;
   }
+
   .descriptions h1 {
     font-size: 19px;
   }
+
   .product-group-image {
     flex-wrap: wrap;
     /* flex: 1 0 300px; */
   }
+
   .product-group-image img {
     max-width: 48%;
     height: 150px;
     flex: 1 0 250px;
   }
+
   .shop-buttons {
     margin-top: 0px;
     gap: 20px;
     margin-bottom: 30px;
   }
+
   .size-button {
     width: 55%;
     height: 40px;
@@ -572,26 +629,35 @@
     justify-content: center;
     font-size: 12px;
   }
+
   .subtract {
     font-size: 18px;
   }
+
   .addition {
     font-size: 18px;
   }
+
   .add-to-bag {
     width: 60%;
     font-size: 12px;
   }
+
   .horizontal-line {
     width: 100%;
-    border: none; /* Remove the default border */
-    border-top: 2px solid #000; /* Set the desired border color and thickness */
-    margin: 02px 0; /* Adjust the margin as needed */
+    border: none;
+    /* Remove the default border */
+    border-top: 2px solid #000;
+    /* Set the desired border color and thickness */
+    margin: 02px 0;
+    /* Adjust the margin as needed */
   }
+
   .product-details-fit {
     margin-top: 15px;
     font-size: 15px;
   }
+
   .inner-box2-section {
     display: flex;
     flex-direction: column;
@@ -600,84 +666,92 @@
     max-width: 48%;
     flex: 1 0 190px;
   }
-  
-.inner-box2-section button {
-  margin-top: 10px;
-  background-color: #755c78;
-  font-size: 15px;
-  color: white;
-  height: 40px;
-  font-family: "Manrope";
-}
 
-.accordion-item .accordion-header {
-  padding: 10px 10px 0px 0px;
-  cursor: pointer;
-  font-size: 18px;
-  font-family: "Manrope";
-  font-weight: 600;
-  font-style: normal;
-}
+  .inner-box2-section button {
+    margin-top: 10px;
+    background-color: #755c78;
+    font-size: 15px;
+    color: white;
+    height: 40px;
+    font-family: "Manrope";
+  }
+
+  .accordion-item .accordion-header {
+    padding: 10px 10px 0px 0px;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: "Manrope";
+    font-weight: 600;
+    font-style: normal;
+  }
 }
 
 @media (max-width: 600px) {
-  
-.accordion-item .accordion-header {
-  padding: 10px 10px 0px 0px;
-  cursor: pointer;
-  font-size: 17px;
-  font-family: "Manrope";
-  font-weight: 600;
-  font-style: normal;
-}
+
+  .accordion-item .accordion-header {
+    padding: 10px 10px 0px 0px;
+    cursor: pointer;
+    font-size: 17px;
+    font-family: "Manrope";
+    font-weight: 600;
+    font-style: normal;
+  }
+
   .single-product-container {
     padding: 50px 20px 0px 20px;
     display: flex;
     flex-direction: column;
     gap: 10px;
   }
+
   .descriptions {
     padding: 0px 0px 0px 0px;
     gap: 0px;
   }
- 
-.dummy-text-container {
-  margin: 50px 0px 0px 0px;
-  background-color: #755c78;
-  height: fit-content;
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  gap: 20px;
-  color: white;
-  padding: 10px 0px 8px 0px;
-  font-size: 17px;
-  font-family: "Manrope";
-  font-weight: 500;
-  font-style: normal;
-}
+
+  .dummy-text-container {
+    margin: 50px 0px 0px 0px;
+    background-color: #755c78;
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    color: white;
+    padding: 10px 0px 8px 0px;
+    font-size: 17px;
+    font-family: "Manrope";
+    font-weight: 500;
+    font-style: normal;
+  }
+
   .dummy-section {
     display: flex;
     flex-direction: row;
     gap: 3px;
     width: 90%;
   }
+
   .dummy-section img {
     height: 13px;
   }
+
   .hompage-dresses {
     font-size: 17px;
     margin: 30px 0px 0px 30px;
   }
+
   .descriptions h1 {
     font-size: 19px;
   }
+
   .product-image-container {
     display: flex;
     flex-direction: row;
     gap: 0px;
     margin-bottom: 50px;
   }
+
   .product-group-image {
     flex-basis: 60%;
     margin-top: 0px;
@@ -686,20 +760,24 @@
     display: flex;
     flex-direction: row;
   }
+
   .product-img {
     flex-basis: 35%;
     width: 90%;
     flex-basis: 40%;
     height: 310px;
   }
+
   .product-group-image img {
     max-width: 47.4%;
   }
+
   .shop-buttons {
     margin-top: 0px;
     gap: 20px;
     margin-bottom: 30px;
   }
+
   .size-button {
     width: 55%;
     height: 40px;
@@ -711,6 +789,7 @@
     justify-content: center;
     font-size: 12px;
   }
+
   .popup {
     display: none;
     position: fixed;
@@ -721,6 +800,7 @@
     background-color: rgba(0, 0, 0, 0.5);
     z-index: 999;
   }
+
   .popup-text {
     margin-top: 50px;
     font-size: 18px;
@@ -749,23 +829,31 @@
   .subtract {
     font-size: 18px;
   }
+
   .addition {
     font-size: 18px;
   }
+
   .add-to-bag {
     width: 60%;
     font-size: 12px;
   }
+
   .horizontal-line {
     width: 100%;
-    border: none; /* Remove the default border */
-    border-top: 2px solid #000; /* Set the desired border color and thickness */
-    margin: 02px 0; /* Adjust the margin as needed */
+    border: none;
+    /* Remove the default border */
+    border-top: 2px solid #000;
+    /* Set the desired border color and thickness */
+    margin: 02px 0;
+    /* Adjust the margin as needed */
   }
+
   .product-details-fit {
     margin-top: 15px;
     font-size: 15px;
   }
+
   .inner-box2-section {
     display: flex;
     flex-direction: column;
@@ -774,40 +862,43 @@
     max-width: 48%;
     flex: 1 0 160px;
   }
+
   .also-like-container {
     padding: 100px 30px 0px 30px;
   }
+
   .inner-box2-section img {
     height: 280px;
   }
 }
 
 @media (max-width: 468px) {
-  
-.inner-box2-section button {
-  margin-top: 10px;
-  background-color: #755c78;
-  font-size: 13px;
-  color: white;
-  height: 40px;
-  font-family: "Manrope";
-}
-  
-.inner-box2-section h3 {
-  margin: 0;
-  font-family: "Roca";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 19px;
-}
 
-.inner-box2-section h4 {
-  font-family: "Manrope";
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  margin: 0;
-}
+  .inner-box2-section button {
+    margin-top: 10px;
+    background-color: #755c78;
+    font-size: 13px;
+    color: white;
+    height: 40px;
+    font-family: "Manrope";
+  }
+
+  .inner-box2-section h3 {
+    margin: 0;
+    font-family: "Roca";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+  }
+
+  .inner-box2-section h4 {
+    font-family: "Manrope";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    margin: 0;
+  }
+
   .inner-box2-section {
     display: flex;
     flex-direction: column;
@@ -817,6 +908,7 @@
     flex: 1 0 200px;
     margin: 0 auto;
   }
+
   .also-like-container h1 {
     font-size: 24px;
   }

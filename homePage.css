@@ -21,6 +21,7 @@
   padding-top: 2px;
   font-family: "Manrope";
 }
+
 .popup {
   display: none;
   position: fixed;
@@ -31,6 +32,7 @@
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 999;
 }
+
 .popup-text {
   margin-top: 0px;
   font-size: 18px;
@@ -62,28 +64,32 @@
   cursor: pointer;
   height: 90px;
 }
+
 .toppage-section {
- 
+
   position: absolute;
-  top:10%;
+  top: 10%;
   left: 0;
   width: 100%;
   height: 90%;
-  
+
 }
-.background-image{
- position: relative;
+
+.background-image {
+  position: relative;
   height: 89vh;
   width: 100%;
 
 }
-.sss{
+
+.sss {
   position: absolute;
   top: 0%;
   width: 100%;
-  height:100%;
+  height: 100%;
   z-index: -1;
 }
+
 .toppage-section-content {
   padding: 200px 550px 0px 550px;
   display: flex;
@@ -91,6 +97,7 @@
   gap: 30px;
   z-index: 1;
 }
+
 .h1-heading {
   font-size: 55px;
   color: rgb(11, 11, 11);
@@ -99,14 +106,17 @@
   padding: 0px;
   padding-left: 60px;
 }
+
 .home {
   color: white !important;
 }
+
 .free-shipping {
   padding-top: 100px;
   color: white;
   text-align: center;
 }
+
 .dummy-text {
   padding-left: 0px;
   top: 93%;
@@ -115,10 +125,10 @@
   text-align: center;
   /* position: absolute; */
   font-family: "Manrope";
-    background-color: #755c78;
+  background-color: #755c78;
 
- 
- 
+
+
 }
 
 .dummy-text span {
@@ -126,8 +136,9 @@
   padding-top: 0px;
   padding-bottom: 10px;
   font-size: 23px;
-  
+
 }
+
 .marquee-content span {
   padding: 0px 15px 0px 15px;
 }
@@ -141,11 +152,11 @@
 
 .content-box {
   /* position: absolute; */
- display: flex;
- flex-direction: column;
+  display: flex;
+  flex-direction: column;
   text-align: center;
   justify-content: center;
-  padding: 60px 200px 0px 200px;
+  padding: 80px 200px 0px 200px;
 }
 
 .content-box h1 {
@@ -174,6 +185,7 @@
   cursor: pointer;
   margin: 0 auto;
 }
+
 .content-box button:active {
   /* Button styles when clicked */
   background-color: #f9f6f1;
@@ -215,14 +227,17 @@
 .inner-box1 {
   flex: 2;
 }
+
 .inner-box1-imagecontent {
   display: flex;
   flex-direction: column;
 }
+
 .inner-box1-imagecontent img {
   height: 640px;
   width: 100%;
 }
+
 .inner-box1-imagecontent h2 {
   font-size: 30px;
   margin: 0;
@@ -231,6 +246,7 @@
   font-style: italic;
   font-weight: bold;
 }
+
 .shop-now {
   font-family: "Manrope";
   font-size: 18px;
@@ -247,10 +263,12 @@
 .shop-now img {
   height: 20px !important;
 }
+
 .shop-right-arrow {
   height: 10px;
   width: auto;
 }
+
 .inner-box1-imagecontent h3 {
   margin: 0;
   padding-top: 10px;
@@ -260,6 +278,7 @@
   font-weight: 400;
   line-height: normal;
 }
+
 .inner-box2 {
   flex: 2;
   display: flex;
@@ -268,6 +287,7 @@
   height: fit-content;
   justify-content: center;
 }
+
 .inner-box2-section {
   display: flex;
   flex-direction: column;
@@ -276,10 +296,12 @@
   height: fit-content;
   width: 46%;
 }
+
 .inner-box2-section img {
   height: 280px;
   width: 100%;
 }
+
 .inner-box2-section h3 {
   font-family: "Roca";
   font-size: 18px;
@@ -315,11 +337,13 @@
   display: flex;
   gap: 20px;
 }
+
 .collection-heading {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
+
 .arrow-section {
   justify-content: flex-end;
   display: flex;
@@ -329,6 +353,7 @@
   margin-top: 0px;
   padding-top: 0px;
 }
+
 .carousel {
   width: 100%;
   height: 100%;
@@ -383,12 +408,14 @@
   font-weight: 400;
   font-style: normal;
 }
+
 .our-collection {
   font-family: "Roca";
   font-size: 35px;
   font-weight: 400;
   font-style: italic;
 }
+
 .collection-image-container {
   display: flex;
   flex-direction: row;
@@ -409,6 +436,7 @@
   height: 481px;
   width: 95%;
 }
+
 .collection-image-container span {
   font-size: 22px;
 }
@@ -466,6 +494,7 @@
   flex-direction: row;
   gap: 20px;
 }
+
 .fourth-container-logo-section h1 {
   font-family: "Manrope";
   font-style: normal;
@@ -478,6 +507,7 @@
   font-style: italic;
   font-weight: 400;
 }
+
 .go-to-collection {
   font-family: "Manrope";
   font-size: 20px;
@@ -487,6 +517,7 @@
   margin-top: 20px;
   cursor: pointer;
 }
+
 .fourth-container-content {
   display: flex;
   flex-direction: row;
@@ -510,10 +541,12 @@
   flex: 1 0 250px;
   max-width: 30%;
 }
+
 .inner-boxes2-section img {
   height: 280px;
   width: 100%;
 }
+
 .inner-boxes2-section h3 {
   font-family: "Roca";
   font-style: normal;
@@ -538,6 +571,7 @@
   color: white;
   height: 40px;
 }
+
 .fourth-container-img {
   height: 360px;
   width: 100%;
@@ -560,6 +594,7 @@
   left: 40%;
   color: white;
 }
+
 .fifth-container button {
   position: absolute;
   top: 30%;
@@ -620,6 +655,7 @@
   justify-content: center;
   gap: 30px;
 }
+
 .shop-arrow {
   height: 20px !important;
   padding-top: 0px;
@@ -639,12 +675,14 @@
   text-align: center;
   align-items: center;
 }
+
 .product-section h2 {
   text-align: center;
   font-family: "Manrope";
   font-size: 35px;
   font-weight: 600;
 }
+
 .quality-section {
   /* position: relative; */
 
@@ -668,6 +706,7 @@
   height: 15px;
   text-align: center;
 }
+
 .star-container span {
   font-size: 13px;
   padding-left: 10px;
@@ -693,6 +732,7 @@
   justify-content: space-between;
   padding-top: 20px;
 }
+
 .review-container h3 {
   font-family: "Manrope";
   font-size: 18px;
@@ -735,11 +775,13 @@
 .seventh-container h2 {
   font-size: 35px;
 }
+
 .group-image-container {
   display: flex;
   flex-direction: row;
   gap: 30px;
 }
+
 .group-image-firstcont {
   flex: 2;
 }
@@ -748,6 +790,7 @@
   width: 100%;
   height: 500px;
 }
+
 .bottom-group-images {
   display: flex;
   flex: 2;
@@ -765,19 +808,23 @@
     font-size: 16px;
     gap: 10px;
   }
+
   .logo-homepage img {
     height: 55px;
   }
+
   .third-container p {
     text-align: center;
     font-size: 20px;
     margin: 0px 0px 0px 0px;
     padding: 0px 150px 0px 150px;
   }
+
   .collection-container {
     margin-top: 100px;
     padding: 0px 40px 0px 40px;
   }
+
   .collection-image-container {
     display: flex;
     flex-direction: row;
@@ -786,13 +833,16 @@
     text-align: center;
     justify-content: center;
   }
+
   .collection-image-container img {
     height: 420px;
     width: 90%;
   }
+
   .main-box {
     margin: 100px 20px 0px 50px;
   }
+
   .inner-box2-section {
     display: flex;
     flex-direction: column;
@@ -801,10 +851,12 @@
     height: fit-content;
     width: 40%;
   }
+
   .inner-box2-section img {
     height: 230px;
     width: 100%;
   }
+
   .inner-box1-imagecontent img {
     height: 520px;
     width: 100%;
@@ -826,6 +878,7 @@
     font-style: normal;
     font-weight: 400;
   }
+
   .fourth-container-images {
     display: flex;
     flex-direction: row;
@@ -833,6 +886,7 @@
     margin-top: 30px;
     gap: 50px;
   }
+
   .inner-boxes2-section {
     display: flex;
     flex-direction: column;
@@ -842,6 +896,7 @@
     flex: 1 0 190px;
     max-width: 30%;
   }
+
   .inner-boxes2-section img {
     height: 280px;
     width: 100%;
@@ -882,7 +937,7 @@
     text-align: center;
     font-size: 16px;
     font-size: italic;
-    font-family: "Roca One", sans-serif;
+    font-family: "Roca", sans-serif;
     margin-top: 20px;
   }
 
@@ -909,6 +964,7 @@
     margin-right: 50px;
     width: 33%;
   }
+
   .star-container {
     display: flex;
     flex-direction: row;
@@ -926,22 +982,23 @@
     font-size: 18px;
     padding-right: 40px;
   }
+
   .right-arrow {
     left: 80%;
   }
-  
-.content-box h1 {
-  font-size: 50px;
-  margin-bottom: 20px;
-  color: rgba(255, 255, 255, 0.8);
-}
 
-.content-box p {
-  font-size: 16px;
-  margin-bottom: 20px;
-  color: rgba(255, 255, 255, 0.8);
-  padding: 0px 140px 0px 140px;
-}
+  .content-box h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: rgba(255, 255, 255, 0.8);
+  }
+
+  .content-box p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: rgba(255, 255, 255, 0.8);
+    padding: 0px 140px 0px 140px;
+  }
 
 }
 
@@ -955,21 +1012,26 @@
     background-image: url("./asset/Rectangle\ 2.png");
     background-size: cover;
   }
+
   .dummy-text {
     padding-top: 0px;
     top: 91%;
   }
+
   .toppage-container {
     width: 100%;
   }
+
   .content-box h1 {
     font-size: 42px;
     margin-bottom: 20px;
     color: rgba(255, 255, 255, 0.8);
   }
-  .content-box{
+
+  .content-box {
     padding: 50px 100px 0px 100px;
   }
+
   .content-box p {
     font-size: 15px;
     margin-bottom: 20px;
@@ -994,6 +1056,7 @@
     margin-top: 100px;
     padding: 0px 40px 0px 40px;
   }
+
   .collection-image-container {
     display: flex;
     flex-direction: row;
@@ -1002,6 +1065,7 @@
     text-align: center;
     justify-content: center;
   }
+
   .collection-image-container img {
     height: 380px;
     max-width: 100%;
@@ -1011,6 +1075,7 @@
     margin: 100px 20px 0px 50px;
     gap: 0px;
   }
+
   .inner-box2-section {
     display: flex;
     flex-direction: column;
@@ -1019,26 +1084,32 @@
     height: fit-content;
     width: 40%;
   }
+
   .inner-box1-imagecontent h2 {
     font-size: 22px;
   }
+
   .inner-box1-imagecontent h3 {
     font-size: 19px;
   }
+
   .inner-box2-section img {
     height: 200px;
     width: 100%;
   }
+
   .inner-box1-imagecontent img {
     height: 470px;
     width: 100%;
   }
+
   .fifth-container p {
     text-align: center;
     color: white;
     padding: 10px 70px 0px 70px;
     font-size: 20px;
   }
+
   .fifth-container img {
     width: 100%;
     height: 450px;
@@ -1060,6 +1131,7 @@
     left: 37%;
     color: white;
   }
+
   .fifth-container button {
     position: absolute;
     top: 30%;
@@ -1076,6 +1148,7 @@
     background: #fff;
     border: 1px solid #fff;
   }
+
   .sixth-container {
     background-color: #f9f6f1;
     padding: 100px 20px 50px 20px;
@@ -1104,6 +1177,7 @@
     margin-right: 50px;
     width: 40%;
   }
+
   .quality-section h2 {
     font-size: 18px;
     padding-right: 10px;
@@ -1122,12 +1196,14 @@
     top: 50%;
     left: 02%;
   }
+
   .quality-section-star {
     margin-top: 35px;
     display: flex;
     flex-direction: row;
     gap: 5px;
   }
+
   .star-container {
     display: flex;
     flex-direction: row;
@@ -1140,10 +1216,12 @@
     height: 20px;
     padding-top: 5px;
   }
+
   .quality-section {
     flex: 2;
     height: fit-content;
   }
+
   .PlayButton {
     height: 60px;
   }
@@ -1155,6 +1233,7 @@
     font-size: 22px;
     font-weight: 600;
   }
+
   .collection-image-container {
     display: flex;
     flex-direction: row;
@@ -1166,6 +1245,7 @@
     flex-wrap: nowrap;
     margin: 0px 20px 0px 20px;
   }
+
   .topwear-img-cont {
     flex-wrap: nowrap;
     align-items: start;
@@ -1178,10 +1258,12 @@
     height: 350px;
     width: 100%;
   }
+
   .span-tag {
     text-align: center;
     margin: 0 auto;
   }
+
   .nnnn {
     flex-direction: column;
     display: flex;
@@ -1193,12 +1275,14 @@
     flex-direction: column-reverse;
     gap: 50px;
   }
+
   .inner-box2 {
     flex-wrap: wrap;
     display: flex;
     margin: 0;
     padding: 0;
   }
+
   .inner-box1-imagecontent {
     padding: 0;
     margin: 0;
@@ -1207,10 +1291,12 @@
   .inner-box2-section img {
     height: 230px;
   }
+
   .inner-box1-imagecontent img {
     height: 420px;
     width: 100%;
   }
+
   .inner-boxes2-section {
     display: flex;
     flex-direction: column;
@@ -1225,25 +1311,30 @@
     padding: 0px 10px 0px 10px;
     gap: 20px;
   }
+
   .fourth-container-images {
     gap: 30px;
     padding: 0px 30px 0px 30px;
   }
+
   .fourth-container-logo-section h1 {
     font-size: 22px;
     margin-left: 15px;
   }
+
   .go-to-collection {
     font-size: 18px;
     padding: 0;
     margin: 0px 30px 0px 0px;
   }
+
   .sellers {
     display: block;
   }
 }
 
 @media (max-width: 468px) {
+
   /* .toppage-container {
     margin-bottom: 0px;
     height: 99vh;
@@ -1257,12 +1348,15 @@
     background-image: url("./asset/Rectangle\ 2.png");
     background-size: cover;
   }
+
   .popup-content {
     width: 75%;
   }
+
   .dummy-text {
     z-index: 1 !important;
   }
+
   .collection-image-container {
     display: flex;
     flex-direction: row;
@@ -1273,6 +1367,7 @@
     align-items: center;
     flex-wrap: nowrap;
   }
+
   .collection-image-container img {
     height: 350px;
     width: 100%;
@@ -1282,6 +1377,7 @@
     flex-direction: column;
     display: flex;
   }
+
   .fourth-container-content {
     display: flex;
     flex-direction: column;
@@ -1289,15 +1385,18 @@
     padding-left: 0px;
     margin-left: 0px;
   }
+
   .fourth-container-logo-section {
     padding-left: 0px;
     margin-left: 0px;
   }
+
   .fourth-container-logo-section h1 {
     padding-left: 0px;
     margin-left: 0px;
     font-size: 19px !important;
   }
+
   .go-to-collection {
     font-size: 14px;
     padding-top: 30px;
@@ -1306,17 +1405,20 @@
     justify-content: flex-end;
     border-bottom: none;
   }
+
   .fourth-container-images {
     padding-top: 0px;
     margin-top: 10px;
     gap: 25px;
   }
+
   .inner-box2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
+
   .inner-box2-section {
     width: 75%;
   }
@@ -1333,19 +1435,23 @@
     font-size: 22px;
     font-weight: 600;
   }
+
   .quality-section h2 {
     font-size: 18px;
     padding-right: 10px;
   }
+
   .right-arrow {
     left: 75%;
   }
+
   .quality-section-star {
     margin-top: 35px;
     display: flex;
     flex-direction: row;
     gap: 5px;
   }
+
   .star-container {
     display: flex;
     flex-direction: row;
@@ -1358,6 +1464,7 @@
     height: 20px;
     padding-top: 5px;
   }
+
   .quality-section {
     flex: 2;
     height: fit-content;
@@ -1366,10 +1473,12 @@
   .review-container h3 {
     font-size: 15px;
   }
+
   .sixth-container {
     display: flex;
     flex-direction: row;
   }
+
   .inner-boxes2-section {
     display: flex;
     flex-direction: column;
@@ -1385,27 +1494,33 @@
     padding: 0px 10px 0px 10px;
     gap: 20px;
   }
+
   .inner-box1-imagecontent h3 {
     font-size: 16px;
   }
+
   .inner-box1-imagecontent h2 {
     font-size: 19px;
   }
+
   .inner-box2-section img {
     height: 200px;
     width: 100%;
   }
 }
+
 @media (max-width: 600px) {
   .content-box h1 {
     font-size: 42px;
     margin-bottom: 20px;
     color: rgba(255, 255, 255, 0.8);
   }
-  .content-box{
+
+  .content-box {
     padding: 50px 00px 0px 00px;
     margin: 0 auto !important;
   }
+
   .content-box p {
     font-size: 15px;
     margin-bottom: 20px;
@@ -1413,12 +1528,15 @@
     padding: 0px 0px 0px 0px !important;
     margin: 10 auto !important;
   }
-  .toppage-section{
+
+  .toppage-section {
     top: 5%;
   }
-  .dummy-text{
+
+  .dummy-text {
     top: 90%;
   }
+
   .carousel {
     width: 100%;
     height: 100%;
@@ -1467,13 +1585,15 @@
     top: 10%;
     cursor: pointer;
   }
+
   .content-box {
     width: 80%;
   }
-  
+
   .content-box button {
     font-size: 15px;
   }
+
   .toppage-container h2 {
     text-align: center;
     margin: 0px;
@@ -1486,9 +1606,11 @@
     padding-top: 4px;
     font-family: "Manrope";
   }
+
   .third-container h1 {
     font-size: 23px;
   }
+
   .third-container p {
     text-align: center;
     font-size: 16px !important;
@@ -1509,11 +1631,13 @@
   .collection-container {
     position: relative;
   }
+
   .collection-heading {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
   }
+
   .arrow-section {
     display: none;
     justify-content: flex-end;
@@ -1534,6 +1658,7 @@
     gap: 30px !important;
     left: 0%;
   }
+
   .vintage-image {
     margin: 0 auto;
     text-align: center;
@@ -1543,12 +1668,14 @@
     margin-top: 20px;
     margin-bottom: 40px;
   }
+
   .fifth-container p {
     text-align: center;
     color: white;
     padding: 10px 20px 0px 20px;
     font-size: 15px;
   }
+
   .fifth-container img {
     width: 100%;
     height: 350px;
@@ -1559,6 +1686,7 @@
     color: white;
     font-size: 21px;
   }
+
   .fifth-container h4 {
     font-size: 14px;
     margin-bottom: 10px;
@@ -1574,6 +1702,7 @@
     left: 27%;
     color: white;
   }
+
   .fifth-container button {
     position: absolute;
     top: 30%;
@@ -1590,6 +1719,7 @@
     background: #fff;
     border: 1px solid #fff;
   }
+
   .sixth-container {
     background-color: #f9f6f1;
     padding: 100px 10px 30px 10px;
@@ -1613,10 +1743,12 @@
     width: 50%;
     font-size: 12px;
   }
+
   .review-container h3 {
     font-size: 15px;
     padding-top: 10px;
   }
+
   .star-container {
     display: flex;
     flex-direction: row;
@@ -1634,25 +1766,29 @@
     font-size: 15px;
     padding-right: 10px;
   }
+
   .right-arrow {
     left: 75%;
   }
 }
 
 @media (max-width: 400px) {
-  .background-image{
+  .background-image {
     height: 88vh;
   }
+
   .content-box h1 {
     font-size: 32px;
     margin-bottom: 20px;
     color: rgba(255, 255, 255, 0.8);
   }
-  .content-box{
+
+  .content-box {
     padding: 80px 00px 0px 00px;
     margin: 0 auto !important;
-    
+
   }
+
   .content-box p {
     font-size: 13px;
     margin-bottom: 20px;
@@ -1660,15 +1796,18 @@
     padding: 0px 0px 20px 0px !important;
     margin: 10 auto !important;
   }
+
   .collection-image-container {
     flex-wrap: nowrap;
   }
+
   .carousel-slide {
     flex: 0 0 100% !important;
     padding: 10px;
     box-sizing: border-box;
     width: 40%;
   }
+
   .toppage-section {
     position: absolute;
     top: 7%;
@@ -1678,11 +1817,13 @@
     background-image: url("./asset/Rectangle\ 2.png");
     background-size: cover;
   }
+
   .dummy-text {
     padding-top: 0px;
     top: 84% !important;
-    
+
   }
+
   .third-container p {
     text-align: center;
     font-size: 20px;
@@ -1699,14 +1840,17 @@
     margin-top: 20px;
     margin-bottom: 40px;
   }
+
   .go-to-collection {
     font-size: 13px;
     margin: 0px 10px 0px 0px;
   }
+
   .fourth-container-logo-section h1 {
     font-size: 15px;
     margin: 0px 0px 0px 0px;
   }
+
   /* .toppage-container {
     height: 100vh;
   } */
@@ -1727,77 +1871,92 @@
 }
 
 @media (max-width: 468px) {
-  
+
   .dummy-text {
     top: 91%;
   }
-    
-  .dummy-text span{
+
+  .dummy-text span {
     font-size: 17px;
   }
-  .dummy-text img{
+
+  .dummy-text img {
     height: 15px;
   }
-  /* .toppage-container {
-    height: 97vh;
-  } */
+
   .collection-heading {
     margin-bottom: 20px;
     position: relative;
   }
+
   .collection-heading img {
     height: 60px;
     width: 15%;
   }
+
   .collection-logo {
     gap: 10px;
   }
+
   .arrow-section {
     display: none;
   }
+
   .collection-heading h1 {
     font-size: 18px;
     padding-top: 12px;
   }
+
   .our-collection {
     font-size: 16px;
   }
+
   .collection-image-container {
     padding: 0;
     margin: 0;
   }
+
   .topwear-img-cont {
     width: 100%;
     padding: 0;
     margin: 0;
   }
+
   .sixth-container {
     display: flex;
     flex-direction: column;
     height: fit-content;
   }
+
   .quality-section {
     padding: 0px 0px 0px 10px;
   }
+
   .review-container h3 {
     padding-top: 25px;
   }
+
   .right-arrow {
     left: 82%;
   }
+
   .fourth-container-images {
     padding: 0px 15px 0px 15px;
   }
+
   .main-box {
     margin: 100px 30px 0px 30px;
   }
+
   .inner-box2 {
     width: 100%;
     gap: 40px;
   }
+
   .model-girl {
     min-height: 320px;
   }
+
   .inner-box2-section {
     min-width: 100%;
   }
@@ -1815,16 +1974,17 @@
     margin-bottom: 0px;
     height: fit-content;
   }
-  .review-left-arrow{
-    top: 20%;
-  }
-  .review-right-arrow{
-    top: 20%;
-  }
-  .fifth-container p{
-    /* font-size: 13px; */
-  }
-  
 
- 
+  .review-left-arrow {
+    top: 20%;
+  }
+
+  .review-right-arrow {
+    top: 20%;
+  }
+
+  .fifth-container p {
+    font-size: 12px;
+  }
+
 }
