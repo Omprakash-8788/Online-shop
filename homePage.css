@@ -4,7 +4,7 @@
 }
 
 .toppage-container {
-  background-color: #755c78;
+  /* background-color: #755c78; */
   height: 100vh;
   z-index: -1;
 }
@@ -64,18 +64,25 @@
 }
 .toppage-section {
   position: absolute;
-  top: 5%;
+  top: 6%;
   left: 0;
   width: 100%;
   height: 90%;
   background-image: url("./asset/Rectangle\ 2.png");
   background-size: cover;
 }
+/* }
+.sss{
+  position: absolute;
+  z-index: 0;
+  top: 20%;
+} */
 .toppage-section-content {
   padding: 200px 550px 0px 550px;
   display: flex;
   flex-direction: column;
   gap: 30px;
+  z-index: 1;
 }
 .h1-heading {
   font-size: 55px;
@@ -95,18 +102,20 @@
 }
 .dummy-text {
   padding-left: 0px;
-  top: 95%;
+  top: 93%;
   color: black;
   max-width: 100%;
   text-align: center;
   position: absolute;
   font-family: "Manrope";
+    background-color: #755c78;
+
  
  
 }
 
 .dummy-text span {
-  color: rgb(255, 255, 255);
+  color: rgb(255, 254, 254);
   padding-top: 0px;
   padding-bottom: 10px;
   font-size: 23px;
@@ -917,7 +926,7 @@
 @media (max-width: 900px) {
   .toppage-section {
     position: absolute;
-    top: 7%;
+    top: 6%;
     left: 0;
     width: 100%;
     height: 85%;
@@ -926,7 +935,7 @@
   }
   .dummy-text {
     padding-top: 0px;
-    top: 94%;
+    top: 91%;
   }
   .toppage-container {
     width: 100%;
@@ -1359,6 +1368,12 @@
   }
 }
 @media (max-width: 600px) {
+  .toppage-section{
+    top: 5%;
+  }
+  .dummy-text{
+    top: 90%;
+  }
   .carousel {
     width: 100%;
     height: 100%;
@@ -1654,7 +1669,7 @@
 
 @media (max-width: 468px) {
   .dummy-text {
-    top: 96%;
+    top: 91%;
   }
     
   .dummy-text span{
