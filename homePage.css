@@ -95,11 +95,14 @@
 }
 .dummy-text {
   padding-left: 0px;
-  top: 96%;
+  top: 95%;
   color: black;
   max-width: 100%;
   text-align: center;
   position: absolute;
+  font-family: "Manrope";
+ 
+ 
 }
 
 .dummy-text span {
@@ -107,6 +110,7 @@
   padding-top: 0px;
   padding-bottom: 10px;
   font-size: 23px;
+  
 }
 .marquee-content span {
   padding: 0px 15px 0px 15px;
@@ -1603,6 +1607,7 @@
   .dummy-text {
     padding-top: 0px;
     top: 95%;
+    
   }
   .third-container p {
     text-align: center;
@@ -1648,6 +1653,12 @@
 }
 
 @media (max-width: 468px) {
+  .dummy-text span{
+    font-size: 17px;
+  }
+  .dummy-text img{
+    height: 15px;
+  }
   /* .toppage-container {
     height: 97vh;
   } */
